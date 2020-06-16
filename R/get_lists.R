@@ -12,6 +12,10 @@
 #' \item \code{member_state}: the name of the member state; and
 #' \item \code{member_state_code}: a 2-character code for the member state.
 #' }
+#'
+#' @export
+#'
+# function to get a list of member states
 ms_list <- function() {
   data(member_states)
 }
@@ -27,6 +31,9 @@ ms_list <- function() {
 #' \item \code{type}: either \code{"Directorate-General"} or \code{"Service Department"}.
 #' \item \code{status}: either \code{"current"} or \code{"former"}.
 #' }
+#'
+#' @export
+#'
 dg_list <- function() {
   data(DGs)
 }

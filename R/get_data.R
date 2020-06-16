@@ -95,8 +95,10 @@
 #' @seealso Other functions in the \code{euinfr} package: [get_case_data()] for case-level data,
 #' [get_ms_data()] for time-varying member state-level data, and
 #' [get_dg_data()] for time-varying DG-level data.
+#'
+#' @export
+#'
 
-# function to query decision data
 get_decision_data <- function(id = NULL, year = NULL, date = NULL, ms = NULL, dg = NULL, dir = NULL, celex = NULL, type = NULL, stage = NULL) {
 
   # create query
@@ -237,8 +239,9 @@ get_decision_data <- function(id = NULL, year = NULL, date = NULL, ms = NULL, dg
 #' @seealso Other functions in the \code{euinfr} package: [get_decision_data()] for decision-level data,
 #' [get_ms_data()] for time-varying member state-level data, and
 #' [get_dg_data()] for time-varying DG-level data.
-
-# filter to query case data
+#'
+#' @export
+#'
 get_case_data <- function(id = NULL, year = NULL, ms = NULL, dg = NULL, dir = NULL, celex = NULL, type = NULL, stage = NULL, comp = FALSE) {
 
   # query stem
@@ -357,8 +360,9 @@ get_case_data <- function(id = NULL, year = NULL, ms = NULL, dg = NULL, dir = NU
 #' # against France by type in nonconformity cases in 2010
 #'
 #' get_ms_data(year = 2010, ms = "FR", type = "CONF")
-
-# function to query member state data
+#'
+#' @export
+#'
 get_ms_data <- function(year = NULL, ms = NULL, type = NULL, stage = NULL) {
 
   # create query
@@ -460,8 +464,9 @@ get_ms_data <- function(year = NULL, ms = NULL, type = NULL, stage = NULL) {
 #' # managed by DG GROW by type in nonconformity cases in 2010
 #'
 #' get_dg_data(year = 2019, dg = "GROW", type = "CONF")
-
-# function to query DG data
+#'
+#' @export
+#'
 get_dg_data <- function(year = NULL, dg = NULL, type = NULL, stage = NULL) {
 
   # create query
