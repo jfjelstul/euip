@@ -8,7 +8,7 @@ If you use this package, please cite the following article:
 
 Fjelstul, Joshua C., and Clifford J. Carrubba. "The politics of international oversight: Strategic monitoring and legal compliance in the European Union." American Political Science Review 112.3 (2018): 429-445.
 
-@article{fjelstul2018politics,
+@article{fjelstulcarrubba2018,
   title={The politics of international oversight: Strategic monitoring and legal compliance in the European Union},
   author={Fjelstul, Joshua C. and Carrubba, Clifford J.},
   journal={American Political Science Review},
@@ -16,5 +16,4 @@ Fjelstul, Joshua C., and Clifford J. Carrubba. "The politics of international ov
   number={3},
   pages={429--445},
   year={2018},
-  publisher={Cambridge University Press}
-}
+  publisher={Cambridge University Press}}
