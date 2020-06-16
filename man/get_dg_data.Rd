@@ -82,6 +82,7 @@ get_dg_data(year = c(2010, 2020), dg = c("ENV", "ENER"), type = "COMM", stage = 
 # managed by DG GROW by type in nonconformity cases in 2010
 
 get_dg_data(year = 2019, dg = "GROW", type = "CONF")
+
 }
 \seealso{
 Other functions in the \code{euinfr} package: \code{\link[=get_decision_data]{get_decision_data()}} for decision-level data, \code{\link[=get_case_data]{get_case_data()}} for case-level data, and

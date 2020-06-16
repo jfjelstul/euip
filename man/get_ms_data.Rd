@@ -84,6 +84,7 @@ get_ms_data(year = c(2010, 2020), ms = c("UK", "FR", "DE"), type = "COMM", stage
 # against France by type in nonconformity cases in 2010
 
 get_ms_data(year = 2010, ms = "FR", type = "CONF")
+
 }
 \seealso{
 Other functions in the \code{euinfr} package: \code{\link[=get_decision_data]{get_decision_data()}} for decision-level data, \code{\link[=get_case_data]{get_case_data()}} for case-level data, and

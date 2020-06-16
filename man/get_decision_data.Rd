@@ -77,16 +77,10 @@ Valid options include:
 \item \code{"W"}, for the withdrawal of the case.
 }
 Note that a case can be closed or withdrawn, but not both.}
-
-\item{comp}{A logical value (\code{TRUE} or \code{FALSE}). If \code{TRUE}, only complete cases
-(cases with no known missing stages) are included in the results.
-For example, a case with a letter of formal notice and a referral to the Court, but no recorded reasoned opinion
-would be omitted from the results. To not be omitted, a case must at least have a record of a letter of formal notice
-and a record of a closing or a withdrawal.}
 }
 \value{
-Returns a tibble in tidy format with case-level data, subject to the specified filters.
-The unit of observation is an infringement case.
+Returns a tibble in tidy format with decision-level data, subject to the specified filters.
+The unit of observation is a decision by the Commission in an infringement case.
 The tibble will include the following variables:
 \itemize{
 \item \code{case_number}: a unique ID number assigned to the case by the Commission;
@@ -96,7 +90,7 @@ The tibble will include the following variables:
 \item \code{member_state_code}: the code of the member state under investigation;
 \item \code{directorate_general}: the name of the DG that managed the case;
 \item \code{directorate_general_code}: the code of the DG that managed the case;
-\item \code{case_type}: either \code{"Noncommunication"} or \code{Nonconformity}; and
+\item \code{case_type}: either \code{"Noncommunication"} or \code{"Nonconformity"}; and
 \item \code{decision_stage}: the type of the decision (letter of formal notice, reasoned opinion, etc.).
 }
 }

@@ -96,7 +96,7 @@ under Article 258 TFEU);
 \item \code{member_state_code}: the code of the member state under investigation;
 \item \code{directorate_general}: the name of the DG that managed the case;
 \item \code{directorate_general_code}: the code of the DG that managed the case;
-\item \code{case_type}: either \code{"Noncommunication"} or \code{Nonconformity};
+\item \code{case_type}: either \code{"Noncommunication"} or \code{"Nonconformity"};
 \item \code{stage_LFN258}: a dummy variable indicating whether there was an letter of formal notice under Article 258 (TFEU);
 \item \code{stage_RO258}: a dummy variable indicating whether there was a reasoned opinion under Article 258 (TFEU);
 \item \code{stage_RF258}: a dummy variable indicating whether there was a referal to the Court under Article 258 (TFEU);
