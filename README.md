@@ -4,7 +4,7 @@ This R package provides tools for easily accessing data from the API for the Eur
 
 This package is currently in development.
 
-The full EUIP dataset is available [here](https://github.com/jfjelstul/EU-infringement-data) and the source code for the EUIP dataset REST API is available [here](https://github.com/jfjelstul/EU-infringement-data-API).
+The full EUIP dataset and all replication code is available [here](https://github.com/jfjelstul/EU-infringement-data) and the source code for the EUIP dataset REST API is available [here](https://github.com/jfjelstul/EU-infringement-data-API).
 
 ## Installation
 
