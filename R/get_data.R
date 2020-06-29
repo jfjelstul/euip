@@ -101,6 +101,14 @@
 
 get_decision_data <- function(id = NULL, year = NULL, date = NULL, ms = NULL, dg = NULL, dir = NULL, celex = NULL, type = NULL, stage = NULL) {
 
+  # clean MS filter
+  data(member_states, envir = environment())
+  ms <- member_states$member_state_code[member_states$member_state %in% ms | member_states$member_state_code %in% ms]
+
+  # clean DG filter
+  data(DGs, envir = environment())
+  dg <- DGs$directorate_general_code[DGs$directorate_general %in% dg | DGs$directorate_general_code %in% dg]
+
   # create query
   query <- "http://165.227.25.160/EUIP_API/decisions?"
 
@@ -244,6 +252,14 @@ get_decision_data <- function(id = NULL, year = NULL, date = NULL, ms = NULL, dg
 #'
 get_case_data <- function(id = NULL, year = NULL, ms = NULL, dg = NULL, dir = NULL, celex = NULL, type = NULL, stage = NULL, comp = FALSE) {
 
+  # clean MS filter
+  data(member_states, envir = environment())
+  ms <- member_states$member_state_code[member_states$member_state %in% ms | member_states$member_state_code %in% ms]
+
+  # clean DG filter
+  data(DGs, envir = environment())
+  dg <- DGs$directorate_general_code[DGs$directorate_general %in% dg | DGs$directorate_general_code %in% dg]
+
   # query stem
   query <- "http://165.227.25.160/EUIP_API/cases?"
 
@@ -365,6 +381,10 @@ get_case_data <- function(id = NULL, year = NULL, ms = NULL, dg = NULL, dir = NU
 #'
 get_ms_data <- function(year = NULL, ms = NULL, type = NULL, stage = NULL) {
 
+  # clean MS filter
+  data(member_states, envir = environment())
+  ms <- member_states$member_state_code[member_states$member_state %in% ms | member_states$member_state_code %in% ms]
+
   # create query
   query <- "http://165.227.25.160/EUIP_API/member-states?"
 
@@ -468,6 +488,10 @@ get_ms_data <- function(year = NULL, ms = NULL, type = NULL, stage = NULL) {
 #' @export
 #'
 get_dg_data <- function(year = NULL, dg = NULL, type = NULL, stage = NULL) {
+
+  # clean DG filter
+  data(DGs, envir = environment())
+  dg <- DGs$directorate_general_code[DGs$directorate_general %in% dg | DGs$directorate_general_code %in% dg]
 
   # create query
   query <- "http://165.227.25.160/EUIP_API/directorates-general?"
