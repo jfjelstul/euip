@@ -2,7 +2,7 @@
 
 This R package provides tools for easily accessing data from the API for the European Union Infringement Procedure (EUIP) dataset by Josh Fjelstul, Ph.D. The EUIP dataset has a REST API that users can call to get data on the European Union (EU) infringement procedure, including data on European Commission infringement cases, data on individual decisions in infringement cases made by the Commission, time-varying summary data by member state, and time-varying summary data by Directorate-General. Directorates-General (DGs) are the departments of the Commission that manage individual infringement cases.
 
-See examples and read the documentation on the [package site](https://jfjelstul.github.io/euinfr/index.html). 
+See examples and read the documentation on the [package site](https://jfjelstul.github.io/euinfr/). 
 
 This package is currently in development.
 
