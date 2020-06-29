@@ -12,7 +12,7 @@ You can install the latest development version from GitHub:
 
 ```r
 # install.packages("devtools")
-devtools::install_github('jfjelstul/euinfr')
+devtools::install_github("jfjelstul/euinfr")
 ```
 
 ## Documentation
