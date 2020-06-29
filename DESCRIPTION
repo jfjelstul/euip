@@ -7,7 +7,7 @@ Authors@R:
            role = c("aut", "cre"),
            email = "joshfjelstul@gmail.com")
 Description: This package provides an easy-to-use R function for calling the REST API for the European Union Infringement Procedure (EUIP) dataset by Josh Fjelstul, Ph.D.
-License: use_gpl3_license()
+License: GPL3
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
