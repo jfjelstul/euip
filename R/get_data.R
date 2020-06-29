@@ -1,5 +1,5 @@
 ###########################################################################
-# Josh Fjelstul, Ph.D.
+# Joshua C. Fjelstul, Ph.D.
 # euinfr R package
 ###########################################################################
 
@@ -102,7 +102,7 @@
 get_decision_data <- function(id = NULL, year = NULL, date = NULL, ms = NULL, dg = NULL, dir = NULL, celex = NULL, type = NULL, stage = NULL) {
 
   # create query
-  query <- "http://165.227.25.160/infringement_data_API/decisions?"
+  query <- "http://165.227.25.160/EUIP_API/decisions?"
 
   # ID filter
   query <- add_option_filter(query, id)
@@ -245,7 +245,7 @@ get_decision_data <- function(id = NULL, year = NULL, date = NULL, ms = NULL, dg
 get_case_data <- function(id = NULL, year = NULL, ms = NULL, dg = NULL, dir = NULL, celex = NULL, type = NULL, stage = NULL, comp = FALSE) {
 
   # query stem
-  query <- "http://165.227.25.160/infringement_data_API/cases?"
+  query <- "http://165.227.25.160/EUIP_API/cases?"
 
   # ID filter
   query <- add_option_filter(query, id)
@@ -366,7 +366,7 @@ get_case_data <- function(id = NULL, year = NULL, ms = NULL, dg = NULL, dir = NU
 get_ms_data <- function(year = NULL, ms = NULL, type = NULL, stage = NULL) {
 
   # create query
-  query <- "http://165.227.25.160/infringement_data_API/member-states?"
+  query <- "http://165.227.25.160/EUIP_API/member-states?"
 
   # YEAR filter
   query <- add_range_filter(query, year)
@@ -470,7 +470,7 @@ get_ms_data <- function(year = NULL, ms = NULL, type = NULL, stage = NULL) {
 get_dg_data <- function(year = NULL, dg = NULL, type = NULL, stage = NULL) {
 
   # create query
-  query <- "http://165.227.25.160/infringement_data_API/directorates-general?"
+  query <- "http://165.227.25.160/EUIP_API/directorates-general?"
 
   # YEAR filter
   query <- add_range_filter(query, year)
