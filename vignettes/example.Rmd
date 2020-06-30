@@ -1,5 +1,5 @@
 ---
-title: "How to Use This Package"
+title: "Getting Started"
 author: "Joshua C. Fjelstul, Ph.D."
 output: rmarkdown::html_vignette
 vignette: >
@@ -15,19 +15,31 @@ knitr::opts_chunk$set(
 )
 ```
 
+You can use the `euinfr` package to easily access data from the European Union Infringement Procedure (EUIP) dataset. This dataset includes detailed information on the European Union (EU) infringement cases and decisions in infringement cases by the European Commission (the EU's main executive body). It also includes summary statistics by EU member state and by Directorate-General (DG), which are departments of the Commission that oversee various policy areas. 
+
 ## The EU Infringement Procedure
 
-You can use the \code{euinfr} package to easily access data from the European Union Infringement Procedure (EUIP) dataset. This dataset includes detailed information on infringement cases and decisions in infringement cases by the European Commission. Infringement cases are legal cases that the Commission launches against EU member states when it believes a member state has violated EU law. 
+Infringement cases are legal cases that the Commission launches against EU member states for violations of EU law. Each case is managed by a specific DG and the commissioner of that DG makes the final decisions about how to handle each case in their policy area. The EU's formal infringement procedure infringement procedure is a multi-stage legal process. The Commission opens an infringement cases by sending a member state a letter of formal notice under Article 258 of the Treaty on the Functioning of the European Union (TFEU) informing the member state of an alleged infringement The member state then has an opportunity to respond, either by coming into compliance or by explaining to the Commission why it has not committed an infringement. If the Commission is satisfied with the member state's response — if it is convinced that the member state has corrected the infringement or the member or the member state convinces the Commission that it did not commit an infringement — then the Commission can close the case 
 
-There are two basic types of cases: noncommunication cases and nonconformity cases. When the EU passes a directive (the main form of legislation in the EU), individual EU member states have to implement the directive by "transposing" it into national law. EU directives specify policy objectives that member states have to achieve, but they generally give member states some latitude in terms of how to go about it. In order to implement a directive, member states have to pass national laws that accomplish the objectives set out in the directive. 
+If the Commission is not satisfied, it can proceed to the second stage of the procedure by sending a reasoned opinion. Reasoned opinions present a formal legal argument as to why the member state has committed an infringement. Again, the member state has an opportunity to respond. If the Commission is still not satisfied with the member state's response, it can proceed to the third stage of the procedure by referring the case to the Court of Justice of the European Union (CJEU), which will then issue a binding judgment in the case
+
+If the member state does not come into compliance after the CJEU has issued a ruling, the Commission can go through the entire process again under Article 260 TFEU. This time, the Commission can ask the CJEU to impose lump sum or per diem fines on the member state to incentivize it to come into compliance. 
+
+Altogether, then, there are 6 stage in the infringement procedure: a letter of formal notice (Article 258), a reasoned opinion (Article 258), a referral to the Court (Article 260), a second letter of formal notice (Article 260), a second reasoned opinion (Article 260), and a second referral to the Court (Article 260). The Commission can close or withdraw a case at any time during the process for any reason. It has complete discretion over whether to prosecute an alleged infringement. 
+
+There are two basic types of infringement cases: noncommunication cases and nonconformity cases. When the EU passes a directive (the main form of EU legislation), individual EU member states are responsible to implement the directive by "transposing" it into national law. EU directives specify policy objectives that member states have to achieve, but member states have flexibility in terms of how to achive those objectives. To implement a directive, member states have to pass national laws that accomplish the objectives set out in the directive by a certain date. These national laws are called national implementation measures (NIMs). 
+
+Noncommunication cases are those in which a member state has failed to communicate to the Commission the NIM(s) it has enacted to transpose a directive by the date specified in the directive. The Commission opens these cases automatically. Nonconformity cases are those in which a member state has enacted NIMs to transpose a directive, but it has implemented the directive incorrectly. The Commission identifies instances of nonconformity through its own investigations and through complaints filed by members of the public.
 
 ## Examples
 
-The `euinfr` package provides 4 functions for getting data from the EUIP dataset: `get_decision_data()`, `get_case_data()`, `get_ms_data()`, and `get_dg_data()`. 
+The `euinfr` package provides 4 functions for getting data from the EUIP dataset: `get_decision_data()`, `get_case_data()`, `get_ms_data()`, and `get_dg_data()`. Each of these functions returns data for a different unit of observation — data on decisions, cases, member state-years and DG-years, respectively. Each function lets you specify a number of filters that you can use to select exactly the data you're interested in. See the documentation for each function for details on how to use all of the available filters. 
+
+The package also provides 2 functions, `ms_list()` and `dg_list()`, that you can use to look up codes for member states and DGs. These functions load a correspondence table of names and codes into your global environment. You can use these codes to filter the data instead of member state and DG names, which is particularly convenient for DGs. This package uses the EU's offical member state and DG codes. 
 
 ### Decision-Level Data
 
-The `get_decision_data()` function lets you access data about individual decisions that the Commission takes in infringement cases.
+The `get_decision_data()` function lets you access data about individual decisions that the Commission takes in infringement cases. The unit of observation is a decision. You can filter data by case ID (`id`), year (`year`), member state (`ms`), directorate-general (`dg`), directive (`dir` or `celex`), decision stage (`stage`), and case type (`type`). 
 
 ```r
 # decision in case 20200052
@@ -82,7 +94,7 @@ dat <- get_decision_data(celex = c("32010L0084", "32011L0007"))
 
 ### Case-Level Data
 
-The `get_case_data()` function lets you access data about Commission infringement cases. 
+The `get_case_data()` function lets you access data about Commission infringement cases. The unit of observation is a case. You can filter data by case ID (`id`), year (`year`), member state (`ms`), directorate-general (`dg`), directive (`dir` or `celex`), decision stage (`stage`), case type (`type`), and whether the Commission's records for the case are complete (`comp`). 
 
 ```r
 # data on case 20200052
@@ -140,7 +152,7 @@ dat <- get_case_data(celex = c("32010L0084", "32011L0007"))
 
 ### Time-Varying Member State-Level Data
 
-The `get_ms_data()` function lets you access time-varying member state-level data about decisions in infringement cases. You can filter the data by year (`year`), member state (`ms`), decision stage (`stage`), and case type (`type`).
+The `get_ms_data()` function lets you access time-varying member state-level summary statistics about decisions in infringement cases. The unit of observation is the combination of a year, a member state, a decision stage, and, optionally, a case type. You can filter the data by year (`year`), member state (`ms`), decision stage (`stage`), and case type (`type`).
 
 ```r
 # counts of decisions per member state for 2019
@@ -173,7 +185,7 @@ dat <- get_ms_data(year = 2019, stage = "LFN258", type = "CONF")
 
 ### Time-Varying DG-Level Data
 
-The `get_dg_data()` function lets you access time-varying DG-level data about decisions in infringement cases. You can filter the data by year (`year`), DG (`dg`), decision stage (`stage`), and case type (`type`).
+The `get_dg_data()` function lets you access time-varying DG-level summary statistics about decisions in infringement cases. The unit of observation is the combination of a year, a DG, a decision stage, and, optionally, a case type. You can filter the data by year (`year`), DG (`dg`), decision stage (`stage`), and case type (`type`).
 
 ```r
 # counts of decisions per DG for 2019
@@ -204,4 +216,23 @@ dat <- get_dg_data(year = 2019, stage = "LFN258", type = "COMM")
 dat <- get_dg_data(year = 2019, stage = "LFN258", type = "CONF")
 ```
 
+## Citation
 
+If you use data from this package in a project or paper, please cite the following article in the American Political Science Review (APSR):
+
+> Fjelstul, Joshua C., and Clifford J. Carrubba. "The politics of international oversight: Strategic monitoring and legal compliance in the European Union." American Political Science Review 112.3 (2018): 429-445.
+
+The bibtex entry for the article is:
+
+```
+@article{FjelstulCarrubba2018,
+    title={The politics of international oversight: Strategic monitoring and legal compliance in the European Union},
+    author={Fjelstul, Joshua C. and Carrubba, Clifford J.},
+    journal={American Political Science Review},
+    volume={112},
+    number={3},
+    pages={429--445},
+    year={2018},
+    publisher={Cambridge University Press}
+}
+```
