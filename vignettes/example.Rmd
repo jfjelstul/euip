@@ -1,0 +1,207 @@
+---
+title: "How to Use This Package"
+author: "Joshua C. Fjelstul, Ph.D."
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{example}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+## The EU Infringement Procedure
+
+You can use the \code{euinfr} package to easily access data from the European Union Infringement Procedure (EUIP) dataset. This dataset includes detailed information on infringement cases and decisions in infringement cases by the European Commission. Infringement cases are legal cases that the Commission launches against EU member states when it believes a member state has violated EU law. 
+
+There are two basic types of cases: noncommunication cases and nonconformity cases. When the EU passes a directive (the main form of legislation in the EU), individual EU member states have to implement the directive by "transposing" it into national law. EU directives specify policy objectives that member states have to achieve, but they generally give member states some latitude in terms of how to go about it. In order to implement a directive, member states have to pass national laws that accomplish the objectives set out in the directive. 
+
+## Examples
+
+The `euinfr` package provides 4 functions for getting data from the EUIP dataset: `get_decision_data()`, `get_case_data()`, `get_ms_data()`, and `get_dg_data()`. 
+
+### Decision-Level Data
+
+The `get_decision_data()` function lets you access data about individual decisions that the Commission takes in infringement cases.
+
+```r
+# decision in case 20200052
+dat <- get_decision_data(id = 20200052)
+
+# decisions in cases 20200052 and 20200072
+dat <- get_decision_data(id = c(20200052, 20200072))
+
+# decision from 2019
+dat <- get_decision_data(year = 2019)
+
+# decisions against Luxembourg from 2018 and 2019
+dat <- get_decision_data(year = c(2018, 2019), ms = "LU")
+
+# decisions against Luxembourg and Austria in 2019
+# member states can be referred to by code or by name
+dat <- get_decision_data(year = 2019, ms = c("LU", "AT"))
+dat <- get_decision_data(year = 2019, ms = c("Luxembourg", "Austria"))
+
+# decisions made by DG ENV in 2019
+dat <- get_decision_data(year = 2019, dg = "ENV")
+
+# decisions made by DG ENV and DG CLIMA in 2019
+# DGs can be referred to by code or by name
+dat <- get_decision_data(year = 2019, dg = c("ENV", "CLIMA"))
+dat <- get_decision_data(year = 2019, dg = c("Environment", "Climate Action"))
+
+# decisions made by DG ENV in noncommunication cases in 2019
+dat <- get_decision_data(year = 2019, dg = "ENV", type = "COMM")
+
+# decisions made by DG ENV in nonconformity cases in 2019
+dat <- get_decision_data(year = 2019, dg = "ENV", type = "CONF")
+
+# letters of formal notice sent by DG ENV in 2019
+dat <- get_decision_data(year = 2019, dg = "ENV", stage = "LFN258")
+
+# letters of formal notice and reasoned opinions sent by DG ENV in 2019
+dat <- get_decision_data(year = 2019, dg = "ENV", stage = c("LFN258", "RO258"))
+
+# decisions in cases involving directive 2010/84
+dat <- get_decision_data(dir = "2010/84")
+
+# decisions in cases involving directives 2010/84 and 2011/7
+dat <- get_decision_data(dir = c("2010/84", "2011/7"))
+
+# decisions in cases involving directive 32010L0084
+dat <- get_decision_data(celex = "32010L0084")
+
+# decisions in cases involving directives 32010L0084 and 32011L0007
+dat <- get_decision_data(celex = c("32010L0084", "32011L0007"))
+```
+
+### Case-Level Data
+
+The `get_case_data()` function lets you access data about Commission infringement cases. 
+
+```r
+# data on case 20200052
+dat <- get_case_data(id = 20200052)
+
+# data on cases 20200052 and 20200072
+dat <- get_case_data(id = c(20200052, 20200072))
+
+# data on cases opened in 2019
+dat <- get_case_data(year = 2019)
+
+# data on cases opened against Luxembourg in 2018 or 2019
+dat <- get_case_data(year = c(2018, 2019), ms = "LU")
+
+# data on cases opened against Luxembourg and Austria in 2019
+# member states can be referred to by code or by name
+dat <- get_case_data(year = 2019, ms = c("LU", "AT"))
+dat <- get_case_data(year = 2019, ms = c("Luxembourg", "Austria"))
+
+# data on cases opened by DG ENV in 2019
+dat <- get_case_data(year = 2019, dg = "ENV")
+
+# data on cases opened by DG ENV and DG CLIMA in 2019
+# DGs can be referred to by code or by name
+dat <- get_case_data(year = 2019, dg = c("ENV", "CLIMA"))
+dat <- get_case_data(year = 2019, dg = c("Environment", "Climate Action"))
+
+# data on noncommunication cases opened by DG ENV in 2019
+dat <- get_case_data(year = 2019, dg = "ENV", type = "COMM")
+
+# data on nonconformity cases opened by DG ENV in 2019
+dat <- get_case_data(year = 2019, dg = "ENV", type = "CONF")
+
+# data on cases opened in 2019 by DG ENV with a letter of formal notice
+dat <- get_case_data(year = 2009, dg = "ENV", stage = "LFN258")
+
+# data on cases opened in 2019 by DG ENV with a letter of formal notice and a reasoned opinion
+dat <- get_case_data(year = 2009, dg = "ENV", stage = c("LFN258", "RO258"))
+
+# data on cases with complete records opened by DG ENV in 2019
+dat <- get_case_data(year = 2009, dg = "ENV", comp = TRUE)
+
+# data on cases involving directive 2010/84
+dat <- get_case_data(dir = "2010/84")
+
+# data on cases involving directives 2010/84 and 2011/7
+dat <- get_case_data(dir = c("2010/84", "2011/7"))
+
+# data on cases involving directive 2010/84
+dat <- get_case_data(celex = "32010L0084")
+
+# data on cases involving directives 2010/84 and 2011/7
+dat <- get_case_data(celex = c("32010L0084", "32011L0007"))
+```
+
+### Time-Varying Member State-Level Data
+
+The `get_ms_data()` function lets you access time-varying member state-level data about decisions in infringement cases. You can filter the data by year (`year`), member state (`ms`), decision stage (`stage`), and case type (`type`).
+
+```r
+# counts of decisions per member state for 2019
+dat <- get_ms_data(year = 2019)
+
+# counts of decisions per member state for 2018 and 2019
+dat <- get_ms_data(year = c(2018, 2019))
+
+# counts of decisions for Germany in 2019
+dat <- get_ms_data(year = 2019, ms = "DE")
+
+# counts of decisions for Germany and France in 2019
+dat <- get_ms_data(year = 2019, ms = c("DE", "FR"))
+
+# counts of decisions for Germany and France in 2019
+dat <- get_ms_data(year = 2019, ms = c("Germany", "France"))
+
+# counts of letters of formal notice per member state in 2019
+dat <- get_ms_data(year = 2019, stage = "LFN258")
+
+# counts of letters of formal notice and reasoned opinions per member state in 2019
+dat <- get_ms_data(year = 2019, stage = c("LFN258", "RO258"))
+
+# counts of letters of formal notice for noncommunication cases per member state in 2019
+dat <- get_ms_data(year = 2019, stage = "LFN258", type = "COMM")
+
+# counts of letters of formal notice in nonconformity cases per member state in 2019
+dat <- get_ms_data(year = 2019, stage = "LFN258", type = "CONF")
+```
+
+### Time-Varying DG-Level Data
+
+The `get_dg_data()` function lets you access time-varying DG-level data about decisions in infringement cases. You can filter the data by year (`year`), DG (`dg`), decision stage (`stage`), and case type (`type`).
+
+```r
+# counts of decisions per DG for 2019
+dat <- get_dg_data(year = 2019)
+
+# counts of decisions per DG for 2018 and 2019
+dat <- get_dg_data(year = c(2018, 2019))
+
+# counts of decisions for DG ENV in 2019
+dat <- get_dg_data(year = 2019, dg = "ENV")
+
+# counts of decisions for DG ENV and DG CLIMA in 2019
+dat <- get_dg_data(year = 2019, dg = c("ENV", "CLIMA"))
+
+# counts of decisions for DG ENV and DG CLIMA in 2019
+dat <- get_dg_data(year = 2019, dg = c("Envirnment", "Climate Action"))
+
+# counts of letters of formal notice per DG in 2019
+dat <- get_dg_data(year = 2019, stage = "LFN258")
+
+# counts of letters of formal notice and reasoned opinions per DG in 2019
+dat <- get_dg_data(year = 2019, stage = c("LFN258", "RO258"))
+
+# counts of letters of formal notice in noncommunication cases per DG in 2019
+dat <- get_dg_data(year = 2019, stage = "LFN258", type = "COMM")
+
+# counts of letters of formal notice in nonconformity cases per DG in 2019
+dat <- get_dg_data(year = 2019, stage = "LFN258", type = "CONF")
+```
+
+
