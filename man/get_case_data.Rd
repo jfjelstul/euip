@@ -22,7 +22,7 @@ Case numbers always have 8 digits.
 The first 4 digits are the year the case was opened and the second 4 digits uniquely identify the cases within the year.
 If you include one or more invalid case numbers, you will get an error.}
 
-\item{year}{A four-digit numeric value indicating a year or a numeric vector of length 2 containing a start year and an end year.
+\item{year}{A 4-digit numeric value indicating a year or a numeric vector of length 2 containing a start year and an end year.
 If you list more than 2 years, or do not list the start year and end year in chronological order, you will get an error.
 The EUIP dataset covers the period from 2002 to 2020.
 If you include a year outside this range, you will also get an error.}

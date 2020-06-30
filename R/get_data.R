@@ -21,7 +21,7 @@
 #' The first 4 digits are the year the case was opened and the second 4 digits uniquely identify the cases within the year.
 #' If you include one or more invalid case numbers, you will get an error.
 #'
-#' @param year A four-digit numeric value indicating a year or a numeric vector of length 2 containing a start year and an end year.
+#' @param year A 4-digit numeric value indicating a year or a numeric vector of length 2 containing a start year and an end year.
 #' If you list more than 2 years, or do not list the start year and end year in chronological order, you will get an error.
 #' The EUIP dataset covers the period from 2002 to 2020.
 #' If you include a year outside this range, you will also get an error.
@@ -160,7 +160,7 @@ get_decision_data <- function(id = NULL, year = NULL, date = NULL, ms = NULL, dg
 #' The first 4 digits are the year the case was opened and the second 4 digits uniquely identify the cases within the year.
 #' If you include one or more invalid case numbers, you will get an error.
 #'
-#' @param year A four-digit numeric value indicating a year or a numeric vector of length 2 containing a start year and an end year.
+#' @param year A 4-digit numeric value indicating a year or a numeric vector of length 2 containing a start year and an end year.
 #' If you list more than 2 years, or do not list the start year and end year in chronological order, you will get an error.
 #' The EUIP dataset covers the period from 2002 to 2020.
 #' If you include a year outside this range, you will also get an error.
@@ -303,7 +303,7 @@ get_case_data <- function(id = NULL, year = NULL, ms = NULL, dg = NULL, dir = NU
 #' dataset API without writing an API query and parsing the JSON data returned by the API.
 #' This function returns time-varying member state-level data on the number decisions made by the Commission
 #' in infringement cases at each stage of the infringement procedure (letter of formal notice, reasoned opinion, etc.)
-#' with an option to disaggregate by type of case (e.g., noncommunication vs nonconformity).
+#' with an option to disaggregate by type of case (noncommunication vs nonconformity).
 #' Use the arguments to apply filters that narrow down the results to data for
 #' specific years, specific member states, specific types of cases, and/or specific stages of the infringement procedure.
 #'
@@ -313,7 +313,7 @@ get_case_data <- function(id = NULL, year = NULL, ms = NULL, dg = NULL, dir = NU
 #' (each variable in its own column, each observation in its own row, and each value in its own cell)
 #' for easy use with other functions in the \code{tidyverse}, such as \code{ggplot}.
 #'
-#' @param year A four-digit numeric value indicating a year or a numeric vector of length 2 containing a start year and an end year.
+#' @param year A 4-digit numeric value indicating a year or a numeric vector of length 2 containing a start year and an end year.
 #' If you list more than 2 years, or do not list the start year and end year in chronological order, you will get an error.
 #' The EUIP dataset covers the period from 2002 to 2020.
 #' If you include a year outside this range, you will also get an error.
@@ -347,8 +347,7 @@ get_case_data <- function(id = NULL, year = NULL, ms = NULL, dg = NULL, dir = NU
 #'
 #' @return Returns a tibble in tidy format with time-varying member state-level data on the number decisions made by the Commission
 #' in infringement cases at each stage of the infringement procedure (letter of formal notice, reasoned opinion, etc.)
-#' and by type of case (e.g., noncommunication vs nonconformity),
-#' subject to the specified filters.
+#' and by type of case (e.g., noncommunication vs nonconformity), subject to the specified filters.
 #' The unit of observation is the unique combination of a member state, a year, a type of case, and a stage of the infringement procedure.
 #' The tibble will include the following variables:
 #' \itemize{
@@ -357,8 +356,7 @@ get_case_data <- function(id = NULL, year = NULL, ms = NULL, dg = NULL, dir = NU
 #' \item \code{year}: the year of the decision (not the year the case was lodged);
 #' \item \code{decision_stage}: the stage of the infringement procedure;
 #' \item \code{case_type}: if \code{type} is not \code{NULL}, the type of case (\code{"Noncommunication"} or \code{"Nonconformity"}), otherwise excluded; and
-#' \item \code{count}: the number of decisions in cases of the indicated type at the indicated stage
-#' involving the indicated member state in the indicated year.
+#' \item \code{count}: a count of decisions.
 #' }
 #'
 #' @seealso Other functions in the \code{euinfr} package: [get_decision_data()] for decision-level data, [get_case_data()] for case-level data, and
@@ -423,7 +421,7 @@ get_ms_data <- function(year = NULL, ms = NULL, type = NULL, stage = NULL) {
 #' (each variable in its own column, each observation in its own row, and each value in its own cell)
 #' for easy use with other functions in the \code{tidyverse}, such as \code{ggplot}.
 #'
-#' @param year A four-digit numeric value indicating a year or a numeric vector of length 2 containing a start year and an end year.
+#' @param year A 4-digit numeric value indicating a year or a numeric vector of length 2 containing a start year and an end year.
 #' If you list more than 2 years, or do not list the start year and end year in chronological order, you will get an error.
 #' The EUIP dataset covers the period from 2002 to 2020.
 #' If you include a year outside this range, you will also get an error.
@@ -466,8 +464,7 @@ get_ms_data <- function(year = NULL, ms = NULL, type = NULL, stage = NULL) {
 #' \item \code{year}: the year of the decision (not the year the case was lodged);
 #' \item \code{decision_stage}: the stage of the infringement procedure;
 #' \item \code{case_type}: if \code{type} is not \code{NULL}, the type of case (\code{"Noncommunication"} or \code{"Nonconformity"}), otherwise excluded; and
-#' \item \code{count}: the number of decisions in cases of the indicated type at the indicated stage
-#' involving the indicated DG in the indicated year.
+#' \item \code{count}: a count of decisions.
 #' }
 #'
 #' @seealso Other functions in the \code{euinfr} package: [get_decision_data()] for decision-level data, [get_case_data()] for case-level data, and

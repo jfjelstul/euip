@@ -7,7 +7,7 @@
 get_dg_data(year = NULL, dg = NULL, type = NULL, stage = NULL)
 }
 \arguments{
-\item{year}{A four-digit numeric value indicating a year or a numeric vector of length 2 containing a start year and an end year.
+\item{year}{A 4-digit numeric value indicating a year or a numeric vector of length 2 containing a start year and an end year.
 If you list more than 2 years, or do not list the start year and end year in chronological order, you will get an error.
 The EUIP dataset covers the period from 2002 to 2020.
 If you include a year outside this range, you will also get an error.}
@@ -51,8 +51,7 @@ The tibble will include the following variables:
 \item \code{year}: the year of the decision (not the year the case was lodged);
 \item \code{decision_stage}: the stage of the infringement procedure;
 \item \code{case_type}: if \code{type} is not \code{NULL}, the type of case (\code{"Noncommunication"} or \code{"Nonconformity"}), otherwise excluded; and
-\item \code{count}: the number of decisions in cases of the indicated type at the indicated stage
-involving the indicated DG in the indicated year.
+\item \code{count}: a count of decisions.
 }
 }
 \description{
