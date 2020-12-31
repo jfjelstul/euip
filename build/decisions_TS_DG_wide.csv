@@ -1,0 +1,571 @@
+"key_ID","year","directorate_general_ID","directorate_general","directorate_general_code","count_LFN258","count_RO258","count_RF258","count_LFN260","count_RO260","count_RF260"
+1,2002,1,"Agriculture and Rural Development","AGRI",3,1,0,0,0,0
+2,2002,2,"Budget","BUDG",8,2,0,0,0,0
+3,2002,3,"Climate Action","CLIMA",0,0,0,0,0,0
+4,2002,4,"Communication Networks, Content and Technology","CONNECT",20,7,2,0,0,0
+5,2002,5,"Competition","COMP",4,2,1,1,1,0
+6,2002,6,"Defence Industry and Space","DEFIS",0,0,0,0,0,0
+7,2002,7,"Economic and Financial Affairs","ECFIN",0,0,0,0,0,0
+8,2002,8,"Education, Youth, Sport and Culture","EAC",4,0,1,0,0,0
+9,2002,9,"Employment, Social Affairs and Inclusion","EMPL",46,12,4,3,0,0
+10,2002,10,"Energy","ENER",12,4,0,0,0,0
+11,2002,11,"Enterprise and Industry","ENTR",185,41,9,0,0,0
+12,2002,12,"Environment","ENV",220,66,18,17,1,0
+13,2002,13,"European Neighbourhood and Enlargement Negotiations","NEAR",0,0,0,0,0,0
+14,2002,14,"Eurostat","EUROSTAT",7,0,0,0,0,0
+15,2002,15,"External Relations","RELEX",0,0,0,0,0,0
+16,2002,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",0,0,0,0,0,0
+17,2002,17,"Health and Consumers","SANCO",217,59,12,5,3,1
+18,2002,18,"Health and Food Safety","SANTE",0,0,0,0,0,0
+19,2002,19,"Human Resources and Security","HR",0,0,0,0,0,0
+20,2002,20,"Internal Market and Services","MARKT",154,53,17,5,2,0
+21,2002,21,"Internal Market, Industry, Entrepreneurship and SMEs","GROW",0,0,0,0,0,0
+22,2002,22,"Justice and Consumers","JUST",5,4,3,0,0,0
+23,2002,23,"Legal Service","SJ",0,0,0,0,0,0
+24,2002,24,"Maritime Affairs and Fisheries","MARE",4,0,0,0,0,0
+25,2002,25,"Migration and Home Affairs","HOME",1,0,0,0,0,0
+26,2002,26,"Mobility and Transport","MOVE",58,17,4,3,0,0
+27,2002,27,"Regional and Urban Policy","REGIO",0,0,0,0,0,0
+28,2002,28,"Secretariat-General","SG",0,0,0,0,0,0
+29,2002,29,"Taxation and Customs Union","TAXUD",53,6,1,6,2,0
+30,2002,30,"Trade","TRADE",0,0,0,0,0,0
+31,2003,1,"Agriculture and Rural Development","AGRI",47,1,1,0,0,0
+32,2003,2,"Budget","BUDG",14,3,3,0,0,0
+33,2003,3,"Climate Action","CLIMA",0,0,0,0,0,0
+34,2003,4,"Communication Networks, Content and Technology","CONNECT",45,30,3,0,0,0
+35,2003,5,"Competition","COMP",9,8,1,1,0,0
+36,2003,6,"Defence Industry and Space","DEFIS",0,0,0,0,0,0
+37,2003,7,"Economic and Financial Affairs","ECFIN",0,0,0,1,0,0
+38,2003,8,"Education, Youth, Sport and Culture","EAC",1,1,0,0,0,0
+39,2003,9,"Employment, Social Affairs and Inclusion","EMPL",58,21,15,2,1,0
+40,2003,10,"Energy","ENER",34,5,3,0,0,0
+41,2003,11,"Enterprise and Industry","ENTR",212,46,22,1,1,1
+42,2003,12,"Environment","ENV",237,110,69,17,8,0
+43,2003,13,"European Neighbourhood and Enlargement Negotiations","NEAR",0,0,0,0,0,0
+44,2003,14,"Eurostat","EUROSTAT",0,1,1,0,0,0
+45,2003,15,"External Relations","RELEX",1,0,0,0,0,0
+46,2003,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",0,0,0,0,0,0
+47,2003,17,"Health and Consumers","SANCO",449,87,19,0,0,0
+48,2003,18,"Health and Food Safety","SANTE",0,0,0,0,0,0
+49,2003,19,"Human Resources and Security","HR",1,1,0,0,0,0
+50,2003,20,"Internal Market and Services","MARKT",197,66,36,12,2,1
+51,2003,21,"Internal Market, Industry, Entrepreneurship and SMEs","GROW",0,0,0,0,0,0
+52,2003,22,"Justice and Consumers","JUST",7,0,1,0,0,0
+53,2003,23,"Legal Service","SJ",2,1,1,0,0,0
+54,2003,24,"Maritime Affairs and Fisheries","MARE",12,0,1,1,0,0
+55,2003,25,"Migration and Home Affairs","HOME",11,11,0,0,0,0
+56,2003,26,"Mobility and Transport","MOVE",154,81,41,3,1,1
+57,2003,27,"Regional and Urban Policy","REGIO",0,0,0,0,0,0
+58,2003,28,"Secretariat-General","SG",0,0,0,0,0,0
+59,2003,29,"Taxation and Customs Union","TAXUD",59,13,3,1,0,0
+60,2003,30,"Trade","TRADE",0,0,0,0,0,0
+61,2004,1,"Agriculture and Rural Development","AGRI",10,6,3,0,0,0
+62,2004,2,"Budget","BUDG",2,10,4,0,0,0
+63,2004,3,"Climate Action","CLIMA",0,0,0,0,0,0
+64,2004,4,"Communication Networks, Content and Technology","CONNECT",22,9,30,0,0,0
+65,2004,5,"Competition","COMP",25,0,6,2,2,0
+66,2004,6,"Defence Industry and Space","DEFIS",0,0,0,0,0,0
+67,2004,7,"Economic and Financial Affairs","ECFIN",0,0,0,1,1,0
+68,2004,8,"Education, Youth, Sport and Culture","EAC",5,0,0,0,0,0
+69,2004,9,"Employment, Social Affairs and Inclusion","EMPL",94,36,23,2,2,1
+70,2004,10,"Energy","ENER",55,6,2,1,0,0
+71,2004,11,"Enterprise and Industry","ENTR",292,49,10,7,1,0
+72,2004,12,"Environment","ENV",262,100,57,15,3,0
+73,2004,13,"European Neighbourhood and Enlargement Negotiations","NEAR",0,0,0,0,0,0
+74,2004,14,"Eurostat","EUROSTAT",20,1,0,0,0,0
+75,2004,15,"External Relations","RELEX",5,0,0,0,0,0
+76,2004,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",3,0,0,0,0,0
+77,2004,17,"Health and Consumers","SANCO",462,39,15,2,0,0
+78,2004,18,"Health and Food Safety","SANTE",2,1,0,0,0,0
+79,2004,19,"Human Resources and Security","HR",0,0,1,1,0,0
+80,2004,20,"Internal Market and Services","MARKT",419,88,47,2,5,4
+81,2004,21,"Internal Market, Industry, Entrepreneurship and SMEs","GROW",0,0,0,0,0,0
+82,2004,22,"Justice and Consumers","JUST",16,10,6,0,0,0
+83,2004,23,"Legal Service","SJ",1,1,0,0,0,0
+84,2004,24,"Maritime Affairs and Fisheries","MARE",12,5,0,0,0,0
+85,2004,25,"Migration and Home Affairs","HOME",6,1,11,0,0,0
+86,2004,26,"Mobility and Transport","MOVE",146,64,36,9,0,0
+87,2004,27,"Regional and Urban Policy","REGIO",0,0,0,0,0,0
+88,2004,28,"Secretariat-General","SG",0,0,0,0,0,0
+89,2004,29,"Taxation and Customs Union","TAXUD",130,32,11,0,0,0
+90,2004,30,"Trade","TRADE",6,0,0,0,0,0
+91,2005,1,"Agriculture and Rural Development","AGRI",1,1,0,0,0,0
+92,2005,2,"Budget","BUDG",8,3,7,0,0,0
+93,2005,3,"Climate Action","CLIMA",0,0,0,0,0,0
+94,2005,4,"Communication Networks, Content and Technology","CONNECT",68,18,0,0,0,0
+95,2005,5,"Competition","COMP",4,8,0,3,0,0
+96,2005,6,"Defence Industry and Space","DEFIS",0,0,0,0,0,0
+97,2005,7,"Economic and Financial Affairs","ECFIN",0,0,0,0,0,0
+98,2005,8,"Education, Youth, Sport and Culture","EAC",0,1,0,0,0,0
+99,2005,9,"Employment, Social Affairs and Inclusion","EMPL",63,35,4,4,0,1
+100,2005,10,"Energy","ENER",68,37,17,1,1,0
+101,2005,11,"Enterprise and Industry","ENTR",259,84,17,4,1,1
+102,2005,12,"Environment","ENV",228,142,51,24,7,0
+103,2005,13,"European Neighbourhood and Enlargement Negotiations","NEAR",1,0,0,0,0,0
+104,2005,14,"Eurostat","EUROSTAT",0,0,0,0,0,0
+105,2005,15,"External Relations","RELEX",0,1,0,0,0,0
+106,2005,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",0,3,3,0,0,0
+107,2005,17,"Health and Consumers","SANCO",385,85,29,1,2,0
+108,2005,18,"Health and Food Safety","SANTE",1,0,0,0,0,0
+109,2005,19,"Human Resources and Security","HR",0,0,0,0,0,0
+110,2005,20,"Internal Market and Services","MARKT",205,162,30,20,6,1
+111,2005,21,"Internal Market, Industry, Entrepreneurship and SMEs","GROW",1,0,0,0,0,0
+112,2005,22,"Justice and Consumers","JUST",25,8,2,4,0,0
+113,2005,23,"Legal Service","SJ",1,0,0,0,0,0
+114,2005,24,"Maritime Affairs and Fisheries","MARE",7,6,0,0,0,0
+115,2005,25,"Migration and Home Affairs","HOME",72,20,6,1,0,0
+116,2005,26,"Mobility and Transport","MOVE",174,85,15,14,5,0
+117,2005,27,"Regional and Urban Policy","REGIO",0,0,0,0,0,0
+118,2005,28,"Secretariat-General","SG",0,0,0,0,0,0
+119,2005,29,"Taxation and Customs Union","TAXUD",101,37,12,2,0,0
+120,2005,30,"Trade","TRADE",0,0,0,0,0,0
+121,2006,1,"Agriculture and Rural Development","AGRI",2,1,0,1,0,0
+122,2006,2,"Budget","BUDG",4,4,0,0,0,0
+123,2006,3,"Climate Action","CLIMA",2,0,0,0,0,0
+124,2006,4,"Communication Networks, Content and Technology","CONNECT",33,25,13,0,0,0
+125,2006,5,"Competition","COMP",9,6,3,2,3,1
+126,2006,6,"Defence Industry and Space","DEFIS",0,0,0,0,0,0
+127,2006,7,"Economic and Financial Affairs","ECFIN",0,0,0,0,0,0
+128,2006,8,"Education, Youth, Sport and Culture","EAC",1,0,0,0,0,0
+129,2006,9,"Employment, Social Affairs and Inclusion","EMPL",57,27,21,4,0,0
+130,2006,10,"Energy","ENER",117,57,3,1,0,0
+131,2006,11,"Enterprise and Industry","ENTR",233,101,32,2,2,1
+132,2006,12,"Environment","ENV",178,81,45,20,2,1
+133,2006,13,"European Neighbourhood and Enlargement Negotiations","NEAR",0,1,1,0,0,0
+134,2006,14,"Eurostat","EUROSTAT",0,0,0,0,0,0
+135,2006,15,"External Relations","RELEX",0,0,0,0,0,0
+136,2006,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",0,1,1,0,0,0
+137,2006,17,"Health and Consumers","SANCO",230,44,14,2,1,0
+138,2006,18,"Health and Food Safety","SANTE",0,2,1,0,0,0
+139,2006,19,"Human Resources and Security","HR",0,0,0,0,0,0
+140,2006,20,"Internal Market and Services","MARKT",257,145,40,13,10,1
+141,2006,21,"Internal Market, Industry, Entrepreneurship and SMEs","GROW",6,0,0,0,0,0
+142,2006,22,"Justice and Consumers","JUST",71,28,4,3,0,0
+143,2006,23,"Legal Service","SJ",0,0,0,0,0,0
+144,2006,24,"Maritime Affairs and Fisheries","MARE",5,2,1,1,0,0
+145,2006,25,"Migration and Home Affairs","HOME",99,42,26,3,3,0
+146,2006,26,"Mobility and Transport","MOVE",179,85,28,4,0,2
+147,2006,27,"Regional and Urban Policy","REGIO",0,0,0,0,0,0
+148,2006,28,"Secretariat-General","SG",0,0,0,0,0,0
+149,2006,29,"Taxation and Customs Union","TAXUD",117,42,16,1,1,0
+150,2006,30,"Trade","TRADE",2,0,0,0,0,0
+151,2007,1,"Agriculture and Rural Development","AGRI",0,0,0,1,0,0
+152,2007,2,"Budget","BUDG",4,3,2,1,0,0
+153,2007,3,"Climate Action","CLIMA",0,0,0,0,0,0
+154,2007,4,"Communication Networks, Content and Technology","CONNECT",25,9,11,0,0,0
+155,2007,5,"Competition","COMP",8,5,2,2,0,1
+156,2007,6,"Defence Industry and Space","DEFIS",0,0,0,0,0,0
+157,2007,7,"Economic and Financial Affairs","ECFIN",0,0,0,0,0,0
+158,2007,8,"Education, Youth, Sport and Culture","EAC",1,1,0,1,0,0
+159,2007,9,"Employment, Social Affairs and Inclusion","EMPL",38,26,7,3,0,0
+160,2007,10,"Energy","ENER",46,7,2,2,2,0
+161,2007,11,"Enterprise and Industry","ENTR",241,34,20,3,1,1
+162,2007,12,"Environment","ENV",314,58,21,18,4,0
+163,2007,13,"European Neighbourhood and Enlargement Negotiations","NEAR",0,0,0,0,0,0
+164,2007,14,"Eurostat","EUROSTAT",4,0,0,0,0,0
+165,2007,15,"External Relations","RELEX",0,0,0,0,0,0
+166,2007,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",1,1,0,0,0,0
+167,2007,17,"Health and Consumers","SANCO",359,28,5,0,1,1
+168,2007,18,"Health and Food Safety","SANTE",1,0,1,0,0,0
+169,2007,19,"Human Resources and Security","HR",1,0,0,0,0,0
+170,2007,20,"Internal Market and Services","MARKT",296,121,37,8,6,1
+171,2007,21,"Internal Market, Industry, Entrepreneurship and SMEs","GROW",4,4,0,0,0,0
+172,2007,22,"Justice and Consumers","JUST",76,24,11,0,1,0
+173,2007,23,"Legal Service","SJ",2,0,0,0,0,0
+174,2007,24,"Maritime Affairs and Fisheries","MARE",9,3,3,0,0,0
+175,2007,25,"Migration and Home Affairs","HOME",77,25,0,2,0,0
+176,2007,26,"Mobility and Transport","MOVE",116,35,33,3,1,0
+177,2007,27,"Regional and Urban Policy","REGIO",0,0,0,0,0,0
+178,2007,28,"Secretariat-General","SG",0,0,0,0,0,0
+179,2007,29,"Taxation and Customs Union","TAXUD",168,30,11,2,0,0
+180,2007,30,"Trade","TRADE",4,0,0,0,0,0
+181,2008,1,"Agriculture and Rural Development","AGRI",10,0,1,0,0,0
+182,2008,2,"Budget","BUDG",2,3,3,0,0,0
+183,2008,3,"Climate Action","CLIMA",0,1,0,0,0,0
+184,2008,4,"Communication Networks, Content and Technology","CONNECT",8,9,7,0,0,0
+185,2008,5,"Competition","COMP",4,1,0,0,3,0
+186,2008,6,"Defence Industry and Space","DEFIS",0,0,0,0,0,0
+187,2008,7,"Economic and Financial Affairs","ECFIN",0,0,0,0,0,0
+188,2008,8,"Education, Youth, Sport and Culture","EAC",0,0,0,0,0,0
+189,2008,9,"Employment, Social Affairs and Inclusion","EMPL",40,13,8,1,0,0
+190,2008,10,"Energy","ENER",57,21,8,1,0,0
+191,2008,11,"Enterprise and Industry","ENTR",124,25,6,3,2,0
+192,2008,12,"Environment","ENV",262,115,40,21,6,0
+193,2008,13,"European Neighbourhood and Enlargement Negotiations","NEAR",0,0,0,0,0,0
+194,2008,14,"Eurostat","EUROSTAT",0,0,0,0,0,0
+195,2008,15,"External Relations","RELEX",0,0,0,0,0,0
+196,2008,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",0,1,0,0,0,0
+197,2008,17,"Health and Consumers","SANCO",267,49,22,0,0,0
+198,2008,18,"Health and Food Safety","SANTE",0,0,1,0,0,0
+199,2008,19,"Human Resources and Security","HR",0,1,0,0,0,0
+200,2008,20,"Internal Market and Services","MARKT",247,154,84,12,2,0
+201,2008,21,"Internal Market, Industry, Entrepreneurship and SMEs","GROW",2,4,0,0,0,0
+202,2008,22,"Justice and Consumers","JUST",21,27,2,1,1,0
+203,2008,23,"Legal Service","SJ",1,1,0,0,0,0
+204,2008,24,"Maritime Affairs and Fisheries","MARE",0,0,0,0,0,0
+205,2008,25,"Migration and Home Affairs","HOME",16,21,13,2,0,0
+206,2008,26,"Mobility and Transport","MOVE",161,24,17,3,0,0
+207,2008,27,"Regional and Urban Policy","REGIO",1,0,0,0,0,0
+208,2008,28,"Secretariat-General","SG",0,0,0,0,0,0
+209,2008,29,"Taxation and Customs Union","TAXUD",186,66,16,0,0,0
+210,2008,30,"Trade","TRADE",1,0,0,0,0,0
+211,2009,1,"Agriculture and Rural Development","AGRI",1,2,0,0,0,0
+212,2009,2,"Budget","BUDG",0,2,3,0,0,0
+213,2009,3,"Climate Action","CLIMA",10,1,1,0,0,0
+214,2009,4,"Communication Networks, Content and Technology","CONNECT",10,4,2,4,1,0
+215,2009,5,"Competition","COMP",0,4,0,2,1,1
+216,2009,6,"Defence Industry and Space","DEFIS",0,0,0,0,0,0
+217,2009,7,"Economic and Financial Affairs","ECFIN",1,0,0,0,0,0
+218,2009,8,"Education, Youth, Sport and Culture","EAC",6,0,0,0,0,0
+219,2009,9,"Employment, Social Affairs and Inclusion","EMPL",28,16,3,4,1,0
+220,2009,10,"Energy","ENER",101,29,7,0,1,0
+221,2009,11,"Enterprise and Industry","ENTR",112,23,9,2,0,0
+222,2009,12,"Environment","ENV",259,103,43,14,10,1
+223,2009,13,"European Neighbourhood and Enlargement Negotiations","NEAR",0,0,0,0,0,0
+224,2009,14,"Eurostat","EUROSTAT",0,0,0,0,0,0
+225,2009,15,"External Relations","RELEX",0,0,0,0,0,0
+226,2009,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",2,0,1,0,0,0
+227,2009,17,"Health and Consumers","SANCO",162,49,15,1,0,0
+228,2009,18,"Health and Food Safety","SANTE",0,1,0,0,0,0
+229,2009,19,"Human Resources and Security","HR",0,0,1,0,0,0
+230,2009,20,"Internal Market and Services","MARKT",153,59,39,22,10,1
+231,2009,21,"Internal Market, Industry, Entrepreneurship and SMEs","GROW",7,2,0,0,0,0
+232,2009,22,"Justice and Consumers","JUST",37,18,3,1,0,1
+233,2009,23,"Legal Service","SJ",2,0,1,0,0,0
+234,2009,24,"Maritime Affairs and Fisheries","MARE",0,0,0,0,0,0
+235,2009,25,"Migration and Home Affairs","HOME",9,11,7,0,2,0
+236,2009,26,"Mobility and Transport","MOVE",118,52,5,3,1,0
+237,2009,27,"Regional and Urban Policy","REGIO",0,0,0,0,0,0
+238,2009,28,"Secretariat-General","SG",0,0,0,0,0,0
+239,2009,29,"Taxation and Customs Union","TAXUD",133,52,22,2,0,0
+240,2009,30,"Trade","TRADE",0,0,0,0,0,0
+241,2010,1,"Agriculture and Rural Development","AGRI",3,0,1,0,0,0
+242,2010,2,"Budget","BUDG",2,0,2,0,0,0
+243,2010,3,"Climate Action","CLIMA",39,8,0,0,0,0
+244,2010,4,"Communication Networks, Content and Technology","CONNECT",49,19,3,0,0,1
+245,2010,5,"Competition","COMP",1,0,1,3,0,3
+246,2010,6,"Defence Industry and Space","DEFIS",0,0,0,0,0,0
+247,2010,7,"Economic and Financial Affairs","ECFIN",0,0,0,0,0,0
+248,2010,8,"Education, Youth, Sport and Culture","EAC",3,3,1,0,0,0
+249,2010,9,"Employment, Social Affairs and Inclusion","EMPL",43,13,5,1,0,0
+250,2010,10,"Energy","ENER",23,46,2,1,0,0
+251,2010,11,"Enterprise and Industry","ENTR",47,22,6,2,0,0
+252,2010,12,"Environment","ENV",244,115,45,22,0,1
+253,2010,13,"European Neighbourhood and Enlargement Negotiations","NEAR",0,0,0,0,0,0
+254,2010,14,"Eurostat","EUROSTAT",1,0,0,0,0,0
+255,2010,15,"External Relations","RELEX",0,0,0,0,0,0
+256,2010,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",1,0,0,0,0,0
+257,2010,17,"Health and Consumers","SANCO",269,47,5,1,0,0
+258,2010,18,"Health and Food Safety","SANTE",1,0,0,1,0,0
+259,2010,19,"Human Resources and Security","HR",0,0,0,0,0,0
+260,2010,20,"Internal Market and Services","MARKT",179,68,29,18,0,2
+261,2010,21,"Internal Market, Industry, Entrepreneurship and SMEs","GROW",2,3,2,0,0,0
+262,2010,22,"Justice and Consumers","JUST",9,19,2,2,0,0
+263,2010,23,"Legal Service","SJ",0,1,1,0,0,0
+264,2010,24,"Maritime Affairs and Fisheries","MARE",0,0,0,0,0,0
+265,2010,25,"Migration and Home Affairs","HOME",19,4,6,2,0,0
+266,2010,26,"Mobility and Transport","MOVE",164,39,18,0,0,0
+267,2010,27,"Regional and Urban Policy","REGIO",0,0,0,0,0,0
+268,2010,28,"Secretariat-General","SG",0,0,0,0,0,0
+269,2010,29,"Taxation and Customs Union","TAXUD",119,50,29,2,0,0
+270,2010,30,"Trade","TRADE",0,0,0,0,0,0
+271,2011,1,"Agriculture and Rural Development","AGRI",34,1,0,1,0,0
+272,2011,2,"Budget","BUDG",1,4,0,0,0,0
+273,2011,3,"Climate Action","CLIMA",38,4,0,0,0,0
+274,2011,4,"Communication Networks, Content and Technology","CONNECT",47,43,2,3,0,0
+275,2011,5,"Competition","COMP",1,1,0,1,0,0
+276,2011,6,"Defence Industry and Space","DEFIS",0,0,0,0,0,0
+277,2011,7,"Economic and Financial Affairs","ECFIN",0,0,0,0,0,0
+278,2011,8,"Education, Youth, Sport and Culture","EAC",0,0,0,0,0,0
+279,2011,9,"Employment, Social Affairs and Inclusion","EMPL",41,27,4,3,0,0
+280,2011,10,"Energy","ENER",141,13,3,2,0,0
+281,2011,11,"Enterprise and Industry","ENTR",120,4,1,0,0,0
+282,2011,12,"Environment","ENV",123,74,18,14,0,5
+283,2011,13,"European Neighbourhood and Enlargement Negotiations","NEAR",0,0,0,0,0,0
+284,2011,14,"Eurostat","EUROSTAT",0,1,0,0,0,0
+285,2011,15,"External Relations","RELEX",0,0,0,0,0,0
+286,2011,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",0,1,1,0,0,0
+287,2011,17,"Health and Consumers","SANCO",174,23,4,1,0,0
+288,2011,18,"Health and Food Safety","SANTE",1,0,1,0,0,0
+289,2011,19,"Human Resources and Security","HR",0,0,0,0,0,0
+290,2011,20,"Internal Market and Services","MARKT",223,44,3,4,0,7
+291,2011,21,"Internal Market, Industry, Entrepreneurship and SMEs","GROW",15,4,2,0,0,0
+292,2011,22,"Justice and Consumers","JUST",88,36,2,1,0,0
+293,2011,23,"Legal Service","SJ",0,0,0,0,0,0
+294,2011,24,"Maritime Affairs and Fisheries","MARE",0,0,0,1,0,0
+295,2011,25,"Migration and Home Affairs","HOME",78,20,0,1,0,1
+296,2011,26,"Mobility and Transport","MOVE",285,113,5,0,0,2
+297,2011,27,"Regional and Urban Policy","REGIO",0,0,0,0,0,0
+298,2011,28,"Secretariat-General","SG",0,0,0,0,0,0
+299,2011,29,"Taxation and Customs Union","TAXUD",83,35,23,1,0,0
+300,2011,30,"Trade","TRADE",0,0,0,0,0,0
+301,2012,1,"Agriculture and Rural Development","AGRI",1,1,0,0,0,0
+302,2012,2,"Budget","BUDG",1,0,2,0,0,0
+303,2012,3,"Climate Action","CLIMA",19,6,0,0,0,0
+304,2012,4,"Communication Networks, Content and Technology","CONNECT",5,2,1,0,0,12
+305,2012,5,"Competition","COMP",0,1,0,2,0,0
+306,2012,6,"Defence Industry and Space","DEFIS",0,0,0,0,0,0
+307,2012,7,"Economic and Financial Affairs","ECFIN",2,0,0,0,0,0
+308,2012,8,"Education, Youth, Sport and Culture","EAC",3,1,0,0,0,0
+309,2012,9,"Employment, Social Affairs and Inclusion","EMPL",45,22,1,1,0,0
+310,2012,10,"Energy","ENER",28,49,3,0,0,6
+311,2012,11,"Enterprise and Industry","ENTR",28,12,0,1,0,0
+312,2012,12,"Environment","ENV",150,57,9,11,0,7
+313,2012,13,"European Neighbourhood and Enlargement Negotiations","NEAR",0,0,0,0,0,0
+314,2012,14,"Eurostat","EUROSTAT",0,0,0,0,0,0
+315,2012,15,"External Relations","RELEX",0,0,0,0,0,0
+316,2012,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",2,1,0,1,0,0
+317,2012,17,"Health and Consumers","SANCO",123,18,2,0,0,0
+318,2012,18,"Health and Food Safety","SANTE",10,6,0,0,0,0
+319,2012,19,"Human Resources and Security","HR",0,0,0,0,0,0
+320,2012,20,"Internal Market and Services","MARKT",66,36,1,1,0,5
+321,2012,21,"Internal Market, Industry, Entrepreneurship and SMEs","GROW",7,5,3,0,0,0
+322,2012,22,"Justice and Consumers","JUST",31,11,4,0,0,3
+323,2012,23,"Legal Service","SJ",0,1,0,0,0,0
+324,2012,24,"Maritime Affairs and Fisheries","MARE",1,0,0,0,0,0
+325,2012,25,"Migration and Home Affairs","HOME",5,17,1,0,0,1
+326,2012,26,"Mobility and Transport","MOVE",153,52,5,0,0,6
+327,2012,27,"Regional and Urban Policy","REGIO",0,0,0,0,0,0
+328,2012,28,"Secretariat-General","SG",0,0,0,0,0,0
+329,2012,29,"Taxation and Customs Union","TAXUD",52,41,7,2,0,0
+330,2012,30,"Trade","TRADE",0,0,0,0,0,0
+331,2013,1,"Agriculture and Rural Development","AGRI",6,1,0,0,0,0
+332,2013,2,"Budget","BUDG",3,0,0,0,0,0
+333,2013,3,"Climate Action","CLIMA",13,10,0,0,0,0
+334,2013,4,"Communication Networks, Content and Technology","CONNECT",15,3,1,0,0,1
+335,2013,5,"Competition","COMP",2,0,1,0,0,1
+336,2013,6,"Defence Industry and Space","DEFIS",0,0,0,0,0,0
+337,2013,7,"Economic and Financial Affairs","ECFIN",0,0,0,0,0,0
+338,2013,8,"Education, Youth, Sport and Culture","EAC",1,0,1,0,0,0
+339,2013,9,"Employment, Social Affairs and Inclusion","EMPL",39,13,11,0,0,0
+340,2013,10,"Energy","ENER",41,40,1,0,0,12
+341,2013,11,"Enterprise and Industry","ENTR",39,4,0,0,0,0
+342,2013,12,"Environment","ENV",243,54,8,7,0,4
+343,2013,13,"European Neighbourhood and Enlargement Negotiations","NEAR",1,0,0,0,0,0
+344,2013,14,"Eurostat","EUROSTAT",0,0,0,0,0,0
+345,2013,15,"External Relations","RELEX",0,0,0,0,0,0
+346,2013,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",14,1,0,0,0,0
+347,2013,17,"Health and Consumers","SANCO",57,10,0,0,0,0
+348,2013,18,"Health and Food Safety","SANTE",13,4,5,0,0,0
+349,2013,19,"Human Resources and Security","HR",0,0,0,0,0,0
+350,2013,20,"Internal Market and Services","MARKT",34,11,0,1,0,0
+351,2013,21,"Internal Market, Industry, Entrepreneurship and SMEs","GROW",30,8,2,0,0,0
+352,2013,22,"Justice and Consumers","JUST",35,8,1,0,0,0
+353,2013,23,"Legal Service","SJ",0,0,1,1,0,0
+354,2013,24,"Maritime Affairs and Fisheries","MARE",10,1,0,0,0,0
+355,2013,25,"Migration and Home Affairs","HOME",38,7,0,0,0,0
+356,2013,26,"Mobility and Transport","MOVE",100,23,9,1,0,2
+357,2013,27,"Regional and Urban Policy","REGIO",0,0,0,0,0,0
+358,2013,28,"Secretariat-General","SG",0,0,0,0,0,0
+359,2013,29,"Taxation and Customs Union","TAXUD",71,30,15,2,0,0
+360,2013,30,"Trade","TRADE",0,0,0,0,0,0
+361,2014,1,"Agriculture and Rural Development","AGRI",1,1,0,0,0,0
+362,2014,2,"Budget","BUDG",2,2,0,0,0,0
+363,2014,3,"Climate Action","CLIMA",2,3,1,0,0,0
+364,2014,4,"Communication Networks, Content and Technology","CONNECT",24,7,2,0,0,0
+365,2014,5,"Competition","COMP",2,1,0,2,0,0
+366,2014,6,"Defence Industry and Space","DEFIS",0,0,0,0,0,0
+367,2014,7,"Economic and Financial Affairs","ECFIN",17,1,0,0,0,0
+368,2014,8,"Education, Youth, Sport and Culture","EAC",0,0,0,0,0,0
+369,2014,9,"Employment, Social Affairs and Inclusion","EMPL",42,15,3,0,0,0
+370,2014,10,"Energy","ENER",40,12,1,0,0,6
+371,2014,11,"Enterprise and Industry","ENTR",36,0,0,0,0,0
+372,2014,12,"Environment","ENV",184,60,12,3,0,4
+373,2014,13,"European Neighbourhood and Enlargement Negotiations","NEAR",0,1,1,0,0,0
+374,2014,14,"Eurostat","EUROSTAT",0,0,0,0,0,0
+375,2014,15,"External Relations","RELEX",0,0,0,0,0,0
+376,2014,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",43,14,0,0,0,0
+377,2014,17,"Health and Consumers","SANCO",69,7,0,0,0,0
+378,2014,18,"Health and Food Safety","SANTE",66,24,1,0,0,0
+379,2014,19,"Human Resources and Security","HR",0,0,0,0,0,0
+380,2014,20,"Internal Market and Services","MARKT",18,2,1,0,0,0
+381,2014,21,"Internal Market, Industry, Entrepreneurship and SMEs","GROW",44,19,4,1,0,0
+382,2014,22,"Justice and Consumers","JUST",60,10,2,0,0,0
+383,2014,23,"Legal Service","SJ",3,0,0,0,0,0
+384,2014,24,"Maritime Affairs and Fisheries","MARE",2,5,0,0,0,0
+385,2014,25,"Migration and Home Affairs","HOME",59,7,0,0,0,0
+386,2014,26,"Mobility and Transport","MOVE",194,43,6,4,0,0
+387,2014,27,"Regional and Urban Policy","REGIO",0,0,0,0,0,0
+388,2014,28,"Secretariat-General","SG",0,0,0,0,0,0
+389,2014,29,"Taxation and Customs Union","TAXUD",28,21,14,0,0,0
+390,2014,30,"Trade","TRADE",0,0,0,0,0,0
+391,2015,1,"Agriculture and Rural Development","AGRI",12,1,1,0,0,0
+392,2015,2,"Budget","BUDG",2,0,0,1,0,0
+393,2015,3,"Climate Action","CLIMA",9,1,0,0,0,0
+394,2015,4,"Communication Networks, Content and Technology","CONNECT",18,7,0,0,0,0
+395,2015,5,"Competition","COMP",0,0,0,1,0,1
+396,2015,6,"Defence Industry and Space","DEFIS",0,0,0,0,0,0
+397,2015,7,"Economic and Financial Affairs","ECFIN",0,0,0,0,0,0
+398,2015,8,"Education, Youth, Sport and Culture","EAC",0,0,0,0,0,0
+399,2015,9,"Employment, Social Affairs and Inclusion","EMPL",26,11,2,0,0,0
+400,2015,10,"Energy","ENER",40,37,2,0,0,2
+401,2015,11,"Enterprise and Industry","ENTR",0,0,0,0,0,0
+402,2015,12,"Environment","ENV",134,40,14,3,0,6
+403,2015,13,"European Neighbourhood and Enlargement Negotiations","NEAR",1,0,0,0,0,0
+404,2015,14,"Eurostat","EUROSTAT",0,0,0,0,0,0
+405,2015,15,"External Relations","RELEX",0,0,0,0,0,0
+406,2015,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",136,40,0,0,0,7
+407,2015,17,"Health and Consumers","SANCO",0,0,0,0,0,0
+408,2015,18,"Health and Food Safety","SANTE",20,9,1,0,0,0
+409,2015,19,"Human Resources and Security","HR",0,0,0,0,0,0
+410,2015,20,"Internal Market and Services","MARKT",0,0,0,0,0,0
+411,2015,21,"Internal Market, Industry, Entrepreneurship and SMEs","GROW",82,5,4,0,0,0
+412,2015,22,"Justice and Consumers","JUST",42,4,0,0,0,0
+413,2015,23,"Legal Service","SJ",1,0,0,0,0,0
+414,2015,24,"Maritime Affairs and Fisheries","MARE",2,1,0,0,0,0
+415,2015,25,"Migration and Home Affairs","HOME",58,28,0,0,0,1
+416,2015,26,"Mobility and Transport","MOVE",165,49,20,2,0,0
+417,2015,27,"Regional and Urban Policy","REGIO",0,0,0,0,0,0
+418,2015,28,"Secretariat-General","SG",0,0,0,0,0,0
+419,2015,29,"Taxation and Customs Union","TAXUD",34,16,8,1,0,0
+420,2015,30,"Trade","TRADE",0,0,0,0,0,0
+421,2016,1,"Agriculture and Rural Development","AGRI",1,1,0,0,0,0
+422,2016,2,"Budget","BUDG",0,2,3,0,0,0
+423,2016,3,"Climate Action","CLIMA",0,1,0,0,0,0
+424,2016,4,"Communication Networks, Content and Technology","CONNECT",53,25,0,0,0,0
+425,2016,5,"Competition","COMP",0,0,0,0,0,1
+426,2016,6,"Defence Industry and Space","DEFIS",0,0,0,0,0,0
+427,2016,7,"Economic and Financial Affairs","ECFIN",5,0,0,0,0,0
+428,2016,8,"Education, Youth, Sport and Culture","EAC",0,0,0,0,0,0
+429,2016,9,"Employment, Social Affairs and Inclusion","EMPL",40,3,0,0,0,1
+430,2016,10,"Energy","ENER",30,25,1,0,0,0
+431,2016,11,"Enterprise and Industry","ENTR",0,0,0,0,0,0
+432,2016,12,"Environment","ENV",96,33,7,6,0,3
+433,2016,13,"European Neighbourhood and Enlargement Negotiations","NEAR",0,0,0,0,0,0
+434,2016,14,"Eurostat","EUROSTAT",0,0,0,0,0,0
+435,2016,15,"External Relations","RELEX",0,0,0,0,0,0
+436,2016,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",120,37,1,0,0,1
+437,2016,17,"Health and Consumers","SANCO",0,0,0,0,0,0
+438,2016,18,"Health and Food Safety","SANTE",149,7,0,0,0,0
+439,2016,19,"Human Resources and Security","HR",0,0,0,0,0,0
+440,2016,20,"Internal Market and Services","MARKT",0,0,0,0,0,0
+441,2016,21,"Internal Market, Industry, Entrepreneurship and SMEs","GROW",294,93,5,0,0,0
+442,2016,22,"Justice and Consumers","JUST",38,5,0,1,0,0
+443,2016,23,"Legal Service","SJ",0,0,0,0,0,0
+444,2016,24,"Maritime Affairs and Fisheries","MARE",9,0,0,0,0,0
+445,2016,25,"Migration and Home Affairs","HOME",51,14,1,0,0,0
+446,2016,26,"Mobility and Transport","MOVE",75,42,11,0,0,5
+447,2016,27,"Regional and Urban Policy","REGIO",0,0,0,0,0,0
+448,2016,28,"Secretariat-General","SG",0,0,0,0,0,0
+449,2016,29,"Taxation and Customs Union","TAXUD",41,6,2,1,0,0
+450,2016,30,"Trade","TRADE",0,0,0,0,0,0
+451,2017,1,"Agriculture and Rural Development","AGRI",8,3,0,0,0,0
+452,2017,2,"Budget","BUDG",0,0,0,0,0,0
+453,2017,3,"Climate Action","CLIMA",23,0,0,0,0,0
+454,2017,4,"Communication Networks, Content and Technology","CONNECT",10,13,0,0,0,7
+455,2017,5,"Competition","COMP",21,7,0,0,0,0
+456,2017,6,"Defence Industry and Space","DEFIS",0,0,0,0,0,0
+457,2017,7,"Economic and Financial Affairs","ECFIN",5,0,0,0,0,1
+458,2017,8,"Education, Youth, Sport and Culture","EAC",0,0,0,0,0,0
+459,2017,9,"Employment, Social Affairs and Inclusion","EMPL",18,20,0,0,0,3
+460,2017,10,"Energy","ENER",26,11,0,0,0,0
+461,2017,11,"Enterprise and Industry","ENTR",0,0,0,0,0,0
+462,2017,12,"Environment","ENV",178,45,7,6,0,0
+463,2017,13,"European Neighbourhood and Enlargement Negotiations","NEAR",0,0,0,0,0,0
+464,2017,14,"Eurostat","EUROSTAT",0,0,0,0,0,0
+465,2017,15,"External Relations","RELEX",0,0,0,0,0,0
+466,2017,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",92,46,2,0,0,8
+467,2017,17,"Health and Consumers","SANCO",0,0,0,0,0,0
+468,2017,18,"Health and Food Safety","SANTE",62,1,0,0,0,0
+469,2017,19,"Human Resources and Security","HR",0,0,0,0,0,0
+470,2017,20,"Internal Market and Services","MARKT",0,0,0,0,0,0
+471,2017,21,"Internal Market, Industry, Entrepreneurship and SMEs","GROW",38,37,6,1,0,12
+472,2017,22,"Justice and Consumers","JUST",39,11,2,0,0,0
+473,2017,23,"Legal Service","SJ",1,0,0,0,0,0
+474,2017,24,"Maritime Affairs and Fisheries","MARE",1,6,0,0,0,3
+475,2017,25,"Migration and Home Affairs","HOME",27,21,3,0,0,1
+476,2017,26,"Mobility and Transport","MOVE",156,45,6,4,0,0
+477,2017,27,"Regional and Urban Policy","REGIO",0,0,0,0,0,0
+478,2017,28,"Secretariat-General","SG",1,0,0,0,0,0
+479,2017,29,"Taxation and Customs Union","TAXUD",29,10,3,0,0,0
+480,2017,30,"Trade","TRADE",0,0,0,0,0,0
+481,2018,1,"Agriculture and Rural Development","AGRI",2,0,0,0,0,0
+482,2018,2,"Budget","BUDG",4,1,1,0,0,0
+483,2018,3,"Climate Action","CLIMA",0,10,0,0,0,0
+484,2018,4,"Communication Networks, Content and Technology","CONNECT",56,1,1,0,0,3
+485,2018,5,"Competition","COMP",0,0,0,0,0,0
+486,2018,6,"Defence Industry and Space","DEFIS",2,0,0,0,0,0
+487,2018,7,"Economic and Financial Affairs","ECFIN",0,1,0,0,0,0
+488,2018,8,"Education, Youth, Sport and Culture","EAC",0,0,0,0,0,0
+489,2018,9,"Employment, Social Affairs and Inclusion","EMPL",21,2,0,0,0,0
+490,2018,10,"Energy","ENER",58,5,6,0,0,0
+491,2018,11,"Enterprise and Industry","ENTR",0,0,0,0,0,0
+492,2018,12,"Environment","ENV",78,30,12,4,0,1
+493,2018,13,"European Neighbourhood and Enlargement Negotiations","NEAR",0,0,0,0,0,0
+494,2018,14,"Eurostat","EUROSTAT",0,0,0,0,0,0
+495,2018,15,"External Relations","RELEX",0,0,0,0,0,0
+496,2018,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",34,40,2,0,0,7
+497,2018,17,"Health and Consumers","SANCO",0,0,0,0,0,0
+498,2018,18,"Health and Food Safety","SANTE",50,0,2,0,0,0
+499,2018,19,"Human Resources and Security","HR",0,0,0,0,0,0
+500,2018,20,"Internal Market and Services","MARKT",0,0,0,0,0,0
+501,2018,21,"Internal Market, Industry, Entrepreneurship and SMEs","GROW",81,6,0,0,0,0
+502,2018,22,"Justice and Consumers","JUST",53,16,1,0,0,2
+503,2018,23,"Legal Service","SJ",0,1,0,0,0,0
+504,2018,24,"Maritime Affairs and Fisheries","MARE",2,2,0,0,0,0
+505,2018,25,"Migration and Home Affairs","HOME",79,2,2,0,0,1
+506,2018,26,"Mobility and Transport","MOVE",98,26,5,0,0,1
+507,2018,27,"Regional and Urban Policy","REGIO",0,0,0,0,0,0
+508,2018,28,"Secretariat-General","SG",0,0,0,0,0,0
+509,2018,29,"Taxation and Customs Union","TAXUD",41,14,0,1,0,0
+510,2018,30,"Trade","TRADE",0,0,0,0,0,0
+511,2019,1,"Agriculture and Rural Development","AGRI",0,2,1,0,0,0
+512,2019,2,"Budget","BUDG",0,1,0,0,0,0
+513,2019,3,"Climate Action","CLIMA",17,0,0,0,0,0
+514,2019,4,"Communication Networks, Content and Technology","CONNECT",17,6,0,0,0,0
+515,2019,5,"Competition","COMP",0,0,0,1,0,1
+516,2019,6,"Defence Industry and Space","DEFIS",9,0,0,0,0,0
+517,2019,7,"Economic and Financial Affairs","ECFIN",0,0,1,0,0,0
+518,2019,8,"Education, Youth, Sport and Culture","EAC",0,0,0,0,0,0
+519,2019,9,"Employment, Social Affairs and Inclusion","EMPL",4,6,0,0,0,0
+520,2019,10,"Energy","ENER",53,19,5,0,0,0
+521,2019,11,"Enterprise and Industry","ENTR",0,0,0,0,0,0
+522,2019,12,"Environment","ENV",181,45,9,3,0,1
+523,2019,13,"European Neighbourhood and Enlargement Negotiations","NEAR",0,0,0,0,0,0
+524,2019,14,"Eurostat","EUROSTAT",0,0,0,0,0,0
+525,2019,15,"External Relations","RELEX",0,0,0,0,0,0
+526,2019,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",46,29,0,0,0,0
+527,2019,17,"Health and Consumers","SANCO",0,0,0,0,0,0
+528,2019,18,"Health and Food Safety","SANTE",60,3,0,0,0,0
+529,2019,19,"Human Resources and Security","HR",0,0,0,0,0,0
+530,2019,20,"Internal Market and Services","MARKT",0,0,0,0,0,0
+531,2019,21,"Internal Market, Industry, Entrepreneurship and SMEs","GROW",152,63,2,2,0,0
+532,2019,22,"Justice and Consumers","JUST",75,36,1,0,0,3
+533,2019,23,"Legal Service","SJ",2,0,1,0,0,0
+534,2019,24,"Maritime Affairs and Fisheries","MARE",1,0,0,0,0,0
+535,2019,25,"Migration and Home Affairs","HOME",60,45,2,0,0,1
+536,2019,26,"Mobility and Transport","MOVE",84,28,1,1,0,0
+537,2019,27,"Regional and Urban Policy","REGIO",0,0,0,0,0,0
+538,2019,28,"Secretariat-General","SG",0,0,0,0,0,0
+539,2019,29,"Taxation and Customs Union","TAXUD",67,34,9,0,0,1
+540,2019,30,"Trade","TRADE",0,0,0,0,0,0
+541,2020,1,"Agriculture and Rural Development","AGRI",0,0,0,0,0,0
+542,2020,2,"Budget","BUDG",0,0,0,0,0,0
+543,2020,3,"Climate Action","CLIMA",4,1,0,0,0,0
+544,2020,4,"Communication Networks, Content and Technology","CONNECT",0,2,0,0,0,0
+545,2020,5,"Competition","COMP",0,0,0,0,0,0
+546,2020,6,"Defence Industry and Space","DEFIS",0,0,0,0,0,0
+547,2020,7,"Economic and Financial Affairs","ECFIN",0,0,0,0,0,0
+548,2020,8,"Education, Youth, Sport and Culture","EAC",0,0,0,0,0,0
+549,2020,9,"Employment, Social Affairs and Inclusion","EMPL",17,0,0,0,0,0
+550,2020,10,"Energy","ENER",2,0,0,0,0,0
+551,2020,11,"Enterprise and Industry","ENTR",0,0,0,0,0,0
+552,2020,12,"Environment","ENV",7,6,1,0,0,0
+553,2020,13,"European Neighbourhood and Enlargement Negotiations","NEAR",0,0,0,0,0,0
+554,2020,14,"Eurostat","EUROSTAT",0,0,0,0,0,0
+555,2020,15,"External Relations","RELEX",0,0,0,0,0,0
+556,2020,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",8,0,0,0,0,0
+557,2020,17,"Health and Consumers","SANCO",0,0,0,0,0,0
+558,2020,18,"Health and Food Safety","SANTE",0,0,0,0,0,0
+559,2020,19,"Human Resources and Security","HR",0,0,0,0,0,0
+560,2020,20,"Internal Market and Services","MARKT",0,0,0,0,0,0
+561,2020,21,"Internal Market, Industry, Entrepreneurship and SMEs","GROW",1,1,0,0,0,0
+562,2020,22,"Justice and Consumers","JUST",2,0,0,0,0,0
+563,2020,23,"Legal Service","SJ",0,0,0,0,0,0
+564,2020,24,"Maritime Affairs and Fisheries","MARE",0,0,0,0,0,0
+565,2020,25,"Migration and Home Affairs","HOME",17,0,0,0,0,0
+566,2020,26,"Mobility and Transport","MOVE",29,1,0,0,0,0
+567,2020,27,"Regional and Urban Policy","REGIO",0,0,0,0,0,0
+568,2020,28,"Secretariat-General","SG",0,0,0,0,0,0
+569,2020,29,"Taxation and Customs Union","TAXUD",60,0,1,0,0,0
+570,2020,30,"Trade","TRADE",0,0,0,0,0,0
