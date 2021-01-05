@@ -7,8 +7,8 @@
 `%>%` <- magrittr::`%>%`
 
 # source files
-source("replication-code/create_template.R")
-source("replication-code/base_data.R")
+source("replication-code/utilities/create_template.R")
+source("replication-code/utilities/base_data.R")
 
 ##################################################
 # cases_DDY

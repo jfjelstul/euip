@@ -21,6 +21,17 @@ rm(decisions)
 # case level data
 ##################################################
 
+# decision stage code
+cases$decision_stage_code <- NA
+cases$decision_stage_code[cases$stage_LFN258 == 1] <- "LFN258"
+cases$decision_stage_code[cases$stage_RO258 == 1] <- "RO258"
+cases$decision_stage_code[cases$stage_RF258 == 1] <- "RF258"
+cases$decision_stage_code[cases$stage_LFN260 == 1] <- "LFN260"
+cases$decision_stage_code[cases$stage_RO260 == 1] <- "RO260"
+cases$decision_stage_code[cases$stage_RF260 == 1] <- "RF260"
+cases$decision_stage_code[cases$stage_closing == 1] <- "C"
+cases$decision_stage_code[cases$stage_withdrawal == 1] <- "W"
+
 # collapse data by case number and decision stage
 cases <- cases %>%
  dplyr::group_by(case_number, decision_stage) %>%
@@ -45,7 +56,6 @@ cases <- cases %>%
   count_LFN260 = sum(stage_LFN260),
   count_RO260 = sum(stage_RO260),
   count_RF260 = sum(stage_RF260),
-  count_RO259 = sum(stage_RO259),
   count_closing = sum(stage_closing),
   count_withdrawal = sum(stage_withdrawal),
   count_press_releases = sum(press_release),
@@ -77,7 +87,6 @@ cases <- cases %>%
   count_LFN260 = sum(count_LFN260),
   count_RO260 = sum(count_RO260),
   count_RF260 = sum(count_RF260),
-  count_RO259 = sum(count_RO259),
   count_closing = sum(count_closing),
   count_withdrawal = sum(count_withdrawal),
   count_press_releases = sum(count_press_releases),
@@ -135,7 +144,6 @@ cases$stage_RF258 <- as.numeric(cases$count_RF258 > 0)
 cases$stage_LFN260 <- as.numeric(cases$count_LFN260 > 0)
 cases$stage_RO260 <- as.numeric(cases$count_RO260 > 0)
 cases$stage_RF260 <- as.numeric(cases$count_RF260 > 0)
-cases$stage_RO259 <- as.numeric(cases$count_RO259 > 0)
 cases$stage_closing <- as.numeric(cases$count_closing > 0)
 cases$stage_withdrawal <- as.numeric(cases$count_withdrawal > 0)
 
@@ -204,9 +212,9 @@ cases <- dplyr::select(
  directive, directive_number, CELEX_number,
  case_type_ID, case_type, noncommunication, nonconformity,
  complete, count_press_releases,
- stage_LFN258, stage_RO258, stage_RF258, stage_LFN260, stage_RO260, stage_RF260, stage_RO259, stage_closing, stage_withdrawal, case_history,
+ stage_LFN258, stage_RO258, stage_RF258, stage_LFN260, stage_RO260, stage_RF260, stage_closing, stage_withdrawal, case_history,
  corrected_LFN258, corrected_RO258, corrected_RF258, corrected_LFN260, corrected_RO260, corrected_RF260,
- count_decisions, count_LFN258, count_RO258, count_RF258, count_LFN260, count_RO260, count_RF260, count_RO259, count_closing, count_withdrawal,
+ count_decisions, count_LFN258, count_RO258, count_RF258, count_LFN260, count_RO260, count_RF260,
  count_missing, missing_LFN258, missing_RO258, missing_RF258, missing_LFN260, missing_RO260
 )
 

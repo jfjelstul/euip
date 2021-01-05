@@ -61,28 +61,25 @@ decisions$stage_closing <- as.numeric(stringr::str_detect(decisions$decision_sta
 decisions$stage_withdrawal <- as.numeric(stringr::str_detect(decisions$decision_stage, "Withdrawal"))
 
 # formal notice (article 258)
-decisions$stage_LFN258 <- as.numeric(stringr::str_detect(decisions$decision_stage_raw, "[Ff]ormal notice")) * as.numeric(stringr::str_detect(decisions$decision_stage_raw, "258"))
+decisions$stage_LFN258 <- as.numeric(stringr::str_detect(decisions$decision_stage_raw, "[Ff]ormal notice") & stringr::str_detect(decisions$decision_stage_raw, "258"))
 
 # formal notice (article 260)
-decisions$stage_LFN260 <- as.numeric(stringr::str_detect(decisions$decision_stage_raw, "[Ff]ormal notice")) * as.numeric(stringr::str_detect(decisions$decision_stage_raw, "260"))
+decisions$stage_LFN260 <- as.numeric(stringr::str_detect(decisions$decision_stage_raw, "[Ff]ormal notice") & stringr::str_detect(decisions$decision_stage_raw, "260"))
 
 # reasoned opinion (article 258)
-decisions$stage_RO258 <- as.numeric(stringr::str_detect(decisions$decision_stage_raw, "[Rr]easoned opinion")) * as.numeric(stringr::str_detect(decisions$decision_stage_raw, "258|226"))
+decisions$stage_RO258 <- as.numeric(stringr::str_detect(decisions$decision_stage_raw, "[Rr]easoned opinion") & stringr::str_detect(decisions$decision_stage_raw, "258|226"))
 
 # reasoned opinion (article 260)
-decisions$stage_RO260 <- as.numeric(stringr::str_detect(decisions$decision_stage_raw, "[Rr]easoned opinion")) * as.numeric(stringr::str_detect(decisions$decision_stage_raw, "260|228"))
+decisions$stage_RO260 <- as.numeric(stringr::str_detect(decisions$decision_stage_raw, "[Rr]easoned opinion") & stringr::str_detect(decisions$decision_stage_raw, "260|228"))
 
 # referral (article 258)
-decisions$stage_RF258 <- as.numeric(stringr::str_detect(decisions$decision_stage_raw, "[Rr]eferral")) * as.numeric(stringr::str_detect(decisions$decision_stage_raw, "258"))
+decisions$stage_RF258 <- as.numeric(stringr::str_detect(decisions$decision_stage_raw, "[Rr]eferral") & stringr::str_detect(decisions$decision_stage_raw, "258"))
 
 # referral (article 260)
-decisions$stage_RF260 <- as.numeric(stringr::str_detect(decisions$decision_stage_raw, "[Rr]eferral")) * as.numeric(stringr::str_detect(decisions$decision_stage_raw, "260"))
-
-# reasoned opinion (article 259)
-decisions$stage_RO259 <- as.numeric(stringr::str_detect(decisions$decision_stage_raw, "[Rr]easoned opinion")) * as.numeric(stringr::str_detect(decisions$decision_stage_raw, "259"))
+decisions$stage_RF260 <- as.numeric(stringr::str_detect(decisions$decision_stage_raw, "[Rr]eferral") & stringr::str_detect(decisions$decision_stage_raw, "260"))
 
 # fix referral (article 258)
-decisions$stage_RF258[decisions$stage_RF260 == 1] <- 0
+decisions$stage_RF260_3 <- as.numeric(stringr::str_detect(decisions$decision_stage_raw, "258") & stringr::str_detect(decisions$decision_stage_raw, "260"))
 
 # press release link
 decisions$press_release_link <- stringr::str_extract(decisions$press_release, "IP-[0-9]+-[0-9]+")
@@ -93,6 +90,9 @@ decisions$press_release <- as.numeric(!is.na(decisions$press_release_link))
 
 # drop memo
 decisions <- dplyr::select(decisions, -c(memo, active))
+
+# drop Article 260(3) decisions
+decisions <- dplyr::filter(decisions, stage_RF260_3 == 0)
 
 ##################################################
 # clean member state names
@@ -142,17 +142,6 @@ decisions$decision_stage[decisions$stage_RO260 == 1] <- "Reasoned opinion (Art. 
 decisions$decision_stage[decisions$stage_RF260 == 1] <- "Referral to the Court (Art. 260)"
 decisions$decision_stage[decisions$stage_closing == 1] <- "Closing"
 decisions$decision_stage[decisions$stage_withdrawal == 1] <- "Withdrawal"
-
-# decision stage code
-decisions$decision_stage_code <- NA
-decisions$decision_stage_code[decisions$stage_LFN258 == 1] <- "LFN258"
-decisions$decision_stage_code[decisions$stage_RO258 == 1] <- "RO258"
-decisions$decision_stage_code[decisions$stage_RF258 == 1] <- "RF258"
-decisions$decision_stage_code[decisions$stage_LFN260 == 1] <- "LFN260"
-decisions$decision_stage_code[decisions$stage_RO260 == 1] <- "RO260"
-decisions$decision_stage_code[decisions$stage_RF260 == 1] <- "RF260"
-decisions$decision_stage_code[decisions$stage_closing == 1] <- "C"
-decisions$decision_stage_code[decisions$stage_withdrawal == 1] <- "W"
 
 # decision stage ID
 decisions$decision_stage_ID <- NA
@@ -243,8 +232,10 @@ decisions <- dplyr::select(
  directorate_general_ID, directorate_general, directorate_general_code,
  case_type_ID, case_type, noncommunication, nonconformity,
  directive, directive_number, CELEX_number,
- decision_stage_ID, decision_stage, decision_stage_code, stage_LFN258, stage_RO258, stage_RF258, stage_RO259, stage_LFN260, stage_RO260, stage_RF260, stage_closing, stage_withdrawal, stage_additional,
- press_release, press_release_link
+ decision_stage_ID, decision_stage,
+ stage_LFN258, stage_RO258, stage_RF258, stage_LFN260, stage_RO260, stage_RF260, 
+ stage_closing, stage_withdrawal, stage_additional,
+ press_release
 )
 
 ##################################################

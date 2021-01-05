@@ -7,8 +7,8 @@
 `%>%` <- magrittr::`%>%`
 
 # source files
-source("replication-code/create_template.R")
-source("replication-code/base_data.R")
+source("replication-code/utilities/create_template.R")
+source("replication-code/utilities/base_data.R")
 
 ##################################################
 # decisions_DDY
@@ -127,91 +127,91 @@ save(decisions_DDY_D, file = "data/decisions_DDY_D.RData")
 # decisions_DDY_wide
 ##################################################
 
-# convert to wide
-decisions_DDY_wide <- tidyr::pivot_wider(
-  decisions_DDY,
-  id_cols = c(
-    year, 
-    directorate_general_ID, directorate_general, directorate_general_code,
-    member_state_ID, member_state, member_state_code
-    ),
-  names_from = decision_stage_ID,
-  values_from = count_decisions
-)
-
-# rename variables
-names(decisions_DDY_wide) <- c(
-  "year", 
-  "directorate_general_ID", "directorate_general", "directorate_general_code",
-  "member_state_ID", "member_state", "member_state_code",
-  "count_LFN258", "count_RO258", "count_RF258",
-  "count_LFN260", "count_RO260", "count_RF260"
-)
-
-# arrange
-decisions_DDY_wide <- dplyr::arrange(decisions_DDY_wide, year, directorate_general_ID, member_state_ID)
-
-# key ID
-decisions_DDY_wide$key_ID <- 1:nrow(decisions_DDY_wide)
-
-# select variables
-decisions_DDY_wide <- dplyr::select(
-  decisions_DDY_wide, 
-  key_ID, year,
-  directorate_general_ID, directorate_general, directorate_general_code,
-  member_state_ID, member_state, member_state_code,
-  count_LFN258, count_RO258, count_RF258,
-  count_LFN260, count_RO260, count_RF260
-)
-
-# save
-save(decisions_DDY_wide, file = "data/decisions_DDY_wide.RData")
+# # convert to wide
+# decisions_DDY_wide <- tidyr::pivot_wider(
+#   decisions_DDY,
+#   id_cols = c(
+#     year, 
+#     directorate_general_ID, directorate_general, directorate_general_code,
+#     member_state_ID, member_state, member_state_code
+#     ),
+#   names_from = decision_stage_ID,
+#   values_from = count_decisions
+# )
+# 
+# # rename variables
+# names(decisions_DDY_wide) <- c(
+#   "year", 
+#   "directorate_general_ID", "directorate_general", "directorate_general_code",
+#   "member_state_ID", "member_state", "member_state_code",
+#   "count_LFN258", "count_RO258", "count_RF258",
+#   "count_LFN260", "count_RO260", "count_RF260"
+# )
+# 
+# # arrange
+# decisions_DDY_wide <- dplyr::arrange(decisions_DDY_wide, year, directorate_general_ID, member_state_ID)
+# 
+# # key ID
+# decisions_DDY_wide$key_ID <- 1:nrow(decisions_DDY_wide)
+# 
+# # select variables
+# decisions_DDY_wide <- dplyr::select(
+#   decisions_DDY_wide, 
+#   key_ID, year,
+#   directorate_general_ID, directorate_general, directorate_general_code,
+#   member_state_ID, member_state, member_state_code,
+#   count_LFN258, count_RO258, count_RF258,
+#   count_LFN260, count_RO260, count_RF260
+# )
+# 
+# # save
+# save(decisions_DDY_wide, file = "data/decisions_DDY_wide.RData")
 
 ##################################################
 # wide decisions_DDY_D_wide
 ##################################################
 
-# convert to wide
-decisions_DDY_D_wide <- tidyr::pivot_wider(
-  decisions_DDY_D,
-  id_cols = c(
-    year, 
-    directorate_general_ID, directorate_general, directorate_general_code, 
-    member_state_ID, member_state, member_state_code,
-    case_type_ID, case_type),
-  names_from = decision_stage_ID,
-  values_from = count_decisions
-)
-
-# rename variables
-names(decisions_DDY_D_wide) <- c(
-  "year", 
-  "directorate_general_ID", "directorate_general", "directorate_general_code",
-  "member_state_ID", "member_state", "member_state_code",
-  "case_type_ID", "case_type",
-  "count_LFN258", "count_RO258", "count_RF258",
-  "count_LFN260", "count_RO260", "count_RF260"
-)
-
-# arrange
-decisions_DDY_D_wide <- dplyr::arrange(decisions_DDY_D_wide, year, directorate_general_ID, member_state_ID, case_type_ID)
-
-# key ID
-decisions_DDY_D_wide$key_ID <- 1:nrow(decisions_DDY_D_wide)
-
-# select variables
-decisions_DDY_D_wide <- dplyr::select(
-  decisions_DDY_D_wide, 
-  key_ID, year,
-  directorate_general_ID, directorate_general, directorate_general_code,
-  member_state_ID, member_state, member_state_code,
-  case_type_ID, case_type,
-  count_LFN258, count_RO258, count_RF258,
-  count_LFN260, count_RO260, count_RF260
-)
-
-# save
-save(decisions_DDY_D_wide, file = "data/decisions_DDY_D_wide.RData")
+# # convert to wide
+# decisions_DDY_D_wide <- tidyr::pivot_wider(
+#   decisions_DDY_D,
+#   id_cols = c(
+#     year, 
+#     directorate_general_ID, directorate_general, directorate_general_code, 
+#     member_state_ID, member_state, member_state_code,
+#     case_type_ID, case_type),
+#   names_from = decision_stage_ID,
+#   values_from = count_decisions
+# )
+# 
+# # rename variables
+# names(decisions_DDY_D_wide) <- c(
+#   "year", 
+#   "directorate_general_ID", "directorate_general", "directorate_general_code",
+#   "member_state_ID", "member_state", "member_state_code",
+#   "case_type_ID", "case_type",
+#   "count_LFN258", "count_RO258", "count_RF258",
+#   "count_LFN260", "count_RO260", "count_RF260"
+# )
+# 
+# # arrange
+# decisions_DDY_D_wide <- dplyr::arrange(decisions_DDY_D_wide, year, directorate_general_ID, member_state_ID, case_type_ID)
+# 
+# # key ID
+# decisions_DDY_D_wide$key_ID <- 1:nrow(decisions_DDY_D_wide)
+# 
+# # select variables
+# decisions_DDY_D_wide <- dplyr::select(
+#   decisions_DDY_D_wide, 
+#   key_ID, year,
+#   directorate_general_ID, directorate_general, directorate_general_code,
+#   member_state_ID, member_state, member_state_code,
+#   case_type_ID, case_type,
+#   count_LFN258, count_RO258, count_RF258,
+#   count_LFN260, count_RO260, count_RF260
+# )
+# 
+# # save
+# save(decisions_DDY_D_wide, file = "data/decisions_DDY_D_wide.RData")
 
 ###########################################################################
 # end R script

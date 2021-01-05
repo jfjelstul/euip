@@ -19,19 +19,19 @@ load("data/decisions_DDY_D.RData")
 # filter data
 ##################################################
 
-cases_NET <- dplyr::filter(cases_DDY, count_cases > 0)
-cases_NET_D <- dplyr::filter(cases_DDY_D, count_cases > 0)
-decisions_NET <- dplyr::filter(decisions_DDY, count_decisions > 0)
-decisions_NET_D <- dplyr::filter(decisions_DDY_D, count_decisions > 0)
+cases_network <- dplyr::filter(cases_DDY, count_cases > 0)
+cases_network_D <- dplyr::filter(cases_DDY_D, count_cases > 0)
+decisions_network <- dplyr::filter(decisions_DDY, count_decisions > 0)
+decisions_network_D <- dplyr::filter(decisions_DDY_D, count_decisions > 0)
 
 ##################################################
 # save
 ##################################################
 
-save(cases_NET, file = "data/cases_NET.RData")
-save(cases_NET_D, file = "data/cases_NET_D.RData")
-save(decisions_NET, file = "data/decisions_NET.RData")
-save(decisions_NET_D, file = "data/decisions_NET_D.RData")
+save(cases_network, file = "data/cases_network.RData")
+save(cases_network_D, file = "data/cases_network_D.RData")
+save(decisions_network, file = "data/decisions_network.RData")
+save(decisions_network_D, file = "data/decisions_network_D.RData")
 
 ###########################################################################
 # end R script
