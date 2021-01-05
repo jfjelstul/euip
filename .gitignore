@@ -4,3 +4,5 @@ euinfr.Rproj
 .Rhistory
 _test/
 inst/doc
+server/
+extra/
