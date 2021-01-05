@@ -24,55 +24,63 @@ rm(list = ls())
 # input: "data/decisions.RData"
 # output: "data/cases.RData"
 
-# duration 
-source("replication-code/3-duration.R")
+# cases TS data
+source("replication-code/3-cases-TS-data.R")
 rm(list = ls())
 # input: "data/cases.RData"
-# output: "data/duration.RData"
+# output: "data/cases_TS.RData"
+# output: "data/cases_TS_D.RData"
 
-# cases time series
-source("replication-code/4-cases-time-series.R")
+# decisions TS data
+source("replication-code/4-decisions-TS-data.R")
+rm(list = ls())
+# input: "data/decisions.RData"
+# output: "data/decisions_TS.RData"
+# output: "data/decisions_TS_D.RData"
+
+# cases CSTS data
+source("replication-code/5-cases-CSTS-data.R")
 rm(list = ls())
 # input: "data/cases.RData"
-# output: "data/cases_TS_MS.RData"
-# output: "data/cases_TS_MS_D.RData"
-# output: "data/cases_TS_DG.RData"
-# output: "data/cases_TS_DG_D.RData"
+# output: "data/cases_CSTS_MS.RData"
+# output: "data/cases_CSTS_MS_D.RData"
+# output: "data/cases_CSTS_DG.RData"
+# output: "data/cases_CSTS_DG_D.RData"
 
-# cases directed-dyad
-source("replication-code/5-cases-directed-dyad.R")
+# decisions CSTS data
+source("replication-code/6-decisions-CSTS-data.R")
+rm(list = ls())
+# input: "data/decisions.RData"
+# output: "data/decisions_CSTS_MS.RData"
+# output: "data/decisions_CSTS_MS_D.RData"
+# output: "data/decisions_CSTS_DG.RData"
+# output: "data/decisions_CSTS_DG_D.RData"
+
+# cases DDY data
+source("replication-code/7-cases-DDY-data.R")
 rm(list = ls())
 # input: "data/cases.RData"
 # output: "data/cases_DDY.RData"
 # output: "data/cases_DDY_D.RData"
 
-# decisions directed-dyad
-source("replication-code/6-decisions-time-series.R")
-rm(list = ls())
-# input: "data/decisions.RData"
-# output: "data/decisions_TS_MS.RData"
-# output: "data/decisions_TS_MS_D.RData"
-# output: "data/decisions_TS_DG.RData"
-# output: "data/decisions_TS_DG_D.RData"
-
-# decisions directed-dyad
-source("replication-code/7-decisions-directed-dyad.R")
+# decisions DDY data
+source("replication-code/8-decisions-DDY-data.R")
 rm(list = ls())
 # input: "data/decisions.RData"
 # output: "data/decisions_DDY.RData"
 # output: "data/decisions_DDY_D.RData"
 
 # network data
-source("replication-code/8-network-data.R")
+source("replication-code/9-network-data.R")
 rm(list = ls())
 # input: "data/cases_DDY.RData"
 # input: "data/cases_DDY_D.RData"
 # input: "data/decisions_DDY.RData"
 # input: "data/decisions_DDY_D.RData"
-# output: "data/cases_NET.RData"
-# output: "data/cases_NET_D.RData"
-# output: "data/decisions_NET.RData"
-# output: "data/decisions_NET_D.RData"
+# output: "data/cases_network.RData"
+# output: "data/cases_network_D.RData"
+# output: "data/decisions_network.RData"
+# output: "data/decisions_network_D.RData"
 
 ##################################################
 # load data
@@ -80,67 +88,59 @@ rm(list = ls())
 
 # cases
 load("data/cases.RData")
-load("data/cases_TS_MS.RData")
-load("data/cases_TS_MS_D.RData")
-load("data/cases_TS_DG.RData")
-load("data/cases_TS_DG_D.RData")
+load("data/cases_TS.RData")
+load("data/cases_TS_D.RData")
+load("data/cases_CSTS_MS.RData")
+load("data/cases_CSTS_MS_D.RData")
+load("data/cases_CSTS_DG.RData")
+load("data/cases_CSTS_DG_D.RData")
 load("data/cases_DDY.RData")
 load("data/cases_DDY_D.RData")
-load("data/cases_NET.RData")
-load("data/cases_NET_D.RData")
+load("data/cases_network.RData")
+load("data/cases_network_D.RData")
 
 # decisions
 load("data/decisions.RData")
-load("data/decisions_TS_MS.RData")
-load("data/decisions_TS_MS_D.RData")
-load("data/decisions_TS_DG.RData")
-load("data/decisions_TS_DG_D.RData")
+load("data/decisions_TS.RData")
+load("data/decisions_TS_D.RData")
+load("data/decisions_CSTS_MS.RData")
+load("data/decisions_CSTS_MS_D.RData")
+load("data/decisions_CSTS_DG.RData")
+load("data/decisions_CSTS_DG_D.RData")
 load("data/decisions_DDY.RData")
 load("data/decisions_DDY_D.RData")
-load("data/decisions_NET.RData")
-load("data/decisions_NET_D.RData")
-
-# wide
-load("data/decisions_TS_MS_wide.RData")
-load("data/decisions_TS_MS_D_wide.RData")
-load("data/decisions_TS_DG_wide.RData")
-load("data/decisions_TS_DG_D_wide.RData")
-load("data/decisions_DDY_wide.RData")
-load("data/decisions_DDY_D_wide.RData")
+load("data/decisions_network.RData")
+load("data/decisions_network_D.RData")
 
 ##################################################
 # write data
 ##################################################
 
 # cases
-write.csv(cases, "build/cases.csv", row.names = FALSE)
-write.csv(cases_TS_MS, "build/cases_TS_MS.csv", row.names = FALSE)
-write.csv(cases_TS_MS_D, "build/cases_TS_MS_D.csv", row.names = FALSE)
-write.csv(cases_TS_DG, "build/cases_TS_DG.csv", row.names = FALSE)
-write.csv(cases_TS_DG_D, "build/cases_TS_DG_D.csv", row.names = FALSE)
-write.csv(cases_DDY, "build/cases_DDY.csv", row.names = FALSE)
-write.csv(cases_DDY_D, "build/cases_DDY_D.csv", row.names = FALSE)
-write.csv(cases_NET, "build/cases_NET.csv", row.names = FALSE)
-write.csv(cases_NET_D, "build/cases_NET_D.csv", row.names = FALSE)
+write.csv(cases, "build/EUIP-cases.csv", row.names = FALSE, quote = TRUE)
+write.csv(cases_TS, "build/EUIP-cases-TS.csv", row.names = FALSE, quote = TRUE)
+write.csv(cases_TS_D, "build/EUIP-cases-TS-D.csv", row.names = FALSE, quote = TRUE)
+write.csv(cases_CSTS_MS, "build/EUIP-cases-CSTS-MS.csv", row.names = FALSE, quote = TRUE)
+write.csv(cases_CSTS_MS_D, "build/EUIP-cases-CSTS-MS-D.csv", row.names = FALSE, quote = TRUE)
+write.csv(cases_CSTS_DG, "build/EUIP-cases-CSTS-DG.csv", row.names = FALSE, quote = TRUE)
+write.csv(cases_CSTS_DG_D, "build/EUIP-cases-CSTS-DG-D.csv", row.names = FALSE, quote = TRUE)
+write.csv(cases_DDY, "build/EUIP-cases-DDY.csv", row.names = FALSE, quote = TRUE)
+write.csv(cases_DDY_D, "build/EUIP-cases-DDY-D.csv", row.names = FALSE, quote = TRUE)
+write.csv(cases_network, "build/EUIP-cases-network.csv", row.names = FALSE, quote = TRUE)
+write.csv(cases_network_D, "build/EUIP-cases-network-D.csv", row.names = FALSE, quote = TRUE)
 
 # decisions
-write.csv(decisions, "build/decisions.csv", row.names = FALSE)
-write.csv(decisions_TS_MS, "build/decisions_TS_MS.csv", row.names = FALSE)
-write.csv(decisions_TS_MS_D, "build/decisions_TS_MS_D.csv", row.names = FALSE)
-write.csv(decisions_TS_DG, "build/decisions_TS_DG.csv", row.names = FALSE)
-write.csv(decisions_TS_DG_D, "build/decisions_TS_DG_D.csv", row.names = FALSE)
-write.csv(decisions_DDY, "build/decisions_DDY.csv", row.names = FALSE)
-write.csv(decisions_DDY_D, "build/decisions_DDY_D.csv", row.names = FALSE)
-write.csv(decisions_NET, "build/decisions_NET.csv", row.names = FALSE)
-write.csv(decisions_NET_D, "build/decisions_NET_D.csv", row.names = FALSE)
-
-# wide
-write.csv(decisions_TS_MS_wide, "build/decisions_TS_MS_wide.csv", row.names = FALSE)
-write.csv(decisions_TS_MS_D_wide, "build/decisions_TS_MS_D_wide.csv", row.names = FALSE)
-write.csv(decisions_TS_DG_wide, "build/decisions_TS_DG_wide.csv", row.names = FALSE)
-write.csv(decisions_TS_DG_D_wide, "build/decisions_TS_DG_D_wide.csv", row.names = FALSE)
-write.csv(decisions_DDY_wide, "build/decisions_DDY_wide.csv", row.names = FALSE)
-write.csv(decisions_DDY_D_wide, "build/decisions_DDY_D_wide.csv", row.names = FALSE)
+write.csv(decisions, "build/EUIP-decisions.csv", row.names = FALSE, quote = TRUE)
+write.csv(decisions_TS, "build/EUIP-decisions-TS.csv", row.names = FALSE, quote = TRUE)
+write.csv(decisions_TS_D, "build/EUIP-decisions-TS-D.csv", row.names = FALSE, quote = TRUE)
+write.csv(decisions_CSTS_MS, "build/EUIP-decisions-CSTS-MS.csv", row.names = FALSE, quote = TRUE)
+write.csv(decisions_CSTS_MS_D, "build/EUIP-decisions-CSTS-MS-D.csv", row.names = FALSE, quote = TRUE)
+write.csv(decisions_CSTS_DG, "build/EUIP-decisions-CSTS-DG.csv", row.names = FALSE, quote = TRUE)
+write.csv(decisions_CSTS_DG_D, "build/EUIP-decisions-CSTS-DG-D.csv", row.names = FALSE, quote = TRUE)
+write.csv(decisions_DDY, "build/EUIP-decisions-DDY.csv", row.names = FALSE, quote = TRUE)
+write.csv(decisions_DDY_D, "build/EUIP-decisions-DDY-D.csv", row.names = FALSE, quote = TRUE)
+write.csv(decisions_network, "build/EUIP-decisions-network.csv", row.names = FALSE, quote = TRUE)
+write.csv(decisions_network_D, "build/EUIP-decisions-network-D.csv", row.names = FALSE, quote = TRUE)
 
 ###########################################################################
 # end R script
