@@ -142,6 +142,36 @@ write.csv(decisions_DDY_D, "build/EUIP-decisions-DDY-D.csv", row.names = FALSE, 
 write.csv(decisions_network, "build/EUIP-decisions-network.csv", row.names = FALSE, quote = TRUE)
 write.csv(decisions_network_D, "build/EUIP-decisions-network-D.csv", row.names = FALSE, quote = TRUE)
 
+##################################################
+# write database data
+##################################################
+
+# cases
+write.csv(cases, "build-database/EUIP-cases.csv", row.names = FALSE, quote = TRUE, na = "\\N")
+write.csv(cases_TS, "build-database/EUIP-cases-TS.csv", row.names = FALSE, quote = TRUE, na = "\\N")
+write.csv(cases_TS_D, "build-database/EUIP-cases-TS-D.csv", row.names = FALSE, quote = TRUE, na = "\\N")
+write.csv(cases_CSTS_MS, "build-database/EUIP-cases-CSTS-MS.csv", row.names = FALSE, quote = TRUE, na = "\\N")
+write.csv(cases_CSTS_MS_D, "build-database/EUIP-cases-CSTS-MS-D.csv", row.names = FALSE, quote = TRUE, na = "\\N")
+write.csv(cases_CSTS_DG, "build-database/EUIP-cases-CSTS-DG.csv", row.names = FALSE, quote = TRUE, na = "\\N")
+write.csv(cases_CSTS_DG_D, "build-database/EUIP-cases-CSTS-DG-D.csv", row.names = FALSE, quote = TRUE, na = "\\N")
+write.csv(cases_DDY, "build-database/EUIP-cases-DDY.csv", row.names = FALSE, quote = TRUE, na = "\\N")
+write.csv(cases_DDY_D, "build-database/EUIP-cases-DDY-D.csv", row.names = FALSE, quote = TRUE, na = "\\N")
+write.csv(cases_network, "build-database/EUIP-cases-network.csv", row.names = FALSE, quote = TRUE, na = "\\N")
+write.csv(cases_network_D, "build-database/EUIP-cases-network-D.csv", row.names = FALSE, quote = TRUE, na = "\\N")
+
+# decisions
+write.csv(decisions, "build-database/EUIP-decisions.csv", row.names = FALSE, quote = TRUE, na = "\\N")
+write.csv(decisions_TS, "build-database/EUIP-decisions-TS.csv", row.names = FALSE, quote = TRUE, na = "\\N")
+write.csv(decisions_TS_D, "build-database/EUIP-decisions-TS-D.csv", row.names = FALSE, quote = TRUE, na = "\\N")
+write.csv(decisions_CSTS_MS, "build-database/EUIP-decisions-CSTS-MS.csv", row.names = FALSE, quote = TRUE, na = "\\N")
+write.csv(decisions_CSTS_MS_D, "build-database/EUIP-decisions-CSTS-MS-D.csv", row.names = FALSE, quote = TRUE, na = "\\N")
+write.csv(decisions_CSTS_DG, "build-database/EUIP-decisions-CSTS-DG.csv", row.names = FALSE, quote = TRUE, na = "\\N")
+write.csv(decisions_CSTS_DG_D, "build-database/EUIP-decisions-CSTS-DG-D.csv", row.names = FALSE, quote = TRUE, na = "\\N")
+write.csv(decisions_DDY, "build-database/EUIP-decisions-DDY.csv", row.names = FALSE, quote = TRUE, na = "\\N")
+write.csv(decisions_DDY_D, "build-database/EUIP-decisions-DDY-D.csv", row.names = FALSE, quote = TRUE, na = "\\N")
+write.csv(decisions_network, "build-database/EUIP-decisions-network.csv", row.names = FALSE, quote = TRUE, na = "\\N")
+write.csv(decisions_network_D, "build-database/EUIP-decisions-network-D.csv", row.names = FALSE, quote = TRUE, na = "\\N")
+
 ###########################################################################
 # end R script
 ###########################################################################
