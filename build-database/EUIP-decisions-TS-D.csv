@@ -1,0 +1,229 @@
+"key_ID","year","case_type_ID","case_type","decision_stage_ID","decision_stage","count_cases"
+1,2002,1,"noncommunication",1,"Letter of formal notice (Art. 258)",613
+2,2002,1,"noncommunication",2,"Reasoned opinion (Art. 258)",187
+3,2002,1,"noncommunication",3,"Referral to the Court (Art. 258)",26
+4,2002,1,"noncommunication",4,"Letter of formal notice (Art. 260)",6
+5,2002,1,"noncommunication",5,"Reasoned opinion (Art. 260)",2
+6,2002,1,"noncommunication",6,"Referral to the Court (Art. 260)",0
+7,2002,2,"nonconformity",1,"Letter of formal notice (Art. 258)",388
+8,2002,2,"nonconformity",2,"Reasoned opinion (Art. 258)",87
+9,2002,2,"nonconformity",3,"Referral to the Court (Art. 258)",46
+10,2002,2,"nonconformity",4,"Letter of formal notice (Art. 260)",34
+11,2002,2,"nonconformity",5,"Reasoned opinion (Art. 260)",7
+12,2002,2,"nonconformity",6,"Referral to the Court (Art. 260)",1
+13,2003,1,"noncommunication",1,"Letter of formal notice (Art. 258)",1133
+14,2003,1,"noncommunication",2,"Reasoned opinion (Art. 258)",350
+15,2003,1,"noncommunication",3,"Referral to the Court (Art. 258)",159
+16,2003,1,"noncommunication",4,"Letter of formal notice (Art. 260)",8
+17,2003,1,"noncommunication",5,"Reasoned opinion (Art. 260)",2
+18,2003,1,"noncommunication",6,"Referral to the Court (Art. 260)",1
+19,2003,2,"nonconformity",1,"Letter of formal notice (Art. 258)",417
+20,2003,2,"nonconformity",2,"Reasoned opinion (Art. 258)",136
+21,2003,2,"nonconformity",3,"Referral to the Court (Art. 258)",61
+22,2003,2,"nonconformity",4,"Letter of formal notice (Art. 260)",31
+23,2003,2,"nonconformity",5,"Reasoned opinion (Art. 260)",11
+24,2003,2,"nonconformity",6,"Referral to the Court (Art. 260)",2
+25,2004,1,"noncommunication",1,"Letter of formal notice (Art. 258)",1559
+26,2004,1,"noncommunication",2,"Reasoned opinion (Art. 258)",235
+27,2004,1,"noncommunication",3,"Referral to the Court (Art. 258)",173
+28,2004,1,"noncommunication",4,"Letter of formal notice (Art. 260)",7
+29,2004,1,"noncommunication",5,"Reasoned opinion (Art. 260)",1
+30,2004,1,"noncommunication",6,"Referral to the Court (Art. 260)",0
+31,2004,2,"nonconformity",1,"Letter of formal notice (Art. 258)",436
+32,2004,2,"nonconformity",2,"Reasoned opinion (Art. 258)",223
+33,2004,2,"nonconformity",3,"Referral to the Court (Art. 258)",89
+34,2004,2,"nonconformity",4,"Letter of formal notice (Art. 260)",35
+35,2004,2,"nonconformity",5,"Reasoned opinion (Art. 260)",13
+36,2004,2,"nonconformity",6,"Referral to the Court (Art. 260)",5
+37,2005,1,"noncommunication",1,"Letter of formal notice (Art. 258)",1074
+38,2005,1,"noncommunication",2,"Reasoned opinion (Art. 258)",512
+39,2005,1,"noncommunication",3,"Referral to the Court (Art. 258)",118
+40,2005,1,"noncommunication",4,"Letter of formal notice (Art. 260)",36
+41,2005,1,"noncommunication",5,"Reasoned opinion (Art. 260)",14
+42,2005,1,"noncommunication",6,"Referral to the Court (Art. 260)",1
+43,2005,2,"nonconformity",1,"Letter of formal notice (Art. 258)",598
+44,2005,2,"nonconformity",2,"Reasoned opinion (Art. 258)",224
+45,2005,2,"nonconformity",3,"Referral to the Court (Art. 258)",75
+46,2005,2,"nonconformity",4,"Letter of formal notice (Art. 260)",42
+47,2005,2,"nonconformity",5,"Reasoned opinion (Art. 260)",8
+48,2005,2,"nonconformity",6,"Referral to the Court (Art. 260)",2
+49,2006,1,"noncommunication",1,"Letter of formal notice (Art. 258)",905
+50,2006,1,"noncommunication",2,"Reasoned opinion (Art. 258)",375
+51,2006,1,"noncommunication",3,"Referral to the Court (Art. 258)",157
+52,2006,1,"noncommunication",4,"Letter of formal notice (Art. 260)",16
+53,2006,1,"noncommunication",5,"Reasoned opinion (Art. 260)",5
+54,2006,1,"noncommunication",6,"Referral to the Court (Art. 260)",3
+55,2006,2,"nonconformity",1,"Letter of formal notice (Art. 258)",697
+56,2006,2,"nonconformity",2,"Reasoned opinion (Art. 258)",319
+57,2006,2,"nonconformity",3,"Referral to the Court (Art. 258)",92
+58,2006,2,"nonconformity",4,"Letter of formal notice (Art. 260)",41
+59,2006,2,"nonconformity",5,"Reasoned opinion (Art. 260)",17
+60,2006,2,"nonconformity",6,"Referral to the Court (Art. 260)",3
+61,2007,1,"noncommunication",1,"Letter of formal notice (Art. 258)",1200
+62,2007,1,"noncommunication",2,"Reasoned opinion (Art. 258)",205
+63,2007,1,"noncommunication",3,"Referral to the Court (Art. 258)",74
+64,2007,1,"noncommunication",4,"Letter of formal notice (Art. 260)",12
+65,2007,1,"noncommunication",5,"Reasoned opinion (Art. 260)",6
+66,2007,1,"noncommunication",6,"Referral to the Court (Art. 260)",1
+67,2007,2,"nonconformity",1,"Letter of formal notice (Art. 258)",595
+68,2007,2,"nonconformity",2,"Reasoned opinion (Art. 258)",209
+69,2007,2,"nonconformity",3,"Referral to the Court (Art. 258)",92
+70,2007,2,"nonconformity",4,"Letter of formal notice (Art. 260)",34
+71,2007,2,"nonconformity",5,"Reasoned opinion (Art. 260)",10
+72,2007,2,"nonconformity",6,"Referral to the Court (Art. 260)",3
+73,2008,1,"noncommunication",1,"Letter of formal notice (Art. 258)",816
+74,2008,1,"noncommunication",2,"Reasoned opinion (Art. 258)",283
+75,2008,1,"noncommunication",3,"Referral to the Court (Art. 258)",129
+76,2008,1,"noncommunication",4,"Letter of formal notice (Art. 260)",14
+77,2008,1,"noncommunication",5,"Reasoned opinion (Art. 260)",2
+78,2008,1,"noncommunication",6,"Referral to the Court (Art. 260)",0
+79,2008,2,"nonconformity",1,"Letter of formal notice (Art. 258)",594
+80,2008,2,"nonconformity",2,"Reasoned opinion (Art. 258)",253
+81,2008,2,"nonconformity",3,"Referral to the Court (Art. 258)",99
+82,2008,2,"nonconformity",4,"Letter of formal notice (Art. 260)",30
+83,2008,2,"nonconformity",5,"Reasoned opinion (Art. 260)",12
+84,2008,2,"nonconformity",6,"Referral to the Court (Art. 260)",0
+85,2009,1,"noncommunication",1,"Letter of formal notice (Art. 258)",549
+86,2009,1,"noncommunication",2,"Reasoned opinion (Art. 258)",177
+87,2009,1,"noncommunication",3,"Referral to the Court (Art. 258)",67
+88,2009,1,"noncommunication",4,"Letter of formal notice (Art. 260)",16
+89,2009,1,"noncommunication",5,"Reasoned opinion (Art. 260)",8
+90,2009,1,"noncommunication",6,"Referral to the Court (Art. 260)",1
+91,2009,2,"nonconformity",1,"Letter of formal notice (Art. 258)",602
+92,2009,2,"nonconformity",2,"Reasoned opinion (Art. 258)",251
+93,2009,2,"nonconformity",3,"Referral to the Court (Art. 258)",95
+94,2009,2,"nonconformity",4,"Letter of formal notice (Art. 260)",39
+95,2009,2,"nonconformity",5,"Reasoned opinion (Art. 260)",19
+96,2009,2,"nonconformity",6,"Referral to the Court (Art. 260)",3
+97,2010,1,"noncommunication",1,"Letter of formal notice (Art. 258)",855
+98,2010,1,"noncommunication",2,"Reasoned opinion (Art. 258)",195
+99,2010,1,"noncommunication",3,"Referral to the Court (Art. 258)",52
+100,2010,1,"noncommunication",4,"Letter of formal notice (Art. 260)",16
+101,2010,1,"noncommunication",5,"Reasoned opinion (Art. 260)",0
+102,2010,1,"noncommunication",6,"Referral to the Court (Art. 260)",1
+103,2010,2,"nonconformity",1,"Letter of formal notice (Art. 258)",363
+104,2010,2,"nonconformity",2,"Reasoned opinion (Art. 258)",262
+105,2010,2,"nonconformity",3,"Referral to the Court (Art. 258)",106
+106,2010,2,"nonconformity",4,"Letter of formal notice (Art. 260)",39
+107,2010,2,"nonconformity",5,"Reasoned opinion (Art. 260)",0
+108,2010,2,"nonconformity",6,"Referral to the Court (Art. 260)",6
+109,2011,1,"noncommunication",1,"Letter of formal notice (Art. 258)",1204
+110,2011,1,"noncommunication",2,"Reasoned opinion (Art. 258)",301
+111,2011,1,"noncommunication",3,"Referral to the Court (Art. 258)",2
+112,2011,1,"noncommunication",4,"Letter of formal notice (Art. 260)",2
+113,2011,1,"noncommunication",5,"Reasoned opinion (Art. 260)",0
+114,2011,1,"noncommunication",6,"Referral to the Court (Art. 260)",1
+115,2011,2,"nonconformity",1,"Letter of formal notice (Art. 258)",289
+116,2011,2,"nonconformity",2,"Reasoned opinion (Art. 258)",147
+117,2011,2,"nonconformity",3,"Referral to the Court (Art. 258)",67
+118,2011,2,"nonconformity",4,"Letter of formal notice (Art. 260)",31
+119,2011,2,"nonconformity",5,"Reasoned opinion (Art. 260)",0
+120,2011,2,"nonconformity",6,"Referral to the Court (Art. 260)",5
+121,2012,1,"noncommunication",1,"Letter of formal notice (Art. 258)",450
+122,2012,1,"noncommunication",2,"Reasoned opinion (Art. 258)",178
+123,2012,1,"noncommunication",3,"Referral to the Court (Art. 258)",5
+124,2012,1,"noncommunication",4,"Letter of formal notice (Art. 260)",1
+125,2012,1,"noncommunication",5,"Reasoned opinion (Art. 260)",0
+126,2012,1,"noncommunication",6,"Referral to the Court (Art. 260)",0
+127,2012,2,"nonconformity",1,"Letter of formal notice (Art. 258)",282
+128,2012,2,"nonconformity",2,"Reasoned opinion (Art. 258)",161
+129,2012,2,"nonconformity",3,"Referral to the Court (Art. 258)",34
+130,2012,2,"nonconformity",4,"Letter of formal notice (Art. 260)",18
+131,2012,2,"nonconformity",5,"Reasoned opinion (Art. 260)",0
+132,2012,2,"nonconformity",6,"Referral to the Court (Art. 260)",4
+133,2013,1,"noncommunication",1,"Letter of formal notice (Art. 258)",478
+134,2013,1,"noncommunication",2,"Reasoned opinion (Art. 258)",116
+135,2013,1,"noncommunication",3,"Referral to the Court (Art. 258)",2
+136,2013,1,"noncommunication",4,"Letter of formal notice (Art. 260)",0
+137,2013,1,"noncommunication",5,"Reasoned opinion (Art. 260)",0
+138,2013,1,"noncommunication",6,"Referral to the Court (Art. 260)",0
+139,2013,2,"nonconformity",1,"Letter of formal notice (Art. 258)",327
+140,2013,2,"nonconformity",2,"Reasoned opinion (Art. 258)",112
+141,2013,2,"nonconformity",3,"Referral to the Court (Art. 258)",54
+142,2013,2,"nonconformity",4,"Letter of formal notice (Art. 260)",12
+143,2013,2,"nonconformity",5,"Reasoned opinion (Art. 260)",0
+144,2013,2,"nonconformity",6,"Referral to the Court (Art. 260)",6
+145,2014,1,"noncommunication",1,"Letter of formal notice (Art. 258)",586
+146,2014,1,"noncommunication",2,"Reasoned opinion (Art. 258)",99
+147,2014,1,"noncommunication",3,"Referral to the Court (Art. 258)",1
+148,2014,1,"noncommunication",4,"Letter of formal notice (Art. 260)",0
+149,2014,1,"noncommunication",5,"Reasoned opinion (Art. 260)",0
+150,2014,1,"noncommunication",6,"Referral to the Court (Art. 260)",0
+151,2014,2,"nonconformity",1,"Letter of formal notice (Art. 258)",350
+152,2014,2,"nonconformity",2,"Reasoned opinion (Art. 258)",156
+153,2014,2,"nonconformity",3,"Referral to the Court (Art. 258)",47
+154,2014,2,"nonconformity",4,"Letter of formal notice (Art. 260)",10
+155,2014,2,"nonconformity",5,"Reasoned opinion (Art. 260)",0
+156,2014,2,"nonconformity",6,"Referral to the Court (Art. 260)",2
+157,2015,1,"noncommunication",1,"Letter of formal notice (Art. 258)",544
+158,2015,1,"noncommunication",2,"Reasoned opinion (Art. 258)",119
+159,2015,1,"noncommunication",3,"Referral to the Court (Art. 258)",2
+160,2015,1,"noncommunication",4,"Letter of formal notice (Art. 260)",0
+161,2015,1,"noncommunication",5,"Reasoned opinion (Art. 260)",0
+162,2015,1,"noncommunication",6,"Referral to the Court (Art. 260)",0
+163,2015,2,"nonconformity",1,"Letter of formal notice (Art. 258)",238
+164,2015,2,"nonconformity",2,"Reasoned opinion (Art. 258)",130
+165,2015,2,"nonconformity",3,"Referral to the Court (Art. 258)",50
+166,2015,2,"nonconformity",4,"Letter of formal notice (Art. 260)",8
+167,2015,2,"nonconformity",5,"Reasoned opinion (Art. 260)",0
+168,2015,2,"nonconformity",6,"Referral to the Court (Art. 260)",3
+169,2016,1,"noncommunication",1,"Letter of formal notice (Art. 258)",847
+170,2016,1,"noncommunication",2,"Reasoned opinion (Art. 258)",196
+171,2016,1,"noncommunication",3,"Referral to the Court (Art. 258)",0
+172,2016,1,"noncommunication",4,"Letter of formal notice (Art. 260)",0
+173,2016,1,"noncommunication",5,"Reasoned opinion (Art. 260)",0
+174,2016,1,"noncommunication",6,"Referral to the Court (Art. 260)",0
+175,2016,2,"nonconformity",1,"Letter of formal notice (Art. 258)",155
+176,2016,2,"nonconformity",2,"Reasoned opinion (Art. 258)",98
+177,2016,2,"nonconformity",3,"Referral to the Court (Art. 258)",31
+178,2016,2,"nonconformity",4,"Letter of formal notice (Art. 260)",8
+179,2016,2,"nonconformity",5,"Reasoned opinion (Art. 260)",0
+180,2016,2,"nonconformity",6,"Referral to the Court (Art. 260)",6
+181,2017,1,"noncommunication",1,"Letter of formal notice (Art. 258)",557
+182,2017,1,"noncommunication",2,"Reasoned opinion (Art. 258)",195
+183,2017,1,"noncommunication",3,"Referral to the Court (Art. 258)",1
+184,2017,1,"noncommunication",4,"Letter of formal notice (Art. 260)",0
+185,2017,1,"noncommunication",5,"Reasoned opinion (Art. 260)",0
+186,2017,1,"noncommunication",6,"Referral to the Court (Art. 260)",0
+187,2017,2,"nonconformity",1,"Letter of formal notice (Art. 258)",178
+188,2017,2,"nonconformity",2,"Reasoned opinion (Art. 258)",81
+189,2017,2,"nonconformity",3,"Referral to the Court (Art. 258)",28
+190,2017,2,"nonconformity",4,"Letter of formal notice (Art. 260)",11
+191,2017,2,"nonconformity",5,"Reasoned opinion (Art. 260)",0
+192,2017,2,"nonconformity",6,"Referral to the Court (Art. 260)",0
+193,2018,1,"noncommunication",1,"Letter of formal notice (Art. 258)",419
+194,2018,1,"noncommunication",2,"Reasoned opinion (Art. 258)",109
+195,2018,1,"noncommunication",3,"Referral to the Court (Art. 258)",3
+196,2018,1,"noncommunication",4,"Letter of formal notice (Art. 260)",0
+197,2018,1,"noncommunication",5,"Reasoned opinion (Art. 260)",0
+198,2018,1,"noncommunication",6,"Referral to the Court (Art. 260)",0
+199,2018,2,"nonconformity",1,"Letter of formal notice (Art. 258)",240
+200,2018,2,"nonconformity",2,"Reasoned opinion (Art. 258)",48
+201,2018,2,"nonconformity",3,"Referral to the Court (Art. 258)",29
+202,2018,2,"nonconformity",4,"Letter of formal notice (Art. 260)",5
+203,2018,2,"nonconformity",5,"Reasoned opinion (Art. 260)",0
+204,2018,2,"nonconformity",6,"Referral to the Court (Art. 260)",2
+205,2019,1,"noncommunication",1,"Letter of formal notice (Art. 258)",406
+206,2019,1,"noncommunication",2,"Reasoned opinion (Art. 258)",160
+207,2019,1,"noncommunication",3,"Referral to the Court (Art. 258)",1
+208,2019,1,"noncommunication",4,"Letter of formal notice (Art. 260)",0
+209,2019,1,"noncommunication",5,"Reasoned opinion (Art. 260)",0
+210,2019,1,"noncommunication",6,"Referral to the Court (Art. 260)",0
+211,2019,2,"nonconformity",1,"Letter of formal notice (Art. 258)",422
+212,2019,2,"nonconformity",2,"Reasoned opinion (Art. 258)",157
+213,2019,2,"nonconformity",3,"Referral to the Court (Art. 258)",31
+214,2019,2,"nonconformity",4,"Letter of formal notice (Art. 260)",7
+215,2019,2,"nonconformity",5,"Reasoned opinion (Art. 260)",0
+216,2019,2,"nonconformity",6,"Referral to the Court (Art. 260)",3
+217,2020,1,"noncommunication",1,"Letter of formal notice (Art. 258)",134
+218,2020,1,"noncommunication",2,"Reasoned opinion (Art. 258)",2
+219,2020,1,"noncommunication",3,"Referral to the Court (Art. 258)",0
+220,2020,1,"noncommunication",4,"Letter of formal notice (Art. 260)",0
+221,2020,1,"noncommunication",5,"Reasoned opinion (Art. 260)",0
+222,2020,1,"noncommunication",6,"Referral to the Court (Art. 260)",0
+223,2020,2,"nonconformity",1,"Letter of formal notice (Art. 258)",13
+224,2020,2,"nonconformity",2,"Reasoned opinion (Art. 258)",9
+225,2020,2,"nonconformity",3,"Referral to the Court (Art. 258)",2
+226,2020,2,"nonconformity",4,"Letter of formal notice (Art. 260)",0
+227,2020,2,"nonconformity",5,"Reasoned opinion (Art. 260)",0
+228,2020,2,"nonconformity",6,"Referral to the Court (Art. 260)",0
