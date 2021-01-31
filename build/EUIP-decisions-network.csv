@@ -5315,7 +5315,6 @@
 40255,2011,12,"Environment","ENV",23,"Poland","PL",1,"Letter of formal notice (Art. 258)",7
 40256,2011,12,"Environment","ENV",23,"Poland","PL",2,"Reasoned opinion (Art. 258)",7
 40257,2011,12,"Environment","ENV",23,"Poland","PL",3,"Referral to the Court (Art. 258)",1
-40260,2011,12,"Environment","ENV",23,"Poland","PL",6,"Referral to the Court (Art. 260)",2
 40261,2011,12,"Environment","ENV",24,"Slovakia","SK",1,"Letter of formal notice (Art. 258)",1
 40262,2011,12,"Environment","ENV",24,"Slovakia","SK",2,"Reasoned opinion (Art. 258)",3
 40263,2011,12,"Environment","ENV",24,"Slovakia","SK",3,"Referral to the Court (Art. 258)",1
@@ -5386,10 +5385,9 @@
 41431,2011,20,"Internal Market and Services","MARKT",3,"Germany","DE",1,"Letter of formal notice (Art. 258)",7
 41432,2011,20,"Internal Market and Services","MARKT",3,"Germany","DE",2,"Reasoned opinion (Art. 258)",2
 41434,2011,20,"Internal Market and Services","MARKT",3,"Germany","DE",4,"Letter of formal notice (Art. 260)",1
-41436,2011,20,"Internal Market and Services","MARKT",3,"Germany","DE",6,"Referral to the Court (Art. 260)",2
+41436,2011,20,"Internal Market and Services","MARKT",3,"Germany","DE",6,"Referral to the Court (Art. 260)",1
 41437,2011,20,"Internal Market and Services","MARKT",4,"Italy","IT",1,"Letter of formal notice (Art. 258)",16
 41438,2011,20,"Internal Market and Services","MARKT",4,"Italy","IT",2,"Reasoned opinion (Art. 258)",2
-41442,2011,20,"Internal Market and Services","MARKT",4,"Italy","IT",6,"Referral to the Court (Art. 260)",1
 41443,2011,20,"Internal Market and Services","MARKT",5,"Luxembourg","LU",1,"Letter of formal notice (Art. 258)",8
 41444,2011,20,"Internal Market and Services","MARKT",5,"Luxembourg","LU",2,"Reasoned opinion (Art. 258)",3
 41449,2011,20,"Internal Market and Services","MARKT",6,"Netherlands","NL",1,"Letter of formal notice (Art. 258)",9
@@ -5400,7 +5398,6 @@
 41473,2011,20,"Internal Market and Services","MARKT",10,"Greece","EL",1,"Letter of formal notice (Art. 258)",13
 41474,2011,20,"Internal Market and Services","MARKT",10,"Greece","EL",2,"Reasoned opinion (Art. 258)",9
 41475,2011,20,"Internal Market and Services","MARKT",10,"Greece","EL",3,"Referral to the Court (Art. 258)",1
-41478,2011,20,"Internal Market and Services","MARKT",10,"Greece","EL",6,"Referral to the Court (Art. 260)",1
 41479,2011,20,"Internal Market and Services","MARKT",11,"Portugal","PT",1,"Letter of formal notice (Art. 258)",10
 41480,2011,20,"Internal Market and Services","MARKT",11,"Portugal","PT",2,"Reasoned opinion (Art. 258)",1
 41482,2011,20,"Internal Market and Services","MARKT",11,"Portugal","PT",4,"Letter of formal notice (Art. 260)",2
@@ -5408,7 +5405,6 @@
 41486,2011,20,"Internal Market and Services","MARKT",12,"Spain","ES",2,"Reasoned opinion (Art. 258)",2
 41491,2011,20,"Internal Market and Services","MARKT",13,"Austria","AT",1,"Letter of formal notice (Art. 258)",7
 41492,2011,20,"Internal Market and Services","MARKT",13,"Austria","AT",2,"Reasoned opinion (Art. 258)",1
-41496,2011,20,"Internal Market and Services","MARKT",13,"Austria","AT",6,"Referral to the Court (Art. 260)",1
 41497,2011,20,"Internal Market and Services","MARKT",14,"Finland","FI",1,"Letter of formal notice (Art. 258)",8
 41503,2011,20,"Internal Market and Services","MARKT",15,"Sweden","SE",1,"Letter of formal notice (Art. 258)",9
 41504,2011,20,"Internal Market and Services","MARKT",15,"Sweden","SE",2,"Reasoned opinion (Art. 258)",3
@@ -5426,7 +5422,6 @@
 41546,2011,20,"Internal Market and Services","MARKT",22,"Malta","MT",2,"Reasoned opinion (Art. 258)",1
 41551,2011,20,"Internal Market and Services","MARKT",23,"Poland","PL",1,"Letter of formal notice (Art. 258)",10
 41552,2011,20,"Internal Market and Services","MARKT",23,"Poland","PL",2,"Reasoned opinion (Art. 258)",2
-41556,2011,20,"Internal Market and Services","MARKT",23,"Poland","PL",6,"Referral to the Court (Art. 260)",1
 41557,2011,20,"Internal Market and Services","MARKT",24,"Slovakia","SK",1,"Letter of formal notice (Art. 258)",7
 41558,2011,20,"Internal Market and Services","MARKT",24,"Slovakia","SK",2,"Reasoned opinion (Art. 258)",1
 41563,2011,20,"Internal Market and Services","MARKT",25,"Slovenia","SI",1,"Letter of formal notice (Art. 258)",7
@@ -5544,7 +5539,6 @@
 42403,2011,26,"Mobility and Transport","MOVE",3,"Germany","DE",1,"Letter of formal notice (Art. 258)",10
 42404,2011,26,"Mobility and Transport","MOVE",3,"Germany","DE",2,"Reasoned opinion (Art. 258)",6
 42405,2011,26,"Mobility and Transport","MOVE",3,"Germany","DE",3,"Referral to the Court (Art. 258)",1
-42408,2011,26,"Mobility and Transport","MOVE",3,"Germany","DE",6,"Referral to the Court (Art. 260)",2
 42409,2011,26,"Mobility and Transport","MOVE",4,"Italy","IT",1,"Letter of formal notice (Art. 258)",11
 42410,2011,26,"Mobility and Transport","MOVE",4,"Italy","IT",2,"Reasoned opinion (Art. 258)",5
 42411,2011,26,"Mobility and Transport","MOVE",4,"Italy","IT",3,"Referral to the Court (Art. 258)",1
@@ -5666,18 +5660,15 @@
 43675,2012,3,"Climate Action","CLIMA",26,"Bulgaria","BG",1,"Letter of formal notice (Art. 258)",1
 43676,2012,3,"Climate Action","CLIMA",26,"Bulgaria","BG",2,"Reasoned opinion (Art. 258)",1
 43681,2012,3,"Climate Action","CLIMA",27,"Romania","RO",1,"Letter of formal notice (Art. 258)",2
-43692,2012,4,"Communication Networks, Content and Technology","CONNECT",1,"Belgium","BE",6,"Referral to the Court (Art. 260)",3
+43692,2012,4,"Communication Networks, Content and Technology","CONNECT",1,"Belgium","BE",6,"Referral to the Court (Art. 260)",1
 43705,2012,4,"Communication Networks, Content and Technology","CONNECT",4,"Italy","IT",1,"Letter of formal notice (Art. 258)",1
 43717,2012,4,"Communication Networks, Content and Technology","CONNECT",6,"Netherlands","NL",1,"Letter of formal notice (Art. 258)",1
-43722,2012,4,"Communication Networks, Content and Technology","CONNECT",6,"Netherlands","NL",6,"Referral to the Court (Art. 260)",2
-43752,2012,4,"Communication Networks, Content and Technology","CONNECT",11,"Portugal","PT",6,"Referral to the Court (Art. 260)",2
+43752,2012,4,"Communication Networks, Content and Technology","CONNECT",11,"Portugal","PT",6,"Referral to the Court (Art. 260)",1
 43754,2012,4,"Communication Networks, Content and Technology","CONNECT",12,"Spain","ES",2,"Reasoned opinion (Art. 258)",1
 43790,2012,4,"Communication Networks, Content and Technology","CONNECT",18,"Estonia","EE",2,"Reasoned opinion (Art. 258)",1
 43795,2012,4,"Communication Networks, Content and Technology","CONNECT",19,"Hungary","HU",1,"Letter of formal notice (Art. 258)",1
 43797,2012,4,"Communication Networks, Content and Technology","CONNECT",19,"Hungary","HU",3,"Referral to the Court (Art. 258)",1
 43801,2012,4,"Communication Networks, Content and Technology","CONNECT",20,"Latvia","LV",1,"Letter of formal notice (Art. 258)",1
-43824,2012,4,"Communication Networks, Content and Technology","CONNECT",23,"Poland","PL",6,"Referral to the Court (Art. 260)",3
-43836,2012,4,"Communication Networks, Content and Technology","CONNECT",25,"Slovenia","SI",6,"Referral to the Court (Art. 260)",2
 43837,2012,4,"Communication Networks, Content and Technology","CONNECT",26,"Bulgaria","BG",1,"Letter of formal notice (Art. 258)",1
 43870,2012,5,"Competition","COMP",4,"Italy","IT",4,"Letter of formal notice (Art. 260)",2
 44000,2012,5,"Competition","COMP",26,"Bulgaria","BG",2,"Reasoned opinion (Art. 258)",1
@@ -5748,7 +5739,6 @@
 44732,2012,10,"Energy","ENER",13,"Austria","AT",2,"Reasoned opinion (Art. 258)",2
 44737,2012,10,"Energy","ENER",14,"Finland","FI",1,"Letter of formal notice (Art. 258)",1
 44738,2012,10,"Energy","ENER",14,"Finland","FI",2,"Reasoned opinion (Art. 258)",3
-44742,2012,10,"Energy","ENER",14,"Finland","FI",6,"Referral to the Court (Art. 260)",2
 44744,2012,10,"Energy","ENER",15,"Sweden","SE",2,"Reasoned opinion (Art. 258)",2
 44749,2012,10,"Energy","ENER",16,"Cyprus","CY",1,"Letter of formal notice (Art. 258)",1
 44750,2012,10,"Energy","ENER",16,"Cyprus","CY",2,"Reasoned opinion (Art. 258)",4
@@ -5764,12 +5754,10 @@
 44786,2012,10,"Energy","ENER",22,"Malta","MT",2,"Reasoned opinion (Art. 258)",1
 44791,2012,10,"Energy","ENER",23,"Poland","PL",1,"Letter of formal notice (Art. 258)",1
 44792,2012,10,"Energy","ENER",23,"Poland","PL",2,"Reasoned opinion (Art. 258)",5
-44796,2012,10,"Energy","ENER",23,"Poland","PL",6,"Referral to the Court (Art. 260)",2
 44797,2012,10,"Energy","ENER",24,"Slovakia","SK",1,"Letter of formal notice (Art. 258)",1
 44798,2012,10,"Energy","ENER",24,"Slovakia","SK",2,"Reasoned opinion (Art. 258)",2
 44803,2012,10,"Energy","ENER",25,"Slovenia","SI",1,"Letter of formal notice (Art. 258)",1
 44804,2012,10,"Energy","ENER",25,"Slovenia","SI",2,"Reasoned opinion (Art. 258)",3
-44808,2012,10,"Energy","ENER",25,"Slovenia","SI",6,"Referral to the Court (Art. 260)",2
 44809,2012,10,"Energy","ENER",26,"Bulgaria","BG",1,"Letter of formal notice (Art. 258)",1
 44810,2012,10,"Energy","ENER",26,"Bulgaria","BG",2,"Reasoned opinion (Art. 258)",3
 44815,2012,10,"Energy","ENER",27,"Romania","RO",1,"Letter of formal notice (Art. 258)",3
@@ -5852,7 +5840,6 @@
 45086,2012,12,"Environment","ENV",18,"Estonia","EE",2,"Reasoned opinion (Art. 258)",1
 45091,2012,12,"Environment","ENV",19,"Hungary","HU",1,"Letter of formal notice (Art. 258)",6
 45092,2012,12,"Environment","ENV",19,"Hungary","HU",2,"Reasoned opinion (Art. 258)",2
-45096,2012,12,"Environment","ENV",19,"Hungary","HU",6,"Referral to the Court (Art. 260)",1
 45097,2012,12,"Environment","ENV",20,"Latvia","LV",1,"Letter of formal notice (Art. 258)",5
 45098,2012,12,"Environment","ENV",20,"Latvia","LV",2,"Reasoned opinion (Art. 258)",2
 45104,2012,12,"Environment","ENV",21,"Lithuania","LT",2,"Reasoned opinion (Art. 258)",1
@@ -5861,16 +5848,13 @@
 45115,2012,12,"Environment","ENV",23,"Poland","PL",1,"Letter of formal notice (Art. 258)",5
 45116,2012,12,"Environment","ENV",23,"Poland","PL",2,"Reasoned opinion (Art. 258)",3
 45118,2012,12,"Environment","ENV",23,"Poland","PL",4,"Letter of formal notice (Art. 260)",1
-45120,2012,12,"Environment","ENV",23,"Poland","PL",6,"Referral to the Court (Art. 260)",2
 45121,2012,12,"Environment","ENV",24,"Slovakia","SK",1,"Letter of formal notice (Art. 258)",5
 45122,2012,12,"Environment","ENV",24,"Slovakia","SK",2,"Reasoned opinion (Art. 258)",3
-45126,2012,12,"Environment","ENV",24,"Slovakia","SK",6,"Referral to the Court (Art. 260)",1
 45127,2012,12,"Environment","ENV",25,"Slovenia","SI",1,"Letter of formal notice (Art. 258)",11
 45128,2012,12,"Environment","ENV",25,"Slovenia","SI",2,"Reasoned opinion (Art. 258)",2
 45130,2012,12,"Environment","ENV",25,"Slovenia","SI",4,"Letter of formal notice (Art. 260)",1
 45133,2012,12,"Environment","ENV",26,"Bulgaria","BG",1,"Letter of formal notice (Art. 258)",6
 45134,2012,12,"Environment","ENV",26,"Bulgaria","BG",2,"Reasoned opinion (Art. 258)",2
-45138,2012,12,"Environment","ENV",26,"Bulgaria","BG",6,"Referral to the Court (Art. 260)",1
 45139,2012,12,"Environment","ENV",27,"Romania","RO",1,"Letter of formal notice (Art. 258)",6
 45140,2012,12,"Environment","ENV",27,"Romania","RO",2,"Reasoned opinion (Art. 258)",3
 45676,2012,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",8,"Ireland","IE",4,"Letter of formal notice (Art. 260)",1
@@ -5936,7 +5920,6 @@
 46111,2012,18,"Health and Food Safety","SANTE",27,"Romania","RO",1,"Letter of formal notice (Art. 258)",1
 46279,2012,20,"Internal Market and Services","MARKT",1,"Belgium","BE",1,"Letter of formal notice (Art. 258)",3
 46280,2012,20,"Internal Market and Services","MARKT",1,"Belgium","BE",2,"Reasoned opinion (Art. 258)",2
-46284,2012,20,"Internal Market and Services","MARKT",1,"Belgium","BE",6,"Referral to the Court (Art. 260)",1
 46285,2012,20,"Internal Market and Services","MARKT",2,"France","FR",1,"Letter of formal notice (Art. 258)",2
 46286,2012,20,"Internal Market and Services","MARKT",2,"France","FR",2,"Reasoned opinion (Art. 258)",2
 46291,2012,20,"Internal Market and Services","MARKT",3,"Germany","DE",1,"Letter of formal notice (Art. 258)",1
@@ -5945,9 +5928,7 @@
 46298,2012,20,"Internal Market and Services","MARKT",4,"Italy","IT",2,"Reasoned opinion (Art. 258)",1
 46303,2012,20,"Internal Market and Services","MARKT",5,"Luxembourg","LU",1,"Letter of formal notice (Art. 258)",1
 46304,2012,20,"Internal Market and Services","MARKT",5,"Luxembourg","LU",2,"Reasoned opinion (Art. 258)",3
-46308,2012,20,"Internal Market and Services","MARKT",5,"Luxembourg","LU",6,"Referral to the Court (Art. 260)",1
 46310,2012,20,"Internal Market and Services","MARKT",6,"Netherlands","NL",2,"Reasoned opinion (Art. 258)",1
-46314,2012,20,"Internal Market and Services","MARKT",6,"Netherlands","NL",6,"Referral to the Court (Art. 260)",1
 46315,2012,20,"Internal Market and Services","MARKT",7,"Denmark","DK",1,"Letter of formal notice (Art. 258)",3
 46321,2012,20,"Internal Market and Services","MARKT",8,"Ireland","IE",1,"Letter of formal notice (Art. 258)",2
 46327,2012,20,"Internal Market and Services","MARKT",9,"United Kingdom","UK",1,"Letter of formal notice (Art. 258)",2
@@ -5974,11 +5955,9 @@
 46405,2012,20,"Internal Market and Services","MARKT",22,"Malta","MT",1,"Letter of formal notice (Art. 258)",2
 46411,2012,20,"Internal Market and Services","MARKT",23,"Poland","PL",1,"Letter of formal notice (Art. 258)",4
 46412,2012,20,"Internal Market and Services","MARKT",23,"Poland","PL",2,"Reasoned opinion (Art. 258)",6
-46416,2012,20,"Internal Market and Services","MARKT",23,"Poland","PL",6,"Referral to the Court (Art. 260)",1
 46417,2012,20,"Internal Market and Services","MARKT",24,"Slovakia","SK",1,"Letter of formal notice (Art. 258)",2
 46423,2012,20,"Internal Market and Services","MARKT",25,"Slovenia","SI",1,"Letter of formal notice (Art. 258)",2
 46424,2012,20,"Internal Market and Services","MARKT",25,"Slovenia","SI",2,"Reasoned opinion (Art. 258)",2
-46428,2012,20,"Internal Market and Services","MARKT",25,"Slovenia","SI",6,"Referral to the Court (Art. 260)",1
 46429,2012,20,"Internal Market and Services","MARKT",26,"Bulgaria","BG",1,"Letter of formal notice (Art. 258)",4
 46430,2012,20,"Internal Market and Services","MARKT",26,"Bulgaria","BG",2,"Reasoned opinion (Art. 258)",2
 46435,2012,20,"Internal Market and Services","MARKT",27,"Romania","RO",1,"Letter of formal notice (Art. 258)",4
@@ -6001,7 +5980,6 @@
 46616,2012,22,"Justice and Consumers","JUST",3,"Germany","DE",2,"Reasoned opinion (Art. 258)",2
 46621,2012,22,"Justice and Consumers","JUST",4,"Italy","IT",1,"Letter of formal notice (Art. 258)",3
 46633,2012,22,"Justice and Consumers","JUST",6,"Netherlands","NL",1,"Letter of formal notice (Art. 258)",1
-46638,2012,22,"Justice and Consumers","JUST",6,"Netherlands","NL",6,"Referral to the Court (Art. 260)",1
 46651,2012,22,"Justice and Consumers","JUST",9,"United Kingdom","UK",1,"Letter of formal notice (Art. 258)",1
 46652,2012,22,"Justice and Consumers","JUST",9,"United Kingdom","UK",2,"Reasoned opinion (Art. 258)",1
 46657,2012,22,"Justice and Consumers","JUST",10,"Greece","EL",1,"Letter of formal notice (Art. 258)",1
@@ -6011,7 +5989,6 @@
 46687,2012,22,"Justice and Consumers","JUST",15,"Sweden","SE",1,"Letter of formal notice (Art. 258)",1
 46688,2012,22,"Justice and Consumers","JUST",15,"Sweden","SE",2,"Reasoned opinion (Art. 258)",1
 46693,2012,22,"Justice and Consumers","JUST",16,"Cyprus","CY",1,"Letter of formal notice (Art. 258)",2
-46698,2012,22,"Justice and Consumers","JUST",16,"Cyprus","CY",6,"Referral to the Court (Art. 260)",2
 46699,2012,22,"Justice and Consumers","JUST",17,"Czech Republic","CZ",1,"Letter of formal notice (Art. 258)",2
 46700,2012,22,"Justice and Consumers","JUST",17,"Czech Republic","CZ",2,"Reasoned opinion (Art. 258)",1
 46711,2012,22,"Justice and Consumers","JUST",19,"Hungary","HU",1,"Letter of formal notice (Art. 258)",4
@@ -6031,7 +6008,6 @@
 47090,2012,25,"Migration and Home Affairs","HOME",1,"Belgium","BE",2,"Reasoned opinion (Art. 258)",1
 47091,2012,25,"Migration and Home Affairs","HOME",1,"Belgium","BE",3,"Referral to the Court (Art. 258)",1
 47102,2012,25,"Migration and Home Affairs","HOME",3,"Germany","DE",2,"Reasoned opinion (Art. 258)",1
-47106,2012,25,"Migration and Home Affairs","HOME",3,"Germany","DE",6,"Referral to the Court (Art. 260)",1
 47107,2012,25,"Migration and Home Affairs","HOME",4,"Italy","IT",1,"Letter of formal notice (Art. 258)",2
 47108,2012,25,"Migration and Home Affairs","HOME",4,"Italy","IT",2,"Reasoned opinion (Art. 258)",1
 47114,2012,25,"Migration and Home Affairs","HOME",5,"Luxembourg","LU",2,"Reasoned opinion (Art. 258)",1
@@ -6077,12 +6053,10 @@
 47329,2012,26,"Mobility and Transport","MOVE",14,"Finland","FI",1,"Letter of formal notice (Art. 258)",8
 47330,2012,26,"Mobility and Transport","MOVE",14,"Finland","FI",2,"Reasoned opinion (Art. 258)",3
 47331,2012,26,"Mobility and Transport","MOVE",14,"Finland","FI",3,"Referral to the Court (Art. 258)",2
-47334,2012,26,"Mobility and Transport","MOVE",14,"Finland","FI",6,"Referral to the Court (Art. 260)",2
 47335,2012,26,"Mobility and Transport","MOVE",15,"Sweden","SE",1,"Letter of formal notice (Art. 258)",2
 47336,2012,26,"Mobility and Transport","MOVE",15,"Sweden","SE",2,"Reasoned opinion (Art. 258)",1
 47341,2012,26,"Mobility and Transport","MOVE",16,"Cyprus","CY",1,"Letter of formal notice (Art. 258)",7
 47342,2012,26,"Mobility and Transport","MOVE",16,"Cyprus","CY",2,"Reasoned opinion (Art. 258)",5
-47346,2012,26,"Mobility and Transport","MOVE",16,"Cyprus","CY",6,"Referral to the Court (Art. 260)",2
 47347,2012,26,"Mobility and Transport","MOVE",17,"Czech Republic","CZ",1,"Letter of formal notice (Art. 258)",4
 47348,2012,26,"Mobility and Transport","MOVE",17,"Czech Republic","CZ",2,"Reasoned opinion (Art. 258)",1
 47353,2012,26,"Mobility and Transport","MOVE",18,"Estonia","EE",1,"Letter of formal notice (Art. 258)",3
@@ -6095,7 +6069,6 @@
 47383,2012,26,"Mobility and Transport","MOVE",23,"Poland","PL",1,"Letter of formal notice (Art. 258)",6
 47384,2012,26,"Mobility and Transport","MOVE",23,"Poland","PL",2,"Reasoned opinion (Art. 258)",3
 47385,2012,26,"Mobility and Transport","MOVE",23,"Poland","PL",3,"Referral to the Court (Art. 258)",1
-47388,2012,26,"Mobility and Transport","MOVE",23,"Poland","PL",6,"Referral to the Court (Art. 260)",2
 47389,2012,26,"Mobility and Transport","MOVE",24,"Slovakia","SK",1,"Letter of formal notice (Art. 258)",2
 47395,2012,26,"Mobility and Transport","MOVE",25,"Slovenia","SI",1,"Letter of formal notice (Art. 258)",6
 47396,2012,26,"Mobility and Transport","MOVE",25,"Slovenia","SI",2,"Reasoned opinion (Art. 258)",1
@@ -6257,26 +6230,21 @@
 49616,2013,10,"Energy","ENER",8,"Ireland","IE",2,"Reasoned opinion (Art. 258)",1
 49621,2013,10,"Energy","ENER",9,"United Kingdom","UK",1,"Letter of formal notice (Art. 258)",2
 49622,2013,10,"Energy","ENER",9,"United Kingdom","UK",2,"Reasoned opinion (Art. 258)",2
-49626,2013,10,"Energy","ENER",9,"United Kingdom","UK",6,"Referral to the Court (Art. 260)",2
 49627,2013,10,"Energy","ENER",10,"Greece","EL",1,"Letter of formal notice (Art. 258)",1
 49628,2013,10,"Energy","ENER",10,"Greece","EL",2,"Reasoned opinion (Art. 258)",2
 49633,2013,10,"Energy","ENER",11,"Portugal","PT",1,"Letter of formal notice (Art. 258)",1
 49634,2013,10,"Energy","ENER",11,"Portugal","PT",2,"Reasoned opinion (Art. 258)",2
-49638,2013,10,"Energy","ENER",11,"Portugal","PT",6,"Referral to the Court (Art. 260)",1
 49639,2013,10,"Energy","ENER",12,"Spain","ES",1,"Letter of formal notice (Art. 258)",3
 49640,2013,10,"Energy","ENER",12,"Spain","ES",2,"Reasoned opinion (Art. 258)",2
 49645,2013,10,"Energy","ENER",13,"Austria","AT",1,"Letter of formal notice (Art. 258)",1
 49646,2013,10,"Energy","ENER",13,"Austria","AT",2,"Reasoned opinion (Art. 258)",1
-49650,2013,10,"Energy","ENER",13,"Austria","AT",6,"Referral to the Court (Art. 260)",1
 49652,2013,10,"Energy","ENER",14,"Finland","FI",2,"Reasoned opinion (Art. 258)",1
 49657,2013,10,"Energy","ENER",15,"Sweden","SE",1,"Letter of formal notice (Art. 258)",2
 49663,2013,10,"Energy","ENER",16,"Cyprus","CY",1,"Letter of formal notice (Art. 258)",2
 49664,2013,10,"Energy","ENER",16,"Cyprus","CY",2,"Reasoned opinion (Art. 258)",2
-49668,2013,10,"Energy","ENER",16,"Cyprus","CY",6,"Referral to the Court (Art. 260)",1
 49669,2013,10,"Energy","ENER",17,"Czech Republic","CZ",1,"Letter of formal notice (Art. 258)",3
 49670,2013,10,"Energy","ENER",17,"Czech Republic","CZ",2,"Reasoned opinion (Art. 258)",2
 49676,2013,10,"Energy","ENER",18,"Estonia","EE",2,"Reasoned opinion (Art. 258)",2
-49680,2013,10,"Energy","ENER",18,"Estonia","EE",6,"Referral to the Court (Art. 260)",2
 49681,2013,10,"Energy","ENER",19,"Hungary","HU",1,"Letter of formal notice (Art. 258)",1
 49682,2013,10,"Energy","ENER",19,"Hungary","HU",2,"Reasoned opinion (Art. 258)",1
 49687,2013,10,"Energy","ENER",20,"Latvia","LV",1,"Letter of formal notice (Art. 258)",2
@@ -6288,15 +6256,12 @@
 49705,2013,10,"Energy","ENER",23,"Poland","PL",1,"Letter of formal notice (Art. 258)",2
 49706,2013,10,"Energy","ENER",23,"Poland","PL",2,"Reasoned opinion (Art. 258)",1
 49707,2013,10,"Energy","ENER",23,"Poland","PL",3,"Referral to the Court (Art. 258)",1
-49710,2013,10,"Energy","ENER",23,"Poland","PL",6,"Referral to the Court (Art. 260)",1
 49717,2013,10,"Energy","ENER",25,"Slovenia","SI",1,"Letter of formal notice (Art. 258)",1
 49718,2013,10,"Energy","ENER",25,"Slovenia","SI",2,"Reasoned opinion (Art. 258)",1
 49723,2013,10,"Energy","ENER",26,"Bulgaria","BG",1,"Letter of formal notice (Art. 258)",2
 49724,2013,10,"Energy","ENER",26,"Bulgaria","BG",2,"Reasoned opinion (Art. 258)",1
-49728,2013,10,"Energy","ENER",26,"Bulgaria","BG",6,"Referral to the Court (Art. 260)",2
 49729,2013,10,"Energy","ENER",27,"Romania","RO",1,"Letter of formal notice (Art. 258)",3
 49730,2013,10,"Energy","ENER",27,"Romania","RO",2,"Reasoned opinion (Art. 258)",2
-49734,2013,10,"Energy","ENER",27,"Romania","RO",6,"Referral to the Court (Art. 260)",2
 49735,2013,10,"Energy","ENER",28,"Croatia","HR",1,"Letter of formal notice (Art. 258)",1
 49741,2013,11,"Enterprise and Industry","ENTR",1,"Belgium","BE",1,"Letter of formal notice (Art. 258)",2
 49742,2013,11,"Enterprise and Industry","ENTR",1,"Belgium","BE",2,"Reasoned opinion (Art. 258)",1
@@ -6572,7 +6537,6 @@
 52261,2013,26,"Mobility and Transport","MOVE",1,"Belgium","BE",1,"Letter of formal notice (Art. 258)",9
 52262,2013,26,"Mobility and Transport","MOVE",1,"Belgium","BE",2,"Reasoned opinion (Art. 258)",2
 52263,2013,26,"Mobility and Transport","MOVE",1,"Belgium","BE",3,"Referral to the Court (Art. 258)",1
-52266,2013,26,"Mobility and Transport","MOVE",1,"Belgium","BE",6,"Referral to the Court (Art. 260)",2
 52267,2013,26,"Mobility and Transport","MOVE",2,"France","FR",1,"Letter of formal notice (Art. 258)",6
 52268,2013,26,"Mobility and Transport","MOVE",2,"France","FR",2,"Reasoned opinion (Art. 258)",1
 52273,2013,26,"Mobility and Transport","MOVE",3,"Germany","DE",1,"Letter of formal notice (Art. 258)",2
@@ -6762,7 +6726,6 @@
 54601,2014,9,"Employment, Social Affairs and Inclusion","EMPL",27,"Romania","RO",1,"Letter of formal notice (Art. 258)",1
 54613,2014,10,"Energy","ENER",1,"Belgium","BE",1,"Letter of formal notice (Art. 258)",2
 54614,2014,10,"Energy","ENER",1,"Belgium","BE",2,"Reasoned opinion (Art. 258)",1
-54618,2014,10,"Energy","ENER",1,"Belgium","BE",6,"Referral to the Court (Art. 260)",1
 54619,2014,10,"Energy","ENER",2,"France","FR",1,"Letter of formal notice (Art. 258)",1
 54625,2014,10,"Energy","ENER",3,"Germany","DE",1,"Letter of formal notice (Art. 258)",1
 54637,2014,10,"Energy","ENER",5,"Luxembourg","LU",1,"Letter of formal notice (Art. 258)",4
@@ -6771,16 +6734,13 @@
 54644,2014,10,"Energy","ENER",6,"Netherlands","NL",2,"Reasoned opinion (Art. 258)",1
 54649,2014,10,"Energy","ENER",7,"Denmark","DK",1,"Letter of formal notice (Art. 258)",1
 54655,2014,10,"Energy","ENER",8,"Ireland","IE",1,"Letter of formal notice (Art. 258)",1
-54660,2014,10,"Energy","ENER",8,"Ireland","IE",6,"Referral to the Court (Art. 260)",2
 54661,2014,10,"Energy","ENER",9,"United Kingdom","UK",1,"Letter of formal notice (Art. 258)",2
 54667,2014,10,"Energy","ENER",10,"Greece","EL",1,"Letter of formal notice (Art. 258)",3
 54668,2014,10,"Energy","ENER",10,"Greece","EL",2,"Reasoned opinion (Art. 258)",1
 54673,2014,10,"Energy","ENER",11,"Portugal","PT",1,"Letter of formal notice (Art. 258)",3
 54679,2014,10,"Energy","ENER",12,"Spain","ES",1,"Letter of formal notice (Art. 258)",2
 54685,2014,10,"Energy","ENER",13,"Austria","AT",1,"Letter of formal notice (Art. 258)",1
-54690,2014,10,"Energy","ENER",13,"Austria","AT",6,"Referral to the Court (Art. 260)",1
 54691,2014,10,"Energy","ENER",14,"Finland","FI",1,"Letter of formal notice (Art. 258)",1
-54696,2014,10,"Energy","ENER",14,"Finland","FI",6,"Referral to the Court (Art. 260)",1
 54705,2014,10,"Energy","ENER",16,"Cyprus","CY",3,"Referral to the Court (Art. 258)",1
 54709,2014,10,"Energy","ENER",17,"Czech Republic","CZ",1,"Letter of formal notice (Art. 258)",1
 54710,2014,10,"Energy","ENER",17,"Czech Republic","CZ",2,"Reasoned opinion (Art. 258)",1
@@ -6792,7 +6752,6 @@
 54733,2014,10,"Energy","ENER",21,"Lithuania","LT",1,"Letter of formal notice (Art. 258)",1
 54734,2014,10,"Energy","ENER",21,"Lithuania","LT",2,"Reasoned opinion (Art. 258)",1
 54745,2014,10,"Energy","ENER",23,"Poland","PL",1,"Letter of formal notice (Art. 258)",2
-54750,2014,10,"Energy","ENER",23,"Poland","PL",6,"Referral to the Court (Art. 260)",1
 54751,2014,10,"Energy","ENER",24,"Slovakia","SK",1,"Letter of formal notice (Art. 258)",1
 54757,2014,10,"Energy","ENER",25,"Slovenia","SI",1,"Letter of formal notice (Art. 258)",3
 54758,2014,10,"Energy","ENER",25,"Slovenia","SI",2,"Reasoned opinion (Art. 258)",1
@@ -6830,10 +6789,8 @@
 54962,2014,12,"Environment","ENV",3,"Germany","DE",2,"Reasoned opinion (Art. 258)",4
 54967,2014,12,"Environment","ENV",4,"Italy","IT",1,"Letter of formal notice (Art. 258)",9
 54968,2014,12,"Environment","ENV",4,"Italy","IT",2,"Reasoned opinion (Art. 258)",5
-54972,2014,12,"Environment","ENV",4,"Italy","IT",6,"Referral to the Court (Art. 260)",1
 54973,2014,12,"Environment","ENV",5,"Luxembourg","LU",1,"Letter of formal notice (Art. 258)",1
 54974,2014,12,"Environment","ENV",5,"Luxembourg","LU",2,"Reasoned opinion (Art. 258)",1
-54984,2014,12,"Environment","ENV",6,"Netherlands","NL",6,"Referral to the Court (Art. 260)",1
 54985,2014,12,"Environment","ENV",7,"Denmark","DK",1,"Letter of formal notice (Art. 258)",1
 54987,2014,12,"Environment","ENV",7,"Denmark","DK",3,"Referral to the Court (Art. 258)",1
 54991,2014,12,"Environment","ENV",8,"Ireland","IE",1,"Letter of formal notice (Art. 258)",1
@@ -7326,7 +7283,6 @@
 59707,2015,10,"Energy","ENER",10,"Greece","EL",1,"Letter of formal notice (Art. 258)",1
 59708,2015,10,"Energy","ENER",10,"Greece","EL",2,"Reasoned opinion (Art. 258)",1
 59709,2015,10,"Energy","ENER",10,"Greece","EL",3,"Referral to the Court (Art. 258)",1
-59712,2015,10,"Energy","ENER",10,"Greece","EL",6,"Referral to the Court (Art. 260)",1
 59713,2015,10,"Energy","ENER",11,"Portugal","PT",1,"Letter of formal notice (Art. 258)",2
 59714,2015,10,"Energy","ENER",11,"Portugal","PT",2,"Reasoned opinion (Art. 258)",3
 59719,2015,10,"Energy","ENER",12,"Spain","ES",1,"Letter of formal notice (Art. 258)",3
@@ -7343,7 +7299,6 @@
 59756,2015,10,"Energy","ENER",18,"Estonia","EE",2,"Reasoned opinion (Art. 258)",1
 59761,2015,10,"Energy","ENER",19,"Hungary","HU",1,"Letter of formal notice (Art. 258)",2
 59762,2015,10,"Energy","ENER",19,"Hungary","HU",2,"Reasoned opinion (Art. 258)",2
-59766,2015,10,"Energy","ENER",19,"Hungary","HU",6,"Referral to the Court (Art. 260)",1
 59767,2015,10,"Energy","ENER",20,"Latvia","LV",1,"Letter of formal notice (Art. 258)",1
 59768,2015,10,"Energy","ENER",20,"Latvia","LV",2,"Reasoned opinion (Art. 258)",1
 59773,2015,10,"Energy","ENER",21,"Lithuania","LT",1,"Letter of formal notice (Art. 258)",1
@@ -7367,7 +7322,6 @@
 59997,2015,12,"Environment","ENV",2,"France","FR",3,"Referral to the Court (Art. 258)",1
 60001,2015,12,"Environment","ENV",3,"Germany","DE",1,"Letter of formal notice (Art. 258)",7
 60003,2015,12,"Environment","ENV",3,"Germany","DE",3,"Referral to the Court (Art. 258)",1
-60006,2015,12,"Environment","ENV",3,"Germany","DE",6,"Referral to the Court (Art. 260)",1
 60007,2015,12,"Environment","ENV",4,"Italy","IT",1,"Letter of formal notice (Art. 258)",4
 60008,2015,12,"Environment","ENV",4,"Italy","IT",2,"Reasoned opinion (Art. 258)",3
 60010,2015,12,"Environment","ENV",4,"Italy","IT",4,"Letter of formal notice (Art. 260)",1
@@ -7409,18 +7363,16 @@
 60121,2015,12,"Environment","ENV",23,"Poland","PL",1,"Letter of formal notice (Art. 258)",4
 60122,2015,12,"Environment","ENV",23,"Poland","PL",2,"Reasoned opinion (Art. 258)",5
 60123,2015,12,"Environment","ENV",23,"Poland","PL",3,"Referral to the Court (Art. 258)",1
-60126,2015,12,"Environment","ENV",23,"Poland","PL",6,"Referral to the Court (Art. 260)",1
 60128,2015,12,"Environment","ENV",24,"Slovakia","SK",2,"Reasoned opinion (Art. 258)",1
 60133,2015,12,"Environment","ENV",25,"Slovenia","SI",1,"Letter of formal notice (Art. 258)",4
 60135,2015,12,"Environment","ENV",25,"Slovenia","SI",3,"Referral to the Court (Art. 258)",1
-60138,2015,12,"Environment","ENV",25,"Slovenia","SI",6,"Referral to the Court (Art. 260)",2
+60138,2015,12,"Environment","ENV",25,"Slovenia","SI",6,"Referral to the Court (Art. 260)",1
 60139,2015,12,"Environment","ENV",26,"Bulgaria","BG",1,"Letter of formal notice (Art. 258)",3
 60140,2015,12,"Environment","ENV",26,"Bulgaria","BG",2,"Reasoned opinion (Art. 258)",1
 60141,2015,12,"Environment","ENV",26,"Bulgaria","BG",3,"Referral to the Court (Art. 258)",1
 60145,2015,12,"Environment","ENV",27,"Romania","RO",1,"Letter of formal notice (Art. 258)",8
 60146,2015,12,"Environment","ENV",27,"Romania","RO",2,"Reasoned opinion (Art. 258)",2
 60147,2015,12,"Environment","ENV",27,"Romania","RO",3,"Referral to the Court (Art. 258)",2
-60150,2015,12,"Environment","ENV",27,"Romania","RO",6,"Referral to the Court (Art. 260)",1
 60151,2015,12,"Environment","ENV",28,"Croatia","HR",1,"Letter of formal notice (Art. 258)",5
 60169,2015,13,"European Neighbourhood and Enlargement Negotiations","NEAR",3,"Germany","DE",1,"Letter of formal notice (Art. 258)",1
 60661,2015,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",1,"Belgium","BE",1,"Letter of formal notice (Art. 258)",5
@@ -7431,10 +7383,8 @@
 60680,2015,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",4,"Italy","IT",2,"Reasoned opinion (Art. 258)",3
 60685,2015,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",5,"Luxembourg","LU",1,"Letter of formal notice (Art. 258)",6
 60686,2015,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",5,"Luxembourg","LU",2,"Reasoned opinion (Art. 258)",6
-60690,2015,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",5,"Luxembourg","LU",6,"Referral to the Court (Art. 260)",2
 60691,2015,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",6,"Netherlands","NL",1,"Letter of formal notice (Art. 258)",6
 60692,2015,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",6,"Netherlands","NL",2,"Reasoned opinion (Art. 258)",1
-60696,2015,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",6,"Netherlands","NL",6,"Referral to the Court (Art. 260)",1
 60697,2015,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",7,"Denmark","DK",1,"Letter of formal notice (Art. 258)",3
 60703,2015,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",8,"Ireland","IE",1,"Letter of formal notice (Art. 258)",6
 60709,2015,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",9,"United Kingdom","UK",1,"Letter of formal notice (Art. 258)",3
@@ -7446,12 +7396,10 @@
 60739,2015,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",14,"Finland","FI",1,"Letter of formal notice (Art. 258)",3
 60745,2015,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",15,"Sweden","SE",1,"Letter of formal notice (Art. 258)",6
 60746,2015,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",15,"Sweden","SE",2,"Reasoned opinion (Art. 258)",4
-60750,2015,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",15,"Sweden","SE",6,"Referral to the Court (Art. 260)",1
 60751,2015,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",16,"Cyprus","CY",1,"Letter of formal notice (Art. 258)",6
 60752,2015,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",16,"Cyprus","CY",2,"Reasoned opinion (Art. 258)",2
 60757,2015,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",17,"Czech Republic","CZ",1,"Letter of formal notice (Art. 258)",6
 60758,2015,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",17,"Czech Republic","CZ",2,"Reasoned opinion (Art. 258)",1
-60762,2015,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",17,"Czech Republic","CZ",6,"Referral to the Court (Art. 260)",1
 60763,2015,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",18,"Estonia","EE",1,"Letter of formal notice (Art. 258)",6
 60764,2015,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",18,"Estonia","EE",2,"Reasoned opinion (Art. 258)",2
 60769,2015,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",19,"Hungary","HU",1,"Letter of formal notice (Art. 258)",5
@@ -7463,7 +7411,6 @@
 60788,2015,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",22,"Malta","MT",2,"Reasoned opinion (Art. 258)",1
 60793,2015,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",23,"Poland","PL",1,"Letter of formal notice (Art. 258)",6
 60794,2015,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",23,"Poland","PL",2,"Reasoned opinion (Art. 258)",3
-60798,2015,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",23,"Poland","PL",6,"Referral to the Court (Art. 260)",1
 60799,2015,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",24,"Slovakia","SK",1,"Letter of formal notice (Art. 258)",7
 60805,2015,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",25,"Slovenia","SI",1,"Letter of formal notice (Art. 258)",6
 60806,2015,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",25,"Slovenia","SI",2,"Reasoned opinion (Art. 258)",3
@@ -7471,7 +7418,6 @@
 60812,2015,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",26,"Bulgaria","BG",2,"Reasoned opinion (Art. 258)",3
 60817,2015,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",27,"Romania","RO",1,"Letter of formal notice (Art. 258)",7
 60818,2015,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",27,"Romania","RO",2,"Reasoned opinion (Art. 258)",2
-60822,2015,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",27,"Romania","RO",6,"Referral to the Court (Art. 260)",1
 60823,2015,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",28,"Croatia","HR",1,"Letter of formal notice (Art. 258)",2
 61015,2015,18,"Health and Food Safety","SANTE",4,"Italy","IT",1,"Letter of formal notice (Art. 258)",2
 61016,2015,18,"Health and Food Safety","SANTE",4,"Italy","IT",2,"Reasoned opinion (Art. 258)",2
@@ -7563,7 +7509,6 @@
 62161,2015,24,"Maritime Affairs and Fisheries","MARE",27,"Romania","RO",1,"Letter of formal notice (Art. 258)",1
 62173,2015,25,"Migration and Home Affairs","HOME",1,"Belgium","BE",1,"Letter of formal notice (Art. 258)",3
 62174,2015,25,"Migration and Home Affairs","HOME",1,"Belgium","BE",2,"Reasoned opinion (Art. 258)",2
-62178,2015,25,"Migration and Home Affairs","HOME",1,"Belgium","BE",6,"Referral to the Court (Art. 260)",1
 62179,2015,25,"Migration and Home Affairs","HOME",2,"France","FR",1,"Letter of formal notice (Art. 258)",2
 62185,2015,25,"Migration and Home Affairs","HOME",3,"Germany","DE",1,"Letter of formal notice (Art. 258)",2
 62191,2015,25,"Migration and Home Affairs","HOME",4,"Italy","IT",1,"Letter of formal notice (Art. 258)",2
@@ -7767,7 +7712,6 @@
 64538,2016,9,"Employment, Social Affairs and Inclusion","EMPL",3,"Germany","DE",2,"Reasoned opinion (Art. 258)",1
 64549,2016,9,"Employment, Social Affairs and Inclusion","EMPL",5,"Luxembourg","LU",1,"Letter of formal notice (Art. 258)",3
 64550,2016,9,"Employment, Social Affairs and Inclusion","EMPL",5,"Luxembourg","LU",2,"Reasoned opinion (Art. 258)",1
-64554,2016,9,"Employment, Social Affairs and Inclusion","EMPL",5,"Luxembourg","LU",6,"Referral to the Court (Art. 260)",1
 64561,2016,9,"Employment, Social Affairs and Inclusion","EMPL",7,"Denmark","DK",1,"Letter of formal notice (Art. 258)",1
 64573,2016,9,"Employment, Social Affairs and Inclusion","EMPL",9,"United Kingdom","UK",1,"Letter of formal notice (Art. 258)",1
 64579,2016,9,"Employment, Social Affairs and Inclusion","EMPL",10,"Greece","EL",1,"Letter of formal notice (Art. 258)",3
@@ -7918,7 +7862,6 @@
 65827,2016,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",22,"Malta","MT",1,"Letter of formal notice (Art. 258)",6
 65833,2016,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",23,"Poland","PL",1,"Letter of formal notice (Art. 258)",6
 65834,2016,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",23,"Poland","PL",2,"Reasoned opinion (Art. 258)",1
-65838,2016,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",23,"Poland","PL",6,"Referral to the Court (Art. 260)",1
 65839,2016,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",24,"Slovakia","SK",1,"Letter of formal notice (Art. 258)",1
 65840,2016,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",24,"Slovakia","SK",2,"Reasoned opinion (Art. 258)",4
 65845,2016,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",25,"Slovenia","SI",1,"Letter of formal notice (Art. 258)",5
@@ -8108,7 +8051,6 @@
 67399,2016,26,"Mobility and Transport","MOVE",4,"Italy","IT",1,"Letter of formal notice (Art. 258)",1
 67405,2016,26,"Mobility and Transport","MOVE",5,"Luxembourg","LU",1,"Letter of formal notice (Art. 258)",3
 67406,2016,26,"Mobility and Transport","MOVE",5,"Luxembourg","LU",2,"Reasoned opinion (Art. 258)",4
-67410,2016,26,"Mobility and Transport","MOVE",5,"Luxembourg","LU",6,"Referral to the Court (Art. 260)",1
 67412,2016,26,"Mobility and Transport","MOVE",6,"Netherlands","NL",2,"Reasoned opinion (Art. 258)",2
 67413,2016,26,"Mobility and Transport","MOVE",6,"Netherlands","NL",3,"Referral to the Court (Art. 258)",2
 67417,2016,26,"Mobility and Transport","MOVE",7,"Denmark","DK",1,"Letter of formal notice (Art. 258)",3
@@ -8119,7 +8061,6 @@
 67430,2016,26,"Mobility and Transport","MOVE",9,"United Kingdom","UK",2,"Reasoned opinion (Art. 258)",1
 67435,2016,26,"Mobility and Transport","MOVE",10,"Greece","EL",1,"Letter of formal notice (Art. 258)",2
 67436,2016,26,"Mobility and Transport","MOVE",10,"Greece","EL",2,"Reasoned opinion (Art. 258)",1
-67440,2016,26,"Mobility and Transport","MOVE",10,"Greece","EL",6,"Referral to the Court (Art. 260)",1
 67441,2016,26,"Mobility and Transport","MOVE",11,"Portugal","PT",1,"Letter of formal notice (Art. 258)",7
 67442,2016,26,"Mobility and Transport","MOVE",11,"Portugal","PT",2,"Reasoned opinion (Art. 258)",4
 67446,2016,26,"Mobility and Transport","MOVE",11,"Portugal","PT",6,"Referral to the Court (Art. 260)",1
@@ -8154,7 +8095,6 @@
 67532,2016,26,"Mobility and Transport","MOVE",26,"Bulgaria","BG",2,"Reasoned opinion (Art. 258)",2
 67537,2016,26,"Mobility and Transport","MOVE",27,"Romania","RO",1,"Letter of formal notice (Art. 258)",2
 67538,2016,26,"Mobility and Transport","MOVE",27,"Romania","RO",2,"Reasoned opinion (Art. 258)",2
-67542,2016,26,"Mobility and Transport","MOVE",27,"Romania","RO",6,"Referral to the Court (Art. 260)",1
 67543,2016,26,"Mobility and Transport","MOVE",28,"Croatia","HR",1,"Letter of formal notice (Art. 258)",1
 67544,2016,26,"Mobility and Transport","MOVE",28,"Croatia","HR",2,"Reasoned opinion (Art. 258)",2
 67545,2016,26,"Mobility and Transport","MOVE",28,"Croatia","HR",3,"Referral to the Court (Art. 258)",1
@@ -8224,16 +8164,13 @@
 68719,2017,3,"Climate Action","CLIMA",28,"Croatia","HR",1,"Letter of formal notice (Art. 258)",1
 68725,2017,4,"Communication Networks, Content and Technology","CONNECT",1,"Belgium","BE",1,"Letter of formal notice (Art. 258)",1
 68726,2017,4,"Communication Networks, Content and Technology","CONNECT",1,"Belgium","BE",2,"Reasoned opinion (Art. 258)",1
-68730,2017,4,"Communication Networks, Content and Technology","CONNECT",1,"Belgium","BE",6,"Referral to the Court (Art. 260)",1
 68744,2017,4,"Communication Networks, Content and Technology","CONNECT",4,"Italy","IT",2,"Reasoned opinion (Art. 258)",1
 68750,2017,4,"Communication Networks, Content and Technology","CONNECT",5,"Luxembourg","LU",2,"Reasoned opinion (Art. 258)",1
-68754,2017,4,"Communication Networks, Content and Technology","CONNECT",5,"Luxembourg","LU",6,"Referral to the Court (Art. 260)",1
 68767,2017,4,"Communication Networks, Content and Technology","CONNECT",8,"Ireland","IE",1,"Letter of formal notice (Art. 258)",1
 68780,2017,4,"Communication Networks, Content and Technology","CONNECT",10,"Greece","EL",2,"Reasoned opinion (Art. 258)",1
 68786,2017,4,"Communication Networks, Content and Technology","CONNECT",11,"Portugal","PT",2,"Reasoned opinion (Art. 258)",1
 68791,2017,4,"Communication Networks, Content and Technology","CONNECT",12,"Spain","ES",1,"Letter of formal notice (Art. 258)",1
 68792,2017,4,"Communication Networks, Content and Technology","CONNECT",12,"Spain","ES",2,"Reasoned opinion (Art. 258)",1
-68796,2017,4,"Communication Networks, Content and Technology","CONNECT",12,"Spain","ES",6,"Referral to the Court (Art. 260)",1
 68816,2017,4,"Communication Networks, Content and Technology","CONNECT",16,"Cyprus","CY",2,"Reasoned opinion (Art. 258)",1
 68822,2017,4,"Communication Networks, Content and Technology","CONNECT",17,"Czech Republic","CZ",2,"Reasoned opinion (Art. 258)",1
 68833,2017,4,"Communication Networks, Content and Technology","CONNECT",19,"Hungary","HU",1,"Letter of formal notice (Art. 258)",1
@@ -8241,15 +8178,11 @@
 68857,2017,4,"Communication Networks, Content and Technology","CONNECT",23,"Poland","PL",1,"Letter of formal notice (Art. 258)",2
 68858,2017,4,"Communication Networks, Content and Technology","CONNECT",23,"Poland","PL",2,"Reasoned opinion (Art. 258)",1
 68863,2017,4,"Communication Networks, Content and Technology","CONNECT",24,"Slovakia","SK",1,"Letter of formal notice (Art. 258)",1
-68868,2017,4,"Communication Networks, Content and Technology","CONNECT",24,"Slovakia","SK",6,"Referral to the Court (Art. 260)",1
 68869,2017,4,"Communication Networks, Content and Technology","CONNECT",25,"Slovenia","SI",1,"Letter of formal notice (Art. 258)",1
 68876,2017,4,"Communication Networks, Content and Technology","CONNECT",26,"Bulgaria","BG",2,"Reasoned opinion (Art. 258)",1
-68880,2017,4,"Communication Networks, Content and Technology","CONNECT",26,"Bulgaria","BG",6,"Referral to the Court (Art. 260)",1
 68881,2017,4,"Communication Networks, Content and Technology","CONNECT",27,"Romania","RO",1,"Letter of formal notice (Art. 258)",2
 68882,2017,4,"Communication Networks, Content and Technology","CONNECT",27,"Romania","RO",2,"Reasoned opinion (Art. 258)",1
-68886,2017,4,"Communication Networks, Content and Technology","CONNECT",27,"Romania","RO",6,"Referral to the Court (Art. 260)",1
 68888,2017,4,"Communication Networks, Content and Technology","CONNECT",28,"Croatia","HR",2,"Reasoned opinion (Art. 258)",1
-68892,2017,4,"Communication Networks, Content and Technology","CONNECT",28,"Croatia","HR",6,"Referral to the Court (Art. 260)",1
 68893,2017,5,"Competition","COMP",1,"Belgium","BE",1,"Letter of formal notice (Art. 258)",1
 68899,2017,5,"Competition","COMP",2,"France","FR",1,"Letter of formal notice (Art. 258)",1
 68905,2017,5,"Competition","COMP",3,"Germany","DE",1,"Letter of formal notice (Art. 258)",1
@@ -8280,7 +8213,6 @@
 69055,2017,5,"Competition","COMP",28,"Croatia","HR",1,"Letter of formal notice (Art. 258)",1
 69253,2017,7,"Economic and Financial Affairs","ECFIN",5,"Luxembourg","LU",1,"Letter of formal notice (Art. 258)",1
 69373,2017,7,"Economic and Financial Affairs","ECFIN",25,"Slovenia","SI",1,"Letter of formal notice (Art. 258)",2
-69378,2017,7,"Economic and Financial Affairs","ECFIN",25,"Slovenia","SI",6,"Referral to the Court (Art. 260)",1
 69379,2017,7,"Economic and Financial Affairs","ECFIN",26,"Bulgaria","BG",1,"Letter of formal notice (Art. 258)",1
 69391,2017,7,"Economic and Financial Affairs","ECFIN",28,"Croatia","HR",1,"Letter of formal notice (Art. 258)",1
 69577,2017,9,"Employment, Social Affairs and Inclusion","EMPL",3,"Germany","DE",1,"Letter of formal notice (Art. 258)",1
@@ -8288,7 +8220,6 @@
 69584,2017,9,"Employment, Social Affairs and Inclusion","EMPL",4,"Italy","IT",2,"Reasoned opinion (Art. 258)",1
 69589,2017,9,"Employment, Social Affairs and Inclusion","EMPL",5,"Luxembourg","LU",1,"Letter of formal notice (Art. 258)",1
 69590,2017,9,"Employment, Social Affairs and Inclusion","EMPL",5,"Luxembourg","LU",2,"Reasoned opinion (Art. 258)",2
-69594,2017,9,"Employment, Social Affairs and Inclusion","EMPL",5,"Luxembourg","LU",6,"Referral to the Court (Art. 260)",1
 69607,2017,9,"Employment, Social Affairs and Inclusion","EMPL",8,"Ireland","IE",1,"Letter of formal notice (Art. 258)",1
 69613,2017,9,"Employment, Social Affairs and Inclusion","EMPL",9,"United Kingdom","UK",1,"Letter of formal notice (Art. 258)",2
 69619,2017,9,"Employment, Social Affairs and Inclusion","EMPL",10,"Greece","EL",1,"Letter of formal notice (Art. 258)",1
@@ -8302,7 +8233,6 @@
 69656,2017,9,"Employment, Social Affairs and Inclusion","EMPL",16,"Cyprus","CY",2,"Reasoned opinion (Art. 258)",2
 69661,2017,9,"Employment, Social Affairs and Inclusion","EMPL",17,"Czech Republic","CZ",1,"Letter of formal notice (Art. 258)",1
 69662,2017,9,"Employment, Social Affairs and Inclusion","EMPL",17,"Czech Republic","CZ",2,"Reasoned opinion (Art. 258)",3
-69666,2017,9,"Employment, Social Affairs and Inclusion","EMPL",17,"Czech Republic","CZ",6,"Referral to the Court (Art. 260)",1
 69667,2017,9,"Employment, Social Affairs and Inclusion","EMPL",18,"Estonia","EE",1,"Letter of formal notice (Art. 258)",1
 69668,2017,9,"Employment, Social Affairs and Inclusion","EMPL",18,"Estonia","EE",2,"Reasoned opinion (Art. 258)",1
 69686,2017,9,"Employment, Social Affairs and Inclusion","EMPL",21,"Lithuania","LT",2,"Reasoned opinion (Art. 258)",1
@@ -8313,7 +8243,6 @@
 69722,2017,9,"Employment, Social Affairs and Inclusion","EMPL",27,"Romania","RO",2,"Reasoned opinion (Art. 258)",2
 69727,2017,9,"Employment, Social Affairs and Inclusion","EMPL",28,"Croatia","HR",1,"Letter of formal notice (Art. 258)",1
 69728,2017,9,"Employment, Social Affairs and Inclusion","EMPL",28,"Croatia","HR",2,"Reasoned opinion (Art. 258)",1
-69732,2017,9,"Employment, Social Affairs and Inclusion","EMPL",28,"Croatia","HR",6,"Referral to the Court (Art. 260)",1
 69733,2017,10,"Energy","ENER",1,"Belgium","BE",1,"Letter of formal notice (Art. 258)",1
 69734,2017,10,"Energy","ENER",1,"Belgium","BE",2,"Reasoned opinion (Art. 258)",1
 69745,2017,10,"Energy","ENER",3,"Germany","DE",1,"Letter of formal notice (Art. 258)",1
@@ -8412,22 +8341,18 @@
 70778,2017,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",7,"Denmark","DK",2,"Reasoned opinion (Art. 258)",2
 70783,2017,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",8,"Ireland","IE",1,"Letter of formal notice (Art. 258)",3
 70784,2017,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",8,"Ireland","IE",2,"Reasoned opinion (Art. 258)",3
-70788,2017,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",8,"Ireland","IE",6,"Referral to the Court (Art. 260)",1
 70789,2017,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",9,"United Kingdom","UK",1,"Letter of formal notice (Art. 258)",2
 70795,2017,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",10,"Greece","EL",1,"Letter of formal notice (Art. 258)",3
 70801,2017,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",11,"Portugal","PT",1,"Letter of formal notice (Art. 258)",4
 70802,2017,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",11,"Portugal","PT",2,"Reasoned opinion (Art. 258)",4
-70806,2017,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",11,"Portugal","PT",6,"Referral to the Court (Art. 260)",1
 70807,2017,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",12,"Spain","ES",1,"Letter of formal notice (Art. 258)",4
 70808,2017,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",12,"Spain","ES",2,"Reasoned opinion (Art. 258)",4
 70809,2017,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",12,"Spain","ES",3,"Referral to the Court (Art. 258)",1
-70812,2017,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",12,"Spain","ES",6,"Referral to the Court (Art. 260)",2
 70813,2017,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",13,"Austria","AT",1,"Letter of formal notice (Art. 258)",3
 70819,2017,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",14,"Finland","FI",1,"Letter of formal notice (Art. 258)",5
 70825,2017,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",15,"Sweden","SE",1,"Letter of formal notice (Art. 258)",3
 70831,2017,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",16,"Cyprus","CY",1,"Letter of formal notice (Art. 258)",2
 70832,2017,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",16,"Cyprus","CY",2,"Reasoned opinion (Art. 258)",4
-70836,2017,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",16,"Cyprus","CY",6,"Referral to the Court (Art. 260)",1
 70837,2017,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",17,"Czech Republic","CZ",1,"Letter of formal notice (Art. 258)",1
 70838,2017,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",17,"Czech Republic","CZ",2,"Reasoned opinion (Art. 258)",2
 70843,2017,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",18,"Estonia","EE",1,"Letter of formal notice (Art. 258)",3
@@ -8442,7 +8367,6 @@
 70879,2017,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",24,"Slovakia","SK",1,"Letter of formal notice (Art. 258)",4
 70885,2017,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",25,"Slovenia","SI",1,"Letter of formal notice (Art. 258)",4
 70886,2017,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",25,"Slovenia","SI",2,"Reasoned opinion (Art. 258)",1
-70890,2017,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",25,"Slovenia","SI",6,"Referral to the Court (Art. 260)",1
 70891,2017,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",26,"Bulgaria","BG",1,"Letter of formal notice (Art. 258)",4
 70892,2017,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",26,"Bulgaria","BG",2,"Reasoned opinion (Art. 258)",1
 70897,2017,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",27,"Romania","RO",1,"Letter of formal notice (Art. 258)",5
@@ -8450,7 +8374,6 @@
 70903,2017,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",28,"Croatia","HR",1,"Letter of formal notice (Art. 258)",5
 70904,2017,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",28,"Croatia","HR",2,"Reasoned opinion (Art. 258)",2
 70905,2017,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",28,"Croatia","HR",3,"Referral to the Court (Art. 258)",1
-70908,2017,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",28,"Croatia","HR",6,"Referral to the Court (Art. 260)",2
 71077,2017,18,"Health and Food Safety","SANTE",1,"Belgium","BE",1,"Letter of formal notice (Art. 258)",1
 71083,2017,18,"Health and Food Safety","SANTE",2,"France","FR",1,"Letter of formal notice (Art. 258)",1
 71089,2017,18,"Health and Food Safety","SANTE",3,"Germany","DE",1,"Letter of formal notice (Art. 258)",4
@@ -8473,18 +8396,14 @@
 71581,2017,21,"Internal Market, Industry, Entrepreneurship and SMEs","GROW",1,"Belgium","BE",1,"Letter of formal notice (Art. 258)",1
 71582,2017,21,"Internal Market, Industry, Entrepreneurship and SMEs","GROW",1,"Belgium","BE",2,"Reasoned opinion (Art. 258)",2
 71583,2017,21,"Internal Market, Industry, Entrepreneurship and SMEs","GROW",1,"Belgium","BE",3,"Referral to the Court (Art. 258)",1
-71586,2017,21,"Internal Market, Industry, Entrepreneurship and SMEs","GROW",1,"Belgium","BE",6,"Referral to the Court (Art. 260)",1
 71587,2017,21,"Internal Market, Industry, Entrepreneurship and SMEs","GROW",2,"France","FR",1,"Letter of formal notice (Art. 258)",4
 71588,2017,21,"Internal Market, Industry, Entrepreneurship and SMEs","GROW",2,"France","FR",2,"Reasoned opinion (Art. 258)",1
-71592,2017,21,"Internal Market, Industry, Entrepreneurship and SMEs","GROW",2,"France","FR",6,"Referral to the Court (Art. 260)",1
 71593,2017,21,"Internal Market, Industry, Entrepreneurship and SMEs","GROW",3,"Germany","DE",1,"Letter of formal notice (Art. 258)",1
 71594,2017,21,"Internal Market, Industry, Entrepreneurship and SMEs","GROW",3,"Germany","DE",2,"Reasoned opinion (Art. 258)",3
-71598,2017,21,"Internal Market, Industry, Entrepreneurship and SMEs","GROW",3,"Germany","DE",6,"Referral to the Court (Art. 260)",1
 71599,2017,21,"Internal Market, Industry, Entrepreneurship and SMEs","GROW",4,"Italy","IT",1,"Letter of formal notice (Art. 258)",2
 71600,2017,21,"Internal Market, Industry, Entrepreneurship and SMEs","GROW",4,"Italy","IT",2,"Reasoned opinion (Art. 258)",2
 71601,2017,21,"Internal Market, Industry, Entrepreneurship and SMEs","GROW",4,"Italy","IT",3,"Referral to the Court (Art. 258)",2
 71605,2017,21,"Internal Market, Industry, Entrepreneurship and SMEs","GROW",5,"Luxembourg","LU",1,"Letter of formal notice (Art. 258)",1
-71610,2017,21,"Internal Market, Industry, Entrepreneurship and SMEs","GROW",5,"Luxembourg","LU",6,"Referral to the Court (Art. 260)",3
 71611,2017,21,"Internal Market, Industry, Entrepreneurship and SMEs","GROW",6,"Netherlands","NL",1,"Letter of formal notice (Art. 258)",1
 71624,2017,21,"Internal Market, Industry, Entrepreneurship and SMEs","GROW",8,"Ireland","IE",2,"Reasoned opinion (Art. 258)",3
 71629,2017,21,"Internal Market, Industry, Entrepreneurship and SMEs","GROW",9,"United Kingdom","UK",1,"Letter of formal notice (Art. 258)",1
@@ -8496,10 +8415,8 @@
 71642,2017,21,"Internal Market, Industry, Entrepreneurship and SMEs","GROW",11,"Portugal","PT",2,"Reasoned opinion (Art. 258)",5
 71647,2017,21,"Internal Market, Industry, Entrepreneurship and SMEs","GROW",12,"Spain","ES",1,"Letter of formal notice (Art. 258)",3
 71648,2017,21,"Internal Market, Industry, Entrepreneurship and SMEs","GROW",12,"Spain","ES",2,"Reasoned opinion (Art. 258)",2
-71652,2017,21,"Internal Market, Industry, Entrepreneurship and SMEs","GROW",12,"Spain","ES",6,"Referral to the Court (Art. 260)",2
 71654,2017,21,"Internal Market, Industry, Entrepreneurship and SMEs","GROW",13,"Austria","AT",2,"Reasoned opinion (Art. 258)",1
 71655,2017,21,"Internal Market, Industry, Entrepreneurship and SMEs","GROW",13,"Austria","AT",3,"Referral to the Court (Art. 258)",1
-71658,2017,21,"Internal Market, Industry, Entrepreneurship and SMEs","GROW",13,"Austria","AT",6,"Referral to the Court (Art. 260)",3
 71660,2017,21,"Internal Market, Industry, Entrepreneurship and SMEs","GROW",14,"Finland","FI",2,"Reasoned opinion (Art. 258)",4
 71671,2017,21,"Internal Market, Industry, Entrepreneurship and SMEs","GROW",16,"Cyprus","CY",1,"Letter of formal notice (Art. 258)",2
 71672,2017,21,"Internal Market, Industry, Entrepreneurship and SMEs","GROW",16,"Cyprus","CY",2,"Reasoned opinion (Art. 258)",4
@@ -8513,7 +8430,6 @@
 71707,2017,21,"Internal Market, Industry, Entrepreneurship and SMEs","GROW",22,"Malta","MT",1,"Letter of formal notice (Art. 258)",1
 71708,2017,21,"Internal Market, Industry, Entrepreneurship and SMEs","GROW",22,"Malta","MT",2,"Reasoned opinion (Art. 258)",1
 71719,2017,21,"Internal Market, Industry, Entrepreneurship and SMEs","GROW",24,"Slovakia","SK",1,"Letter of formal notice (Art. 258)",3
-71730,2017,21,"Internal Market, Industry, Entrepreneurship and SMEs","GROW",25,"Slovenia","SI",6,"Referral to the Court (Art. 260)",1
 71737,2017,21,"Internal Market, Industry, Entrepreneurship and SMEs","GROW",27,"Romania","RO",1,"Letter of formal notice (Art. 258)",1
 71738,2017,21,"Internal Market, Industry, Entrepreneurship and SMEs","GROW",27,"Romania","RO",2,"Reasoned opinion (Art. 258)",2
 71743,2017,21,"Internal Market, Industry, Entrepreneurship and SMEs","GROW",28,"Croatia","HR",1,"Letter of formal notice (Art. 258)",2
@@ -8549,18 +8465,14 @@
 71911,2017,22,"Justice and Consumers","JUST",28,"Croatia","HR",1,"Letter of formal notice (Art. 258)",3
 71983,2017,23,"Legal Service","SJ",12,"Spain","ES",1,"Letter of formal notice (Art. 258)",1
 72140,2017,24,"Maritime Affairs and Fisheries","MARE",10,"Greece","EL",2,"Reasoned opinion (Art. 258)",1
-72144,2017,24,"Maritime Affairs and Fisheries","MARE",10,"Greece","EL",6,"Referral to the Court (Art. 260)",1
 72145,2017,24,"Maritime Affairs and Fisheries","MARE",11,"Portugal","PT",1,"Letter of formal notice (Art. 258)",1
 72164,2017,24,"Maritime Affairs and Fisheries","MARE",14,"Finland","FI",2,"Reasoned opinion (Art. 258)",1
-72168,2017,24,"Maritime Affairs and Fisheries","MARE",14,"Finland","FI",6,"Referral to the Court (Art. 260)",1
 72176,2017,24,"Maritime Affairs and Fisheries","MARE",16,"Cyprus","CY",2,"Reasoned opinion (Art. 258)",1
 72236,2017,24,"Maritime Affairs and Fisheries","MARE",26,"Bulgaria","BG",2,"Reasoned opinion (Art. 258)",1
-72240,2017,24,"Maritime Affairs and Fisheries","MARE",26,"Bulgaria","BG",6,"Referral to the Court (Art. 260)",1
 72242,2017,24,"Maritime Affairs and Fisheries","MARE",27,"Romania","RO",2,"Reasoned opinion (Art. 258)",1
 72248,2017,24,"Maritime Affairs and Fisheries","MARE",28,"Croatia","HR",2,"Reasoned opinion (Art. 258)",1
 72253,2017,25,"Migration and Home Affairs","HOME",1,"Belgium","BE",1,"Letter of formal notice (Art. 258)",1
 72254,2017,25,"Migration and Home Affairs","HOME",1,"Belgium","BE",2,"Reasoned opinion (Art. 258)",3
-72258,2017,25,"Migration and Home Affairs","HOME",1,"Belgium","BE",6,"Referral to the Court (Art. 260)",1
 72259,2017,25,"Migration and Home Affairs","HOME",2,"France","FR",1,"Letter of formal notice (Art. 258)",1
 72260,2017,25,"Migration and Home Affairs","HOME",2,"France","FR",2,"Reasoned opinion (Art. 258)",1
 72265,2017,25,"Migration and Home Affairs","HOME",3,"Germany","DE",1,"Letter of formal notice (Art. 258)",1
@@ -8708,7 +8620,6 @@
 73783,2018,4,"Communication Networks, Content and Technology","CONNECT",4,"Italy","IT",1,"Letter of formal notice (Art. 258)",1
 73789,2018,4,"Communication Networks, Content and Technology","CONNECT",5,"Luxembourg","LU",1,"Letter of formal notice (Art. 258)",3
 73795,2018,4,"Communication Networks, Content and Technology","CONNECT",6,"Netherlands","NL",1,"Letter of formal notice (Art. 258)",2
-73800,2018,4,"Communication Networks, Content and Technology","CONNECT",6,"Netherlands","NL",6,"Referral to the Court (Art. 260)",1
 73801,2018,4,"Communication Networks, Content and Technology","CONNECT",7,"Denmark","DK",1,"Letter of formal notice (Art. 258)",1
 73807,2018,4,"Communication Networks, Content and Technology","CONNECT",8,"Ireland","IE",1,"Letter of formal notice (Art. 258)",2
 73813,2018,4,"Communication Networks, Content and Technology","CONNECT",9,"United Kingdom","UK",1,"Letter of formal notice (Art. 258)",1
@@ -8727,12 +8638,10 @@
 73885,2018,4,"Communication Networks, Content and Technology","CONNECT",21,"Lithuania","LT",1,"Letter of formal notice (Art. 258)",3
 73891,2018,4,"Communication Networks, Content and Technology","CONNECT",22,"Malta","MT",1,"Letter of formal notice (Art. 258)",1
 73897,2018,4,"Communication Networks, Content and Technology","CONNECT",23,"Poland","PL",1,"Letter of formal notice (Art. 258)",3
-73902,2018,4,"Communication Networks, Content and Technology","CONNECT",23,"Poland","PL",6,"Referral to the Court (Art. 260)",1
 73903,2018,4,"Communication Networks, Content and Technology","CONNECT",24,"Slovakia","SK",1,"Letter of formal notice (Art. 258)",1
 73904,2018,4,"Communication Networks, Content and Technology","CONNECT",24,"Slovakia","SK",2,"Reasoned opinion (Art. 258)",1
 73909,2018,4,"Communication Networks, Content and Technology","CONNECT",25,"Slovenia","SI",1,"Letter of formal notice (Art. 258)",1
 73915,2018,4,"Communication Networks, Content and Technology","CONNECT",26,"Bulgaria","BG",1,"Letter of formal notice (Art. 258)",2
-73920,2018,4,"Communication Networks, Content and Technology","CONNECT",26,"Bulgaria","BG",6,"Referral to the Court (Art. 260)",1
 73921,2018,4,"Communication Networks, Content and Technology","CONNECT",27,"Romania","RO",1,"Letter of formal notice (Art. 258)",3
 73927,2018,4,"Communication Networks, Content and Technology","CONNECT",28,"Croatia","HR",1,"Letter of formal notice (Art. 258)",3
 74131,2018,6,"Defence Industry and Space","DEFIS",6,"Netherlands","NL",1,"Letter of formal notice (Art. 258)",1
@@ -8858,7 +8767,6 @@
 75811,2018,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",6,"Netherlands","NL",1,"Letter of formal notice (Art. 258)",1
 75817,2018,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",7,"Denmark","DK",1,"Letter of formal notice (Art. 258)",1
 75824,2018,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",8,"Ireland","IE",2,"Reasoned opinion (Art. 258)",1
-75828,2018,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",8,"Ireland","IE",6,"Referral to the Court (Art. 260)",1
 75835,2018,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",10,"Greece","EL",1,"Letter of formal notice (Art. 258)",2
 75836,2018,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",10,"Greece","EL",2,"Reasoned opinion (Art. 258)",4
 75841,2018,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",11,"Portugal","PT",1,"Letter of formal notice (Art. 258)",2
@@ -8866,7 +8774,6 @@
 75847,2018,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",12,"Spain","ES",1,"Letter of formal notice (Art. 258)",2
 75848,2018,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",12,"Spain","ES",2,"Reasoned opinion (Art. 258)",5
 75849,2018,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",12,"Spain","ES",3,"Referral to the Court (Art. 258)",1
-75852,2018,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",12,"Spain","ES",6,"Referral to the Court (Art. 260)",3
 75853,2018,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",13,"Austria","AT",1,"Letter of formal notice (Art. 258)",3
 75865,2018,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",15,"Sweden","SE",1,"Letter of formal notice (Art. 258)",1
 75866,2018,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",15,"Sweden","SE",2,"Reasoned opinion (Art. 258)",1
@@ -8882,12 +8789,10 @@
 75925,2018,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",25,"Slovenia","SI",1,"Letter of formal notice (Art. 258)",1
 75926,2018,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",25,"Slovenia","SI",2,"Reasoned opinion (Art. 258)",3
 75927,2018,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",25,"Slovenia","SI",3,"Referral to the Court (Art. 258)",1
-75930,2018,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",25,"Slovenia","SI",6,"Referral to the Court (Art. 260)",2
 75931,2018,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",26,"Bulgaria","BG",1,"Letter of formal notice (Art. 258)",2
 75932,2018,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",26,"Bulgaria","BG",2,"Reasoned opinion (Art. 258)",3
 75937,2018,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",27,"Romania","RO",1,"Letter of formal notice (Art. 258)",3
 75938,2018,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",27,"Romania","RO",2,"Reasoned opinion (Art. 258)",3
-75942,2018,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",27,"Romania","RO",6,"Referral to the Court (Art. 260)",1
 75943,2018,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",28,"Croatia","HR",1,"Letter of formal notice (Art. 258)",2
 75944,2018,16,"Financial Stability, Financial Services and Capital Markets Union","FISMA",28,"Croatia","HR",2,"Reasoned opinion (Art. 258)",3
 76117,2018,18,"Health and Food Safety","SANTE",1,"Belgium","BE",1,"Letter of formal notice (Art. 258)",1
@@ -8951,13 +8856,11 @@
 76807,2018,22,"Justice and Consumers","JUST",4,"Italy","IT",1,"Letter of formal notice (Art. 258)",1
 76813,2018,22,"Justice and Consumers","JUST",5,"Luxembourg","LU",1,"Letter of formal notice (Art. 258)",3
 76814,2018,22,"Justice and Consumers","JUST",5,"Luxembourg","LU",2,"Reasoned opinion (Art. 258)",1
-76818,2018,22,"Justice and Consumers","JUST",5,"Luxembourg","LU",6,"Referral to the Court (Art. 260)",1
 76819,2018,22,"Justice and Consumers","JUST",6,"Netherlands","NL",1,"Letter of formal notice (Art. 258)",1
 76831,2018,22,"Justice and Consumers","JUST",8,"Ireland","IE",1,"Letter of formal notice (Art. 258)",2
 76832,2018,22,"Justice and Consumers","JUST",8,"Ireland","IE",2,"Reasoned opinion (Art. 258)",2
 76837,2018,22,"Justice and Consumers","JUST",9,"United Kingdom","UK",1,"Letter of formal notice (Art. 258)",1
 76843,2018,22,"Justice and Consumers","JUST",10,"Greece","EL",1,"Letter of formal notice (Art. 258)",3
-76848,2018,22,"Justice and Consumers","JUST",10,"Greece","EL",6,"Referral to the Court (Art. 260)",1
 76849,2018,22,"Justice and Consumers","JUST",11,"Portugal","PT",1,"Letter of formal notice (Art. 258)",1
 76855,2018,22,"Justice and Consumers","JUST",12,"Spain","ES",1,"Letter of formal notice (Art. 258)",3
 76856,2018,22,"Justice and Consumers","JUST",12,"Spain","ES",2,"Reasoned opinion (Art. 258)",3
@@ -8993,7 +8896,6 @@
 77174,2018,24,"Maritime Affairs and Fisheries","MARE",9,"United Kingdom","UK",2,"Reasoned opinion (Art. 258)",1
 77186,2018,24,"Maritime Affairs and Fisheries","MARE",11,"Portugal","PT",2,"Reasoned opinion (Art. 258)",1
 77293,2018,25,"Migration and Home Affairs","HOME",1,"Belgium","BE",1,"Letter of formal notice (Art. 258)",3
-77298,2018,25,"Migration and Home Affairs","HOME",1,"Belgium","BE",6,"Referral to the Court (Art. 260)",1
 77299,2018,25,"Migration and Home Affairs","HOME",2,"France","FR",1,"Letter of formal notice (Art. 258)",3
 77305,2018,25,"Migration and Home Affairs","HOME",3,"Germany","DE",1,"Letter of formal notice (Art. 258)",2
 77317,2018,25,"Migration and Home Affairs","HOME",5,"Luxembourg","LU",1,"Letter of formal notice (Art. 258)",4
@@ -9402,15 +9304,12 @@
 81860,2019,22,"Justice and Consumers","JUST",6,"Netherlands","NL",2,"Reasoned opinion (Art. 258)",2
 81871,2019,22,"Justice and Consumers","JUST",8,"Ireland","IE",1,"Letter of formal notice (Art. 258)",6
 81872,2019,22,"Justice and Consumers","JUST",8,"Ireland","IE",2,"Reasoned opinion (Art. 258)",5
-81876,2019,22,"Justice and Consumers","JUST",8,"Ireland","IE",6,"Referral to the Court (Art. 260)",1
 81883,2019,22,"Justice and Consumers","JUST",10,"Greece","EL",1,"Letter of formal notice (Art. 258)",6
 81884,2019,22,"Justice and Consumers","JUST",10,"Greece","EL",2,"Reasoned opinion (Art. 258)",2
-81888,2019,22,"Justice and Consumers","JUST",10,"Greece","EL",6,"Referral to the Court (Art. 260)",1
 81889,2019,22,"Justice and Consumers","JUST",11,"Portugal","PT",1,"Letter of formal notice (Art. 258)",2
 81890,2019,22,"Justice and Consumers","JUST",11,"Portugal","PT",2,"Reasoned opinion (Art. 258)",2
 81895,2019,22,"Justice and Consumers","JUST",12,"Spain","ES",1,"Letter of formal notice (Art. 258)",3
 81896,2019,22,"Justice and Consumers","JUST",12,"Spain","ES",2,"Reasoned opinion (Art. 258)",2
-81900,2019,22,"Justice and Consumers","JUST",12,"Spain","ES",6,"Referral to the Court (Art. 260)",1
 81901,2019,22,"Justice and Consumers","JUST",13,"Austria","AT",1,"Letter of formal notice (Art. 258)",3
 81902,2019,22,"Justice and Consumers","JUST",13,"Austria","AT",2,"Reasoned opinion (Art. 258)",2
 81908,2019,22,"Justice and Consumers","JUST",14,"Finland","FI",2,"Reasoned opinion (Art. 258)",1
@@ -9441,7 +9340,6 @@
 82201,2019,24,"Maritime Affairs and Fisheries","MARE",7,"Denmark","DK",1,"Letter of formal notice (Art. 258)",1
 82333,2019,25,"Migration and Home Affairs","HOME",1,"Belgium","BE",1,"Letter of formal notice (Art. 258)",1
 82334,2019,25,"Migration and Home Affairs","HOME",1,"Belgium","BE",2,"Reasoned opinion (Art. 258)",2
-82338,2019,25,"Migration and Home Affairs","HOME",1,"Belgium","BE",6,"Referral to the Court (Art. 260)",1
 82339,2019,25,"Migration and Home Affairs","HOME",2,"France","FR",1,"Letter of formal notice (Art. 258)",1
 82340,2019,25,"Migration and Home Affairs","HOME",2,"France","FR",2,"Reasoned opinion (Art. 258)",1
 82345,2019,25,"Migration and Home Affairs","HOME",3,"Germany","DE",1,"Letter of formal notice (Art. 258)",1
