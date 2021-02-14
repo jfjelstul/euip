@@ -6,3 +6,6 @@ _test/
 inst/doc
 server/
 extra/
+_codebook/
+_test/
+codebook/source/
