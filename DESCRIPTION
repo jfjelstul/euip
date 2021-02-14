@@ -1,20 +1,21 @@
 Package: euinfr
-Title: An API for the European Union Infringement Procedure (EUIP) Dataset
+Title: Access Data from the European Union Infringement Procedure (EUIP) Dataset
 Version: 1.0.0
-Authors@R:
-    person(given = "Josh",
-           family = "Fjelstul",
-           role = c("aut", "cre"),
-           email = "joshfjelstul@gmail.com")
-Description: This package provides an easy-to-use R function for calling the REST API for the European Union Infringement Procedure (EUIP) dataset by Josh Fjelstul, Ph.D.
-License: GPL3
+Authors@R: person(given = "Joshua C.",
+       family = "Fjelstul",
+       role = c("aut", "cre"),
+       email = "joshfjelstul@gmail.com",
+       comment = c(ORCID = "0000-0002-9494-260X"))
+Description: This package provides easy-to-use R functions for calling the REST API for the European Union Infringement Procedure (EUIP) dataset by Joshua C. Fjelstul, Ph.D.
+License: MIT
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.0
 Depends:
     R (>= 2.10)
-URL: https://github.com/jfjelstul/euinfr
+URL: https://github.com/jfjelstul/cjeur
+Date: 2021-02-14
 BugReports: https://github.com/jfjelstul/euinfr/issues
 Suggests:
     knitr,
