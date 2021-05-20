@@ -7,3 +7,4 @@ server/
 codebook/source/
 _archive/
 data-raw/extensions/
+build/
