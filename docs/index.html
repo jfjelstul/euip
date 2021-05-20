@@ -81,20 +81,25 @@
 <div id="euip" class="section level1">
 <div class="page-header"><h1 class="hasAnchor">
 <a href="#euip" class="anchor"></a>euip</h1></div>
-<p>This R package provides tools for easily accessing data from the API for the European Union Infringement Procedure (EUIP) dataset by Josh Fjelstul, Ph.D. The EUIP dataset has a REST API that users can call to get data on the European Union (EU) infringement procedure, including data on European Commission infringement cases, data on individual decisions in infringement cases made by the Commission, time-varying summary data by member state, and time-varying summary data by Directorate-General. Directorates-General (DGs) are the departments of the Commission that manage individual infringement cases.</p>
-<p>This package is currently in development.</p>
-<p>The full EUIP dataset and all replication code is available <a href="https://github.com/jfjelstul/EU-infringement-data">here</a> and the source code for the EUIP dataset REST API is available <a href="https://github.com/jfjelstul/EU-infringement-data-API">here</a>.</p>
+<p>An <code>R</code> package for the European Union Infringement Procedure (EUIP) Database. The EUIP database is part of the European Union Compliance Project (EUCP), which also includes the <a href="https://github.com/jfjelstul/eusa">European Union State Aid (EUSA) Database</a> and the <a href="https://github.com/jfjelstul/eutr">European Union Technical Regulation Database</a>. The EUCP is introduced in the working paper “Legal Compliance in the European Union: Institutional Procedures and Strategic Enforcement Behavior” by Joshua C. Fjelstul.</p>
+<p>The EUIP Database includes 22 datasets on the European Union’s formal infringement procedure (2002-2020), including data on the universe of infringement cases and decisions made by the Commission in infringement cases. The database also includes time-series, cross-sectional, directed dyad-year, and network data on cases and decisions.</p>
+<p>The EUIP Database is, in part, an updated version of the data used in the article “The politics of international oversight: Strategic monitoring and legal compliance in the European Union” by Joshua C. Fjelstul and Clifford J. Carrubba in the American Political Science Review (APSR).</p>
 <div id="installation" class="section level2">
 <h2 class="hasAnchor">
 <a href="#installation" class="anchor"></a>Installation</h2>
-<p>You can install the latest development version from GitHub:</p>
+<p>You can install the latest development version of the <code>euip</code> package from GitHub:</p>
 <div class="sourceCode" id="cb1"><pre class="r"><span class="co"># install.packages("devtools")</span>
 <span class="kw pkg">devtools</span><span class="kw ns">::</span><span class="fu"><a href="https://devtools.r-lib.org//reference/remote-reexports.html">install_github</a></span>(<span class="st">"jfjelstul/euip"</span>)</pre></div>
+</div>
+<div id="documentation" class="section level2">
+<h2 class="hasAnchor">
+<a href="#documentation" class="anchor"></a>Documentation</h2>
+<p>The codebook for the database is included as a <code>tibble</code> in the <code>R</code> package: <code>euip::codebook</code>. The same information is also available in the <code>R</code> documentation for each dataset. For example, you can see the codebook for the <code><a href="reference/cases.html">euip::cases</a></code> dataset by running <code><a href="reference/cases.html">?euip::cases</a></code>. You can also read the documentation on the <a href="https://jfjelstul.github.io/euip/">package website</a>.</p>
 </div>
 <div id="citation" class="section level2">
 <h2 class="hasAnchor">
 <a href="#citation" class="anchor"></a>Citation</h2>
-<p>If you use data from this package in a project or paper, please cite the following article in the American Political Science Review (APSR):</p>
+<p>If you use data from the <code>euip</code> package in a project or paper, please cite the following article in the American Political Science Review (APSR):</p>
 <blockquote>
 <p>Fjelstul, Joshua C., and Clifford J. Carrubba. 2018. “The politics of international oversight: Strategic monitoring and legal compliance in the European Union.” American Political Science Review 112(3): 429-445.</p>
 </blockquote>
@@ -108,6 +113,22 @@
     pages={429--445},
     year={2018}
 }</code></pre>
+<p>Please also cite the <code>R</code> package:</p>
+<blockquote>
+<p>Joshua Fjelstul (2021). evoeu: The Evolution of European Union Law (EvoEU) Database. R package version 0.1.0.9000.</p>
+<p>The <code>BibTeX</code> entry for the package is:</p>
+</blockquote>
+<pre><code>@Manual{,
+  title = {evoeu: The Evolution of European Union Law (EvoEU) Database},
+  author = {Joshua Fjelstul},
+  year = {2021},
+  note = {R package version 0.1.0.9000},
+}</code></pre>
+</div>
+<div id="problems" class="section level2">
+<h2 class="hasAnchor">
+<a href="#problems" class="anchor"></a>Problems</h2>
+<p>If you notice an error in the data or a bug in the <code>R</code> package, please report it <a href="https://github.com/jfjelstul/euip/issues">here</a>.</p>
 </div>
 </div>
   </div>
