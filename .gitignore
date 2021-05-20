@@ -4,7 +4,6 @@ euinfr.Rproj
 .Rhistory
 inst/doc
 server/
-extra/
-_codebook/
-_test/
 codebook/source/
+_archive/
+data-raw/extensions/
