@@ -3,7 +3,7 @@
 euinfr.Rproj
 .Rhistory
 server/
-codebook/source/
+data-raw/codebook/source/
 _archive/
 data-raw/extensions/
 build/
