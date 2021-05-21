@@ -5,12 +5,12 @@
 ################################################################################
 
 #' TS data on cases (by case type)
-#' 
+#'
 #' This dataset includes aggregated data on the number of infringement cases
 #' per year (time-series data) broken down by case type (noncommunication vs
 #' nonconformity). There is one observation per year per case type
 #' (2002-2020).
-#' 
+#'
 #' @format A data frame with 5 variables:
 #' \describe{
 #' \item{key_id}{Numeric. An ID number that uniquely identifies each
@@ -35,4 +35,3 @@
 ################################################################################
 # end R script
 ################################################################################
-

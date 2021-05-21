@@ -26,7 +26,8 @@ decisions_ts <- decisions %>%
   dplyr::group_by(year, decision_stage) %>%
   dplyr::summarize(
     count_decisions = dplyr::n()
-  ) %>% dplyr::ungroup()
+  ) %>%
+  dplyr::ungroup()
 
 # merge in template
 decisions_ts <- dplyr::left_join(template_ts, decisions_ts, by = c("year", "decision_stage"))
@@ -70,7 +71,8 @@ decisions_ts_d <- decisions %>%
   dplyr::group_by(year, case_type, decision_stage) %>%
   dplyr::summarize(
     count_decisions = dplyr::n()
-  ) %>% dplyr::ungroup()
+  ) %>%
+  dplyr::ungroup()
 
 # merge in template
 decisions_ts_d <- dplyr::left_join(template_ts_d, decisions_ts_d, by = c("year", "case_type", "decision_stage"))
@@ -93,7 +95,7 @@ decisions_ts_d$key_id <- 1:nrow(decisions_ts_d)
 # select variables
 decisions_ts_d <- dplyr::select(
   decisions_ts_d,
-  key_id, year, 
+  key_id, year,
   case_type_id, case_type,
   decision_stage_id, decision_stage,
   count_decisions

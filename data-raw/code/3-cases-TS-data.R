@@ -21,7 +21,8 @@ cases_ts <- cases %>%
   dplyr::group_by(year) %>%
   dplyr::summarize(
     count_cases = dplyr::n()
-  ) %>% dplyr::ungroup()
+  ) %>%
+  dplyr::ungroup()
 
 # merge into template
 cases_ts <- dplyr::left_join(template_ts, cases_ts, by = "year")
@@ -55,7 +56,8 @@ cases_ts_d <- cases %>%
   dplyr::group_by(year, case_type) %>%
   dplyr::summarize(
     count_cases = dplyr::n()
-  ) %>% dplyr::ungroup()
+  ) %>%
+  dplyr::ungroup()
 
 # merge into template
 cases_ts_d <- dplyr::left_join(template_ts_d, cases_ts_d, by = c("year", "case_type"))

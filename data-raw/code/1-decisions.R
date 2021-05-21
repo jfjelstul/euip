@@ -46,7 +46,7 @@ decisions$nonconformity <- 1 - decisions$noncommunication
 decisions$case_type <- "noncommunication"
 decisions$case_type[decisions$nonconformity == 1] <- "nonconformity"
 
-# case type code 
+# case type code
 decisions$case_type_id <- 0
 decisions$case_type_id[decisions$noncommunication == 1] <- 1
 decisions$case_type_id[decisions$nonconformity == 1] <- 2
@@ -134,10 +134,10 @@ decisions$decision_date <- lubridate::ymd(decisions$decision_date)
 decisions$case_description <- stringr::str_to_lower(decisions$case_description)
 
 # ensure case descriptions are consistent
-decisions <- decisions %>% 
- dplyr::group_by(case_number) %>% 
- dplyr::mutate(case_description = case_description[1]) %>%
- dplyr::ungroup()
+decisions <- decisions %>%
+  dplyr::group_by(case_number) %>%
+  dplyr::mutate(case_description = case_description[1]) %>%
+  dplyr::ungroup()
 
 ##################################################
 # decision stage
@@ -206,15 +206,15 @@ decisions$directive_number <- stringr::str_replace(decisions$directive_number, "
 
 # CELEX number
 decisions$celex <- NA
-for(i in 1:nrow(decisions)) {
- if(is.na(decisions$directive_number)[i]) {
-  next
- }
- year <- stringr::str_extract(decisions$directive_number[i], "^[0-9]{4}")
- number <- stringr::str_extract(decisions$directive_number[i], "[0-9]+$")
- number <- stringr::str_pad(number, width = 4, side = "left", pad = "0")
- celex <- stringr::str_c("3", year, "L", number,  sep = "")
- decisions$celex[i] <- celex
+for (i in 1:nrow(decisions)) {
+  if (is.na(decisions$directive_number)[i]) {
+    next
+  }
+  year <- stringr::str_extract(decisions$directive_number[i], "^[0-9]{4}")
+  number <- stringr::str_extract(decisions$directive_number[i], "[0-9]+$")
+  number <- stringr::str_pad(number, width = 4, side = "left", pad = "0")
+  celex <- stringr::str_c("3", year, "L", number, sep = "")
+  decisions$celex[i] <- celex
 }
 
 # clean workspace
@@ -249,17 +249,17 @@ decisions$key_id <- 1:nrow(decisions)
 
 # sort variables
 decisions <- dplyr::select(
- decisions,
- key_id, decision_id, case_number, case_year,
- decision_date, decision_year, decision_month, decision_day,
- member_state_id, member_state, member_state_code,
- department_id, department, department_code,
- case_type_id, case_type, noncommunication, nonconformity,
- directive, directive_number, celex,
- decision_stage_id, decision_stage,
- stage_lfn_258, stage_ro_258, stage_rf_258, stage_lfn_260, stage_ro_260, stage_rf_260, 
- stage_closing, stage_withdrawal, stage_additional,
- press_release
+  decisions,
+  key_id, decision_id, case_number, case_year,
+  decision_date, decision_year, decision_month, decision_day,
+  member_state_id, member_state, member_state_code,
+  department_id, department, department_code,
+  case_type_id, case_type, noncommunication, nonconformity,
+  directive, directive_number, celex,
+  decision_stage_id, decision_stage,
+  stage_lfn_258, stage_ro_258, stage_rf_258, stage_lfn_260, stage_ro_260, stage_rf_260,
+  stage_closing, stage_withdrawal, stage_additional,
+  press_release
 )
 
 ##################################################

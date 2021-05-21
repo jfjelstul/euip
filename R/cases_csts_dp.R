@@ -5,12 +5,12 @@
 ################################################################################
 
 #' CSTS data on cases (by department)
-#' 
+#'
 #' This dataset includes aggregated data on the number of infringement cases
 #' per department per year (cross-sectional time-series data). There is one
 #' observation per department per year (2002-2020). The dataset uses current
 #' department names.
-#' 
+#'
 #' @format A data frame with 6 variables:
 #' \describe{
 #' \item{key_id}{Numeric. An ID number that uniquely identifies each
@@ -30,4 +30,3 @@
 ################################################################################
 # end R script
 ################################################################################
-

@@ -5,13 +5,13 @@
 ################################################################################
 
 #' CSTS data on cases (by member state and by case type)
-#' 
+#'
 #' This dataset includes aggregated data on the number of infringement cases
 #' per member state per year (cross-sectional time-series data) broken down by
 #' case type (noncommunication vs nonconformity). There is one observation per
 #' member state per year per case type (2002-2020), excluding state-years
 #' where the state was not a member of the EU.
-#' 
+#'
 #' @format A data frame with 8 variables:
 #' \describe{
 #' \item{key_id}{Numeric. An ID number that uniquely identifies each
@@ -43,4 +43,3 @@
 ################################################################################
 # end R script
 ################################################################################
-

@@ -16,8 +16,8 @@ source("data-raw/code/utilities/base_data.R")
 
 # create a template
 template_ddy <- create_template(
-  departments$department, 
-  member_states$member_state, 
+  departments$department,
+  member_states$member_state,
   2002:2020,
   names = c("department", "member_state", "year")
 )
@@ -27,7 +27,8 @@ cases_ddy <- cases %>%
   dplyr::group_by(department, member_state, year) %>%
   dplyr::summarize(
     count_cases = dplyr::n()
-  ) %>% dplyr::ungroup()
+  ) %>%
+  dplyr::ungroup()
 
 # merge
 cases_ddy <- dplyr::left_join(template_ddy, cases_ddy, by = c("department", "member_state", "year"))
@@ -50,9 +51,9 @@ cases_ddy$key_id <- 1:nrow(cases_ddy)
 # select variables
 cases_ddy <- dplyr::select(
   cases_ddy,
-  key_id, year, 
+  key_id, year,
   department_id, department, department_code,
-  member_state_id, member_state, member_state_code, 
+  member_state_id, member_state, member_state_code,
   count_cases
 )
 
@@ -66,7 +67,7 @@ save(cases_ddy, file = "data/cases_ddy.RData")
 # create a template
 template_ddy_d <- create_template(
   departments$department,
-  member_states$member_state, 
+  member_states$member_state,
   2002:2020,
   case_types$case_type,
   names = c("department", "member_state", "year", "case_type")
@@ -77,7 +78,8 @@ cases_ddy_d <- cases %>%
   dplyr::group_by(department, member_state, year, case_type) %>%
   dplyr::summarize(
     count_cases = dplyr::n()
-  ) %>% dplyr::ungroup()
+  ) %>%
+  dplyr::ungroup()
 
 # merge
 cases_ddy_d <- dplyr::left_join(template_ddy_d, cases_ddy_d, by = c("department", "member_state", "year", "case_type"))
@@ -105,7 +107,7 @@ cases_ddy_d <- dplyr::select(
   cases_ddy_d,
   key_id, year,
   department_id, department, department_code,
-  member_state_id, member_state, member_state_code, 
+  member_state_id, member_state, member_state_code,
   case_type_id, case_type,
   count_cases
 )

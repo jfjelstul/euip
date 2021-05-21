@@ -5,12 +5,12 @@
 ################################################################################
 
 #' Data on decisions
-#' 
+#'
 #' This dataset include data on infringement decisions. There is one
 #' observation per decision per case (2002-2020). The dataset includes
 #' information on the department responsible for the decision and the member
 #' state that the decision is against.
-#' 
+#'
 #' @format A data frame with 33 variables:
 #' \describe{
 #' \item{key_id}{Numeric. An ID number that uniquely identifies each
@@ -123,4 +123,3 @@
 ################################################################################
 # end R script
 ################################################################################
-

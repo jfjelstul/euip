@@ -28,7 +28,7 @@ decisions_net_d <- dplyr::filter(decisions_ddy_d, count_decisions > 0)
 # cases_net
 ##################################################
 
-# make an edge list 
+# make an edge list
 cases_net <- dplyr::filter(cases_ddy, count_cases > 0)
 
 # time
@@ -57,17 +57,17 @@ cases_net$key_id <- 1:nrow(cases_net)
 
 # select variables
 cases_net <- dplyr::select(
- cases_net,
- key_id, time, 
- from_node_id, from_node, to_node_id, to_node,
- edge_weight
+  cases_net,
+  key_id, time,
+  from_node_id, from_node, to_node_id, to_node,
+  edge_weight
 )
 
 ##################################################
 # cases_net_d
 ##################################################
 
-# make an edge list 
+# make an edge list
 cases_net_d <- dplyr::filter(cases_ddy_d, count_cases > 0)
 
 # time
@@ -102,18 +102,18 @@ cases_net_d$key_id <- 1:nrow(cases_net_d)
 
 # select variables
 cases_net_d <- dplyr::select(
- cases_net_d,
- key_id, time, 
- layer_id, layer,
- from_node_id, from_node, to_node_id, to_node,
- edge_weight
+  cases_net_d,
+  key_id, time,
+  layer_id, layer,
+  from_node_id, from_node, to_node_id, to_node,
+  edge_weight
 )
 
 ##################################################
 # decisions_net
 ##################################################
 
-# make an edge list 
+# make an edge list
 decisions_net <- dplyr::filter(decisions_ddy, count_decisions > 0)
 
 # time
@@ -148,18 +148,18 @@ decisions_net$key_id <- 1:nrow(decisions_net)
 
 # select variables
 decisions_net <- dplyr::select(
- decisions_net,
- key_id, time, 
- layer_id, layer,
- from_node_id, from_node, to_node_id, to_node,
- edge_weight
+  decisions_net,
+  key_id, time,
+  layer_id, layer,
+  from_node_id, from_node, to_node_id, to_node,
+  edge_weight
 )
 
 ##################################################
 # decisions_net_d
 ##################################################
 
-# make an edge list 
+# make an edge list
 decisions_net_d <- dplyr::filter(decisions_ddy_d, count_decisions > 0)
 
 # time
@@ -196,11 +196,11 @@ decisions_net_d$key_id <- 1:nrow(decisions_net_d)
 
 # select variables
 decisions_net_d <- dplyr::select(
- decisions_net_d,
- key_id, time, 
- d1_layer_id, d1_layer, d2_layer_id, d2_layer,
- from_node_id, from_node, to_node_id, to_node,
- edge_weight
+  decisions_net_d,
+  key_id, time,
+  d1_layer_id, d1_layer, d2_layer_id, d2_layer,
+  from_node_id, from_node, to_node_id, to_node,
+  edge_weight
 )
 
 ##################################################

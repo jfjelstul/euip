@@ -5,12 +5,12 @@
 ################################################################################
 
 #' TS data on decisions (by case type)
-#' 
+#'
 #' This dataset includes aggregated data on the number of decisions per stage
 #' of the infringement procedure per year (time-series data) broken down by
 #' case type (nonommunication vs nonconformity). There is one observation per
 #' year per decision stage per case type (2002-2020).
-#' 
+#'
 #' @format A data frame with 7 variables:
 #' \describe{
 #' \item{key_id}{Numeric. An ID number that uniquely identifies each
@@ -49,4 +49,3 @@
 ################################################################################
 # end R script
 ################################################################################
-

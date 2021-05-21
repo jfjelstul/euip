@@ -5,7 +5,7 @@
 ################################################################################
 
 #' Network data on cases (by case type)
-#' 
+#'
 #' This dataset includes multi-dimensional network data for infringement
 #' cases. There is one dimension per case type (noncommunication vs
 #' nonconformity). Network data is similar to directed dyad-year data except
@@ -20,7 +20,7 @@
 #' member state per year per case type (2002-2020), excluding directed
 #' dyad-years where the state was not a member of the EU, but only if the
 #' count of cases is positive.
-#' 
+#'
 #' @format A data frame with 9 variables:
 #' \describe{
 #' \item{key_id}{Numeric. An ID number that uniquely identifies each
@@ -47,4 +47,3 @@
 ################################################################################
 # end R script
 ################################################################################
-

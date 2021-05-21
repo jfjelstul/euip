@@ -5,14 +5,14 @@
 ################################################################################
 
 #' DDY data on decisions
-#' 
+#'
 #' This dataset includes aggregated data on the number of decisions per stage
 #' of the infringement procedure per department per member state per year
 #' (directed dyad-year data). There is one observation per department per
 #' member state per year per decision stage (2002-2020), excluding directed
 #' dyad-years where the state was not a member of the EU. The dataset uses
 #' current department names.
-#' 
+#'
 #' @format A data frame with 11 variables:
 #' \describe{
 #' \item{key_id}{Numeric. An ID number that uniquely identifies each
@@ -53,4 +53,3 @@
 ################################################################################
 # end R script
 ################################################################################
-

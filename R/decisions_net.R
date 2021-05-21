@@ -5,7 +5,7 @@
 ################################################################################
 
 #' Network data on decisions
-#' 
+#'
 #' This dataset includes multi-dimensional network data for infringement
 #' decisions. There is one dimension per decision stage. Network data is
 #' similar to directed dyad-year data except that it only includes directed
@@ -19,7 +19,7 @@
 #' observation per department per member state per year per decision stage
 #' (2002-2020), excluding directed dyad-years where the state was not a member
 #' of the EU, but only if count of decisions is positive.
-#' 
+#'
 #' @format A data frame with 9 variables:
 #' \describe{
 #' \item{key_id}{Numeric. An ID number that uniquely identifies each
@@ -47,4 +47,3 @@
 ################################################################################
 # end R script
 ################################################################################
-

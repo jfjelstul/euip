@@ -5,12 +5,12 @@
 ################################################################################
 
 #' CSTS data on decisions (by department)
-#' 
+#'
 #' This dataset includes aggregated data on the number of decisions per stage
 #' of the infringement procedure per department per year (cross-sectional
 #' time-series data). There is one observation per department per year per
 #' decision stage (2002-2020). The dataset uses current department names.
-#' 
+#'
 #' @format A data frame with 8 variables:
 #' \describe{
 #' \item{key_id}{Numeric. An ID number that uniquely identifies each
@@ -44,4 +44,3 @@
 ################################################################################
 # end R script
 ################################################################################
-

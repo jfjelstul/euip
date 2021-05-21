@@ -5,7 +5,7 @@
 ################################################################################
 
 #' Network data on cases
-#' 
+#'
 #' This dataset includes network data for infringement cases. Network data is
 #' similar to directed dyad-year data except that it only includes directed
 #' dyad-years with at least one infringement case. For every year, there is
@@ -17,7 +17,7 @@
 #' There is one observation per department per member state per year
 #' (2002-2020), excluding directed dyad-years where the state was not a member
 #' of the EU, but only if count of cases is positive.
-#' 
+#'
 #' @format A data frame with 7 variables:
 #' \describe{
 #' \item{key_id}{Numeric. An ID number that uniquely identifies each
@@ -41,4 +41,3 @@
 ################################################################################
 # end R script
 ################################################################################
-

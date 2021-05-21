@@ -5,11 +5,11 @@
 ################################################################################
 
 #' TS data on decisions
-#' 
+#'
 #' This dataset includes aggregated data on the number of decisions per stage
 #' of the infringement procedure per year (time-series data). There is one
 #' observation per year per decision stage (2002-2020).
-#' 
+#'
 #' @format A data frame with 5 variables:
 #' \describe{
 #' \item{key_id}{Numeric. An ID number that uniquely identifies each
@@ -37,4 +37,3 @@
 ################################################################################
 # end R script
 ################################################################################
-

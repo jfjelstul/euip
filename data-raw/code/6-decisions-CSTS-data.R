@@ -16,7 +16,7 @@ source("data-raw/code/utilities/base_data.R")
 
 # create a template
 template_csts_ms <- create_template(
-  member_states$member_state, 
+  member_states$member_state,
   2002:2020,
   decision_stages$decision_stage,
   names = c("member_state", "year", "decision_stage")
@@ -27,7 +27,8 @@ decisions_csts_ms <- decisions %>%
   dplyr::group_by(member_state, year, decision_stage) %>%
   dplyr::summarize(
     count_decisions = dplyr::n()
-  ) %>% dplyr::ungroup()
+  ) %>%
+  dplyr::ungroup()
 
 # merge into template
 decisions_csts_ms <- dplyr::left_join(template_csts_ms, decisions_csts_ms, by = c("member_state", "year", "decision_stage"))
@@ -50,8 +51,8 @@ decisions_csts_ms$key_id <- 1:nrow(decisions_csts_ms)
 # select decisions
 decisions_csts_ms <- dplyr::select(
   decisions_csts_ms,
-  key_id, year, 
-  member_state_id, member_state, member_state_code, 
+  key_id, year,
+  member_state_id, member_state, member_state_code,
   decision_stage_id, decision_stage, count_decisions
 )
 
@@ -64,7 +65,7 @@ save(decisions_csts_ms, file = "data/decisions_csts_ms.RData")
 
 # create a template
 template_csts_ms_d <- create_template(
-  member_states$member_state, 
+  member_states$member_state,
   2002:2020,
   case_types$case_type,
   decision_stages$decision_stage,
@@ -76,7 +77,8 @@ decisions_csts_ms_d <- decisions %>%
   dplyr::group_by(member_state, year, case_type, decision_stage) %>%
   dplyr::summarize(
     count_decisions = dplyr::n()
-  ) %>% dplyr::ungroup()
+  ) %>%
+  dplyr::ungroup()
 
 # merge into template
 decisions_csts_ms_d <- dplyr::left_join(template_csts_ms_d, decisions_csts_ms_d, by = c("member_state", "year", "case_type", "decision_stage"))
@@ -102,8 +104,8 @@ decisions_csts_ms_d$key_id <- 1:nrow(decisions_csts_ms_d)
 # select variables
 decisions_csts_ms_d <- dplyr::select(
   decisions_csts_ms_d,
-  key_id, year, 
-  member_state_id, member_state, member_state_code, 
+  key_id, year,
+  member_state_id, member_state, member_state_code,
   case_type_id, case_type,
   decision_stage_id, decision_stage, count_decisions
 )
@@ -117,7 +119,7 @@ save(decisions_csts_ms_d, file = "data/decisions_csts_ms_d.RData")
 
 # create a template
 template_csts_dp <- create_template(
-  departments$department, 
+  departments$department,
   2002:2020,
   decision_stages$decision_stage,
   names = c("department", "year", "decision_stage")
@@ -128,7 +130,8 @@ decisions_csts_dp <- decisions %>%
   dplyr::group_by(department, year, decision_stage) %>%
   dplyr::summarize(
     count_decisions = dplyr::n()
-  ) %>% dplyr::ungroup()
+  ) %>%
+  dplyr::ungroup()
 
 # merge into template
 decisions_csts_dp <- dplyr::left_join(template_csts_dp, decisions_csts_dp, by = c("department", "year", "decision_stage"))
@@ -151,7 +154,7 @@ decisions_csts_dp$key_id <- 1:nrow(decisions_csts_dp)
 # select variables
 decisions_csts_dp <- dplyr::select(
   decisions_csts_dp,
-  key_id, year, 
+  key_id, year,
   department_id, department, department_code,
   decision_stage_id, decision_stage,
   count_decisions
@@ -166,7 +169,7 @@ save(decisions_csts_dp, file = "data/decisions_csts_dp.RData")
 
 # create a template
 template_csts_dp_d <- create_template(
-  departments$department, 
+  departments$department,
   2002:2020,
   case_types$case_type,
   decision_stages$decision_stage,
@@ -178,7 +181,8 @@ decisions_csts_dp_d <- decisions %>%
   dplyr::group_by(department, year, case_type, decision_stage) %>%
   dplyr::summarize(
     count_decisions = dplyr::n()
-  ) %>% dplyr::ungroup()
+  ) %>%
+  dplyr::ungroup()
 
 # merge into template
 decisions_csts_dp_d <- dplyr::left_join(template_csts_dp_d, decisions_csts_dp_d, by = c("department", "year", "case_type", "decision_stage"))
@@ -204,8 +208,8 @@ decisions_csts_dp_d$key_id <- 1:nrow(decisions_csts_dp_d)
 # select variables
 decisions_csts_dp_d <- dplyr::select(
   decisions_csts_dp_d,
-  key_id, year, 
-  department_id, department, department_code, 
+  key_id, year,
+  department_id, department, department_code,
   case_type_id, case_type,
   decision_stage_id, decision_stage, count_decisions
 )

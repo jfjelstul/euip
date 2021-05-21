@@ -97,11 +97,11 @@ save(codebook, file = "data/codebook.RData")
 
 # documentation
 codebookr::document_data(
- path = "R/",
- codebook_file = "data-raw/codebook/codebook.csv",
- markdown_file = "data-raw/codebook/descriptions.txt",
- author = "Joshua C. Fjelstul, Ph.D.",
- package = "euip"
+  path = "R/",
+  codebook_file = "data-raw/codebook/codebook.csv",
+  markdown_file = "data-raw/codebook/descriptions.txt",
+  author = "Joshua C. Fjelstul, Ph.D.",
+  package = "euip"
 )
 
 ##################################################

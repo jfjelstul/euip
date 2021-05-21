@@ -16,8 +16,8 @@ source("data-raw/code/utilities/base_data.R")
 
 # create a template
 template_ddy <- create_template(
-  departments$department, 
-  member_states$member_state, 
+  departments$department,
+  member_states$member_state,
   2002:2020,
   decision_stages$decision_stage,
   names = c("department", "member_state", "year", "decision_stage")
@@ -28,7 +28,8 @@ decisions_ddy <- decisions %>%
   dplyr::group_by(department, member_state, year, decision_stage) %>%
   dplyr::summarize(
     count_decisions = dplyr::n()
-  ) %>% dplyr::ungroup()
+  ) %>%
+  dplyr::ungroup()
 
 # merge into template
 decisions_ddy <- dplyr::left_join(template_ddy, decisions_ddy, by = c("department", "member_state", "year", "decision_stage"))
@@ -54,9 +55,9 @@ decisions_ddy$key_id <- 1:nrow(decisions_ddy)
 # select variables
 decisions_ddy <- dplyr::select(
   decisions_ddy,
-  key_id, year, 
+  key_id, year,
   department_id, department, department_code,
-  member_state_id, member_state, member_state_code, 
+  member_state_id, member_state, member_state_code,
   decision_stage_id, decision_stage,
   count_decisions
 )
@@ -70,8 +71,8 @@ save(decisions_ddy, file = "data/decisions_ddy.RData")
 
 # create a template
 template_ddy_d <- create_template(
-  departments$department, 
-  member_states$member_state, 
+  departments$department,
+  member_states$member_state,
   2002:2020,
   case_types$case_type,
   decision_stages$decision_stage,
@@ -83,7 +84,8 @@ decisions_ddy_d <- decisions %>%
   dplyr::group_by(department, member_state, year, case_type, decision_stage) %>%
   dplyr::summarize(
     count_decisions = dplyr::n()
-  ) %>% dplyr::ungroup()
+  ) %>%
+  dplyr::ungroup()
 
 # merge
 decisions_ddy_d <- dplyr::left_join(template_ddy_d, decisions_ddy_d, by = c("department", "member_state", "year", "case_type", "decision_stage"))
@@ -114,7 +116,7 @@ decisions_ddy_d <- dplyr::select(
   decisions_ddy_d,
   key_id, year,
   department_id, department, department_code,
-  member_state_id, member_state, member_state_code, 
+  member_state_id, member_state, member_state_code,
   case_type_id, case_type,
   decision_stage_id, decision_stage,
   count_decisions
