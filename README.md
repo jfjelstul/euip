@@ -1,6 +1,6 @@
 # euip
 
-An `R` package for the European Union Infringement Procedure (EUIP) Database. The EUIP database is part of the European Union Compliance Project (EUCP), which also includes the [European Union State Aid (EUSA) Database](https://github.com/jfjelstul/eusa) and the [European Union Technical Regulation Database](https://github.com/jfjelstul/eutr). The EUCP is introduced in the working paper "Legal Compliance in the European Union: Institutional Procedures and Strategic Enforcement Behavior" by Joshua C. Fjelstul. 
+An `R` package for the European Union Infringement Procedure (EUIP) Database. The EUIP database is part of the European Union Compliance Project (EUCP), which also includes the [European Union State Aid (EUSA) Database](https://github.com/jfjelstul/eusa) and the [European Union Technical Regulation (EUTR) Database](https://github.com/jfjelstul/eutr). The EUCP is introduced in the working paper "Legal Compliance in the European Union: Institutional Procedures and Strategic Enforcement Behavior" by Joshua C. Fjelstul. 
 
 The EUIP Database includes 22 datasets on the European Union's formal infringement procedure (2002-2020), including data on the universe of infringement cases and decisions made by the Commission in infringement cases. The database also includes time-series, cross-sectional, directed dyad-year, and network data on cases and decisions. 
 
