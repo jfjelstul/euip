@@ -4,3 +4,6 @@
 ^docs$
 ^pkgdown$
 ^\.github$
+^build$
+^server$
+^data-raw$

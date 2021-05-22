@@ -5,12 +5,12 @@
 ################################################################################
 
 #' Data on cases
-#'
+#' 
 #' This dataset include data on infringement cases. There is one observation
 #' per case (2002-2020). The dataset includes information on the department
 #' responsible for the case, the member state that the case is against, and
 #' the progression of the case through the infringement procedure.
-#'
+#' 
 #' @format A data frame with 47 variables:
 #' \describe{
 #' \item{key_id}{Numeric. An ID number that uniquely identifies each
@@ -169,3 +169,4 @@
 ################################################################################
 # end R script
 ################################################################################
+
