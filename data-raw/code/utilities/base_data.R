@@ -22,19 +22,19 @@ departments <- dplyr::filter(departments, !duplicated(departments))
 # case types
 case_types <- dplyr::tibble(
   case_type_id = c(1, 2),
-  case_type = c("noncommunication", "nonconformity")
+  case_type = c("Noncommunication", "Nonconformity")
 )
 
 # decision_stages
 decision_stages <- dplyr::tibble(
   decision_stage_id = c(1, 2, 3, 4, 5, 6),
   decision_stage = c(
-    "letter of formal notice (258)",
-    "reasoned opinion (258)",
-    "referral to the court (258)",
-    "letter of formal notice (260)",
-    "reasoned opinion (260)",
-    "referral to the court (260)"
+    "Letter of formal notice (Article 258)",
+    "Reasoned opinion (Article 258)",
+    "Referral to the Court (Article 258)",
+    "Letter of formal notice (Article 260)",
+    "Reasoned opinion (Article 260)",
+    "Referral to the Court (Article 260)"
   )
 )
 

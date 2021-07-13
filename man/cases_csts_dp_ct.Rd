@@ -3,32 +3,33 @@
 \docType{data}
 \name{cases_csts_dp_ct}
 \alias{cases_csts_dp_ct}
-\title{CSTS data on cases (by department and by case type)}
+\title{Case-level cross-sectional time-series data by department and case type}
 \format{
 A data frame with 8 variables:
 \describe{
-\item{key_id}{Numeric. An ID number that uniquely identifies each
+\item{key_id}{\code{numeric}. An ID number that uniquely identifies each
 observation in the dataset. }
-\item{year}{Numeric. The year the case was opened by the Commission.}
-\item{department_id}{Numeric. An ID number that uniquely identifies each
-Commission department.}
-\item{department}{String. The name of the Commission department that opened
-the infringement case.}
-\item{department_code}{String. A multi-letter code assigned by the
+\item{year}{\code{numeric}. The year the case was opened by the
+Commission.}
+\item{department_id}{\code{numeric}. An ID number that uniquely identifies
+each Commission department.}
+\item{department}{\code{string}. The name of the Commission department that
+opened the infringement case.}
+\item{department_code}{\code{string}. A multi-letter code assigned by the
 Commission that uniquely identifies each department.}
-\item{case_type_id}{Numeric. An ID number that uniquely identifies each
-type of state aid cases. Coded \code{1} for noncommunication cases, which
-are cases that relate to a member state failing to notify the Commission
-that it has transposed a directive by the stated deadline. Coded \code{2}
-for nonconformity cases, which are cases that relate to a member state
-incorrectly transposing a directive. }
-\item{case_type}{String. The type of the infringement case. There are two
-types of cases. Coded \code{noncommunication} for cases that relate to a
-member state failing to notify the Commission that it has transposed a
+\item{case_type_id}{\code{numeric}. An ID number that uniquely identifies
+each type of state aid cases. Coded \code{1} for noncommunication cases,
+which are cases that relate to a member state failing to notify the
+Commission that it has transposed a directive by the stated deadline. Coded
+\code{2} for nonconformity cases, which are cases that relate to a member
+state incorrectly transposing a directive. }
+\item{case_type}{\code{string}. The type of the infringement case. There
+are two types of cases. Coded \code{noncommunication} for cases that relate
+to a member state failing to notify the Commission that it has transposed a
 directive by the stated deadline. Coded \code{nonconformity} for cases that
 relate to a member state incorrectly transposing a directive. }
-\item{count_cases}{Numeric. A count of the number of cases opened by the
-Commission at this level of aggregation.}
+\item{count_cases}{\code{numeric}. A count of the number of cases opened by
+the Commission at this level of aggregation.}
 }
 }
 \usage{

@@ -3,40 +3,41 @@
 \docType{data}
 \name{decisions_net_ct}
 \alias{decisions_net_ct}
-\title{Network data on decisions (by case type)}
+\title{Decision-level network data by case type}
 \format{
 A data frame with 11 variables:
 \describe{
-\item{key_id}{Numeric. An ID number that uniquely identifies each
+\item{key_id}{\code{numeric}. An ID number that uniquely identifies each
 observation in the dataset. }
-\item{time}{Numeric. The time period, where \code{2002} is coded \code{1}.
-}
-\item{d1_layer_id}{Numeric. An ID number that uniquely identifies each
-layer of the network within the first dimension.}
-\item{d1_layer}{String. The layer of the network within the first
+\item{year}{\code{numeric}. The year the decision was issued by the
+Commission.}
+\item{d1_layer_id}{\code{numeric}. An ID number that uniquely identifies
+each layer of the network within the first dimension.}
+\item{d1_layer}{\code{string}. The layer of the network within the first
 dimension, which is type of case.}
-\item{d2_layer_id}{Numeric. An ID number that uniquely identifies each
-layer of the network within the second dimension.}
-\item{d2_layer}{String. The layer of the network within the second
+\item{d2_layer_id}{\code{numeric}. An ID number that uniquely identifies
+each layer of the network within the second dimension.}
+\item{d2_layer}{\code{string}. The layer of the network within the second
 dimension, which is the decision stage.}
-\item{from_node_id}{Numeric. An ID number that uniquely identifies each
-node in the network that creates a link, which is always a Commission
+\item{from_node_id}{\code{numeric}. An ID number that uniquely identifies
+each node in the network that creates a link, which is always a Commission
 department.}
-\item{from_node}{String. The name of the Commission department that opened
-the infringement case.}
-\item{to_node_id}{Numeric. An ID number that uniquely identifies each node
-in the network that receives a link, which is always a member state.}
-\item{to_node}{String. The name of the member state that the Commission
-opened the case against. }
-\item{edge_weight}{Numeric. The weight of the edge, which is the number of
-decisions opened by the Commission.}
+\item{from_node}{\code{string}. The name of the Commission department that
+opened the infringement case.}
+\item{to_node_id}{\code{numeric}. An ID number that uniquely identifies
+each node in the network that receives a link, which is always a member
+state.}
+\item{to_node}{\code{string}. The name of the member state that the
+Commission opened the case against. }
+\item{edge_weight}{\code{numeric}. The weight of the edge, which is the
+number of decisions opened by the Commission.}
 }
 }
 \usage{
 decisions_net_ct
 }
 \description{
-This dataset includes multi-dimensional network data for infringement
+This dataset includes multi-dimensional network data on infringement
 decisions. There is one dimension per case type (noncommunication vs
 nonconformity) per decision stage. Network data is similar to directed
 dyad-year data except that it only includes directed dyad-years with at

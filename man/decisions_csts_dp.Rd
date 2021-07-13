@@ -3,35 +3,36 @@
 \docType{data}
 \name{decisions_csts_dp}
 \alias{decisions_csts_dp}
-\title{CSTS data on decisions (by department)}
+\title{Decision-level cross-sectional time-series data by department}
 \format{
 A data frame with 8 variables:
 \describe{
-\item{key_id}{Numeric. An ID number that uniquely identifies each
+\item{key_id}{\code{numeric}. An ID number that uniquely identifies each
 observation in the dataset. }
-\item{year}{Numeric. The year the decision was issued by the Commission.}
-\item{department_id}{Numeric. An ID number that uniquely identifies each
-Commission department.}
-\item{department}{String. The name of the Commission department that opened
-the infringement case.}
-\item{department_code}{String. A multi-letter code assigned by the
+\item{year}{\code{numeric}. The year the decision was issued by the
+Commission.}
+\item{department_id}{\code{numeric}. An ID number that uniquely identifies
+each Commission department.}
+\item{department}{\code{string}. The name of the Commission department that
+opened the infringement case.}
+\item{department_code}{\code{string}. A multi-letter code assigned by the
 Commission that uniquely identifies each department.}
-\item{decision_stage_id}{Numeric. An ID number that uniquely identifies
-each decision stage in the infringement procedure. Coded \code{1} for
-letters of formal notice under Article 258 of the Treaty on the Functioning
-of the European Union (TFEU), coded \code{2} for reasoned opinions under
-Article 258, coded \code{3} for referrals to the Court under Article 258,
-coded \code{4} for letters of formal notice under Article 260, coded
-\code{5} for reasoned opinions under Article 260, and coded \code{6} for
-referrals to the Court under Article 265}
-\item{decision_stage}{String. The decision stage of the infringement
+\item{decision_stage_id}{\code{numeric}. An ID number that uniquely
+identifies each decision stage in the infringement procedure. Coded
+\code{1} for letters of formal notice under Article 258 of the Treaty on
+the Functioning of the European Union (TFEU), coded \code{2} for reasoned
+opinions under Article 258, coded \code{3} for referrals to the Court under
+Article 258, coded \code{4} for letters of formal notice under Article 260,
+coded \code{5} for reasoned opinions under Article 260, and coded \code{6}
+for referrals to the Court under Article 265}
+\item{decision_stage}{\code{string}. The decision stage of the infringement
 procedure. Possible values include: \code{Letter of formal notice (Article
 258)}, \code{Reasoned opinion (Article 259)}, \code{Referral to the Court
 (Article 258)}, \code{Letter of formal notice (Article 260)},
 \code{Reasoned opinion (Article 260)}, and \code{Referral to the Court
 (Article 260)}. }
-\item{count_decisions}{Numeric. A count of the number of decisions made by
-the Commission in infringement cases at this level of aggregation.}
+\item{count_decisions}{\code{numeric}. A count of the number of decisions
+made by the Commission in infringement cases at this level of aggregation.}
 }
 }
 \usage{

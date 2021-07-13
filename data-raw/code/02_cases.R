@@ -6,6 +6,8 @@
 # define pipe function
 `%>%` <- magrittr::`%>%`
 
+# 21183
+
 ##################################################
 # read in data
 ##################################################
@@ -34,8 +36,9 @@ cases$decision_stage_code[cases$stage_withdrawal == 1] <- "W"
 
 # collapse data by case number and decision stage
 cases <- cases %>%
-  dplyr::group_by(case_number, decision_stage) %>%
+  dplyr::group_by(case_id, decision_stage) %>%
   dplyr::summarize(
+    case_number = unique(case_number),
     case_year = unique(case_year),
     member_state_id = unique(member_state_id),
     member_state = unique(member_state),
@@ -65,8 +68,9 @@ cases <- cases %>%
 
 # then collapse data by case number
 cases <- cases %>%
-  dplyr::group_by(case_number) %>%
+  dplyr::group_by(case_id) %>%
   dplyr::summarize(
+    case_number = unique(case_number),
     case_year = unique(case_year),
     member_state_id = unique(member_state_id),
     member_state = unique(member_state),
@@ -196,9 +200,6 @@ cases$corrected_ro_260[cases$stage_rf_260 == 1] <- 1
 
 # sort observations
 cases <- dplyr::arrange(cases, case_number)
-
-# ID variable
-cases$case_id <- 1:nrow(cases)
 
 # key ID
 cases$key_id <- 1:nrow(cases)

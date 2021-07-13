@@ -18,10 +18,14 @@ decisions <- read.csv("data-raw/infringements_raw.csv", stringsAsFactors = FALSE
 ##################################################
 
 # rename variables
-names(decisions) <- c("case_number", "decision_date", "decision_stage_raw", "press_release", "memo", "member_state", "department_raw", "case_description", "active", "noncommunication")
+names(decisions) <- c("case_id", "decision_date", "decision_stage_raw", "press_release", "memo", "member_state", "department_raw", "case_description", "active", "noncommunication")
 
 # case year
-decisions$case_year <- as.numeric(stringr::str_extract(decisions$case_number, "^[0-9]{4}"))
+decisions$case_year <- as.numeric(stringr::str_extract(decisions$case_id, "^[0-9]{4}"))
+
+# case number
+decisions$case_number <- as.numeric(stringr::str_extract(decisions$case_id, "[0-9]{4}$"))
+decisions$case_number <- as.numeric(decisions$case_number)
 
 # date
 decisions$decision_date <- stringr::str_replace(decisions$decision_date, " .*", "")
@@ -43,8 +47,8 @@ decisions$noncommunication <- as.numeric(decisions$noncommunication == "Yes")
 decisions$nonconformity <- 1 - decisions$noncommunication
 
 # case type
-decisions$case_type <- "noncommunication"
-decisions$case_type[decisions$nonconformity == 1] <- "nonconformity"
+decisions$case_type <- "Noncommunication"
+decisions$case_type[decisions$nonconformity == 1] <- "Nonconformity"
 
 # case type code
 decisions$case_type_id <- 0
@@ -144,15 +148,26 @@ decisions <- decisions %>%
 ##################################################
 
 # decision stage
-decisions$decision_stage <- "other"
-decisions$decision_stage[decisions$stage_lfn_258 == 1] <- "letter of formal notice (258)"
-decisions$decision_stage[decisions$stage_ro_258 == 1] <- "reasoned opinion (258)"
-decisions$decision_stage[decisions$stage_rf_258 == 1] <- "referral to the court (258)"
-decisions$decision_stage[decisions$stage_lfn_260 == 1] <- "letter of formal notice (260)"
-decisions$decision_stage[decisions$stage_ro_260 == 1] <- "reasoned opinion (260)"
-decisions$decision_stage[decisions$stage_rf_260 == 1] <- "referral to the court (260)"
-decisions$decision_stage[decisions$stage_closing == 1] <- "closing"
-decisions$decision_stage[decisions$stage_withdrawal == 1] <- "withdrawal"
+decisions$decision_stage <- "Other"
+decisions$decision_stage[decisions$stage_lfn_258 == 1] <- "Letter of formal notice (Article 258)"
+decisions$decision_stage[decisions$stage_ro_258 == 1] <- "Reasoned opinion (Article 258)"
+decisions$decision_stage[decisions$stage_rf_258 == 1] <- "Referral to the Court (Article 258)"
+decisions$decision_stage[decisions$stage_lfn_260 == 1] <- "Letter of formal notice (Article 260)"
+decisions$decision_stage[decisions$stage_ro_260 == 1] <- "Reasoned opinion (Article 260)"
+decisions$decision_stage[decisions$stage_rf_260 == 1] <- "Referral to the Court (Article 260)"
+decisions$decision_stage[decisions$stage_closing == 1] <- "Closing"
+decisions$decision_stage[decisions$stage_withdrawal == 1] <- "Withdrawal"
+
+# decision stage
+decisions$decision_stage_code <- "None"
+decisions$decision_stage_code[decisions$stage_lfn_258 == 1] <- "LFN258"
+decisions$decision_stage_code[decisions$stage_ro_258 == 1] <- "RO258"
+decisions$decision_stage_code[decisions$stage_rf_258 == 1] <- "RF258"
+decisions$decision_stage_code[decisions$stage_lfn_260 == 1] <- "LFN260"
+decisions$decision_stage_code[decisions$stage_ro_260 == 1] <- "RO260"
+decisions$decision_stage_code[decisions$stage_rf_260 == 1] <- "RF260"
+decisions$decision_stage_code[decisions$stage_closing == 1] <- "C"
+decisions$decision_stage_code[decisions$stage_withdrawal == 1] <- "W"
 
 # decision stage ID
 decisions$decision_stage_id <- NA
@@ -220,10 +235,6 @@ for (i in 1:nrow(decisions)) {
 # clean workspace
 rm(i, number, celex, year)
 
-# fill in missing
-decisions$celex[is.na(decisions$celex)] <- "none"
-decisions$directive_number[is.na(decisions$directive_number)] <- "none"
-
 # has directive
 decisions$directive <- as.numeric(!is.na(decisions$directive_number))
 
@@ -232,7 +243,7 @@ decisions$directive <- as.numeric(!is.na(decisions$directive_number))
 ##################################################
 
 # drop minor procedures
-decisions <- dplyr::filter(decisions, decision_stage != "other")
+decisions <- dplyr::filter(decisions, decision_stage != "Other")
 
 ##################################################
 # organize data
@@ -241,8 +252,43 @@ decisions <- dplyr::filter(decisions, decision_stage != "other")
 # sort observations
 decisions <- dplyr::arrange(decisions, decision_date, case_number, decision_stage)
 
-# ID variable
-decisions$decision_id <- 1:nrow(decisions)
+# case ID
+decisions$case_id <- stringr::str_c(
+  "IP:",
+  decisions$case_year, ":",
+  stringr::str_pad(decisions$case_number, side = "left", width = 4, pad = "0"), ":",
+  decisions$department_code, ":",
+  decisions$member_state_code
+)
+
+# decision id
+decisions$decision_id <- stringr::str_c(
+  decisions$case_id, ":", decisions$decision_stage_code
+)
+decisions <- decisions %>% 
+  dplyr::group_by(decision_id) %>%
+  dplyr::mutate(
+    counter = 1:dplyr::n()
+  ) %>%
+  dplyr::ungroup()
+decisions$decision_id <- stringr::str_c(
+  decisions$decision_id, ":", decisions$counter
+)
+decisions$decision_id <- stringr::str_remove(decisions$decision_id, ":1$")
+
+# standardize data
+decisions <- decisions %>%
+  dplyr::group_by(case_id) %>%
+  dplyr::mutate(
+    directive_number = directive_number[1],
+    celex = celex[1],
+    directive = as.numeric(sum(directive) > 0),
+    case_type_id = case_type_id[1],
+    case_type = case_type[1],
+    noncommunication = noncommunication[1],
+    nonconformity = nonconformity[1],
+  ) %>% 
+  dplyr::ungroup()
 
 # key ID
 decisions$key_id <- 1:nrow(decisions)
@@ -250,7 +296,7 @@ decisions$key_id <- 1:nrow(decisions)
 # sort variables
 decisions <- dplyr::select(
   decisions,
-  key_id, decision_id, case_number, case_year,
+  key_id, decision_id, case_id, case_number, case_year,
   decision_date, decision_year, decision_month, decision_day,
   member_state_id, member_state, member_state_code,
   department_id, department, department_code,

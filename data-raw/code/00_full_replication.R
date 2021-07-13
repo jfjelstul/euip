@@ -91,21 +91,64 @@ rm(list = ls())
 ##################################################
 
 # read in data
-codebook <- read.csv("data-raw/codebook/codebook.csv", stringsAsFactors = FALSE)
+variables <- read.csv("data-raw/documentation/euip_variables.csv", stringsAsFactors = FALSE)
 
 # convert to a tibble
-codebook <- dplyr::as_tibble(codebook)
+variables <- dplyr::as_tibble(variables)
 
 # save
-save(codebook, file = "data/codebook.RData")
+save(variables, file = "data/variables.RData")
+
+##################################################
+# datasets
+##################################################
+
+# read in data
+datasets <- read.csv("data-raw/documentation/euip_datasets.csv", stringsAsFactors = FALSE)
+
+# convert to a tibble
+datasets <- dplyr::as_tibble(datasets)
+
+# save
+save(datasets, file = "data/datasets.RData")
+
+##################################################
+# documentation
+##################################################
 
 # documentation
+load("data/variables.RData")
+load("data/datasets.RData")
+
+# document data
 codebookr::document_data(
-  path = "R/",
-  codebook_file = "data-raw/codebook/codebook.csv",
-  markdown_file = "data-raw/codebook/descriptions.txt",
+  file_path = "R/",
+  variables_input = variables,
+  datasets_input = datasets,
+  include_variable_type = TRUE,
   author = "Joshua C. Fjelstul, Ph.D.",
   package = "euip"
+)
+
+##################################################
+# codebook
+##################################################
+
+# create a codebook
+codebookr::create_codebook(
+  file_path = "codebook/euip_codebook.tex",
+  datasets_input = datasets,
+  variables_input = variables,
+  title_text = "The European Union Infringement Procedure \\\\ (EUIP) Database",
+  version_text = "1.0",
+  footer_text = "The EUIP Database Codebook \\hspace{5pt} | \\hspace{5pt} Joshua C. Fjelstul, Ph.D.",
+  author_names = "Joshua C. Fjelstul, Ph.D.",
+  theme_color = "#4D9FEB",
+  heading_font_size = 30,
+  subheading_font_size = 10,
+  title_font_size = 16,
+  table_of_contents = TRUE,
+  include_variable_type = TRUE
 )
 
 ##################################################
@@ -138,8 +181,9 @@ load("data/decisions_ddy_ct.RData")
 load("data/decisions_net.RData")
 load("data/decisions_net_ct.RData")
 
-# codebook
-load("data/codebook.RData")
+# documentation
+load("data/variables.RData")
+load("data/datasets.RData")
 
 ##################################################
 # build
@@ -171,41 +215,9 @@ write.csv(decisions_ddy_ct, "build/euip_decisions_ddy_ct.csv", row.names = FALSE
 write.csv(decisions_net, "build/euip_decisions_net.csv", row.names = FALSE, quote = TRUE)
 write.csv(decisions_net_ct, "build/euip_decisions_net_ct.csv", row.names = FALSE, quote = TRUE)
 
-# codebooks
-write.csv(codebook, "build/euip_codebook.csv", row.names = FALSE, quote = TRUE)
-
-##################################################
-# server
-##################################################
-
-# cases
-write.csv(cases, "server/euip_cases.csv", row.names = FALSE, quote = TRUE, na = "\\N")
-write.csv(cases_ts, "server/euip_cases_ts.csv", row.names = FALSE, quote = TRUE, na = "\\N")
-write.csv(cases_ts_ct, "server/euip_cases_ts_ct.csv", row.names = FALSE, quote = TRUE, na = "\\N")
-write.csv(cases_csts_ms, "server/euip_cases_csts_ms.csv", row.names = FALSE, quote = TRUE, na = "\\N")
-write.csv(cases_csts_ms_ct, "server/euip_cases_csts_ms_ct.csv", row.names = FALSE, quote = TRUE, na = "\\N")
-write.csv(cases_csts_dp, "server/euip_cases_csts_dp.csv", row.names = FALSE, quote = TRUE, na = "\\N")
-write.csv(cases_csts_dp_ct, "server/euip_cases_csts_dp_ct.csv", row.names = FALSE, quote = TRUE, na = "\\N")
-write.csv(cases_ddy, "server/euip_cases_ddy.csv", row.names = FALSE, quote = TRUE, na = "\\N")
-write.csv(cases_ddy_ct, "server/euip_cases_ddy_ct.csv", row.names = FALSE, quote = TRUE, na = "\\N")
-write.csv(cases_net, "server/euip_cases_net.csv", row.names = FALSE, quote = TRUE, na = "\\N")
-write.csv(cases_net_ct, "server/euip_cases_net_ct.csv", row.names = FALSE, quote = TRUE, na = "\\N")
-
-# decisions
-write.csv(decisions, "server/euip_decisions.csv", row.names = FALSE, quote = TRUE, na = "\\N")
-write.csv(decisions_ts, "server/euip_decisions_ts.csv", row.names = FALSE, quote = TRUE, na = "\\N")
-write.csv(decisions_ts_ct, "server/euip_decisions_ts_ct.csv", row.names = FALSE, quote = TRUE, na = "\\N")
-write.csv(decisions_csts_ms, "server/euip_decisions_csts_ms.csv", row.names = FALSE, quote = TRUE, na = "\\N")
-write.csv(decisions_csts_ms_ct, "server/euip_decisions_csts_ms_ct.csv", row.names = FALSE, quote = TRUE, na = "\\N")
-write.csv(decisions_csts_dp, "server/euip_decisions_csts_dp.csv", row.names = FALSE, quote = TRUE, na = "\\N")
-write.csv(decisions_csts_dp_ct, "server/euip_decisions_csts_dp_ct.csv", row.names = FALSE, quote = TRUE, na = "\\N")
-write.csv(decisions_ddy, "server/euip_decisions_ddy.csv", row.names = FALSE, quote = TRUE, na = "\\N")
-write.csv(decisions_ddy_ct, "server/euip_decisions_ddy_ct.csv", row.names = FALSE, quote = TRUE, na = "\\N")
-write.csv(decisions_net, "server/euip_decisions_net.csv", row.names = FALSE, quote = TRUE, na = "\\N")
-write.csv(decisions_net_ct, "server/euip_decisions_net_ct.csv", row.names = FALSE, quote = TRUE, na = "\\N")
-
-# codebooks
-write.csv(codebook, "server/euip_codebook.csv", row.names = FALSE, quote = TRUE, na = "\\N")
+# documentation
+write.csv(variables, "build/euip_variables.csv", row.names = FALSE, quote = TRUE)
+write.csv(datasets, "build/euip_datasets.csv", row.names = FALSE, quote = TRUE)
 
 ################################################################################
 # end R script
